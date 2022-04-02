@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_parse_gen_1_1_g_u_i_1_1_non_terminal" kind="class" language="C++" prot="public">
+    <compoundname>ParseGen::GUI::NonTerminal</compoundname>
+    <includes refid="nonterminal_8h" local="no">nonterminal.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_non_terminal_1ad46400cc3dcde5e8dabb8ea6f6eb824c" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint ParseGen::GUI::NonTerminal::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/nonterminal.h" line="11" column="14" bodyfile="/root/fyp/project/src/nonterminal.h" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a3df368635e918a51cb65c05a326a910d" compoundref="rule_8cpp" startline="19" endline="22">ParseGen::GUI::Rule::getNonTermId</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_non_terminal_1ad45d361e3f3b78586436769a408360a7" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ParseGen::GUI::NonTerminal::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/nonterminal.h" line="12" column="21" bodyfile="/root/fyp/project/src/nonterminal.h" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_1a4b41efccc3d742bd8e9428cf8875a7e7" compoundref="nonterminal_8h" startline="22" endline="25">rename</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_node_1a6bf16705e6b2fc9e84d3f474c76fbf64" compoundref="nonterminalnode_8h" startline="21" endline="24">ParseGen::GUI::NonTerminalNode::Update</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1ad39d96bb373c18ddf512bb0b69fb18bf" compoundref="rule_8cpp" startline="14" endline="17">ParseGen::GUI::Rule::getName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_non_terminal_1a512f155ad7adf2a8e7b6edeafed33fa1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ParseGen::GUI::NonTerminal::isStartSymbol</definition>
+        <argsstring></argsstring>
+        <name>isStartSymbol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/nonterminal.h" line="13" column="14" bodyfile="/root/fyp/project/src/nonterminal.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_non_terminal_1a85c6008f49d4f30a4d4f1577eebcec8b" prot="public" static="yes" mutable="no">
+        <type>uint</type>
+        <definition>uint ParseGen::GUI::NonTerminal::current_id</definition>
+        <argsstring></argsstring>
+        <name>current_id</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/nonterminal.h" line="15" column="28" bodyfile="/root/fyp/project/src/nonterminal.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_non_terminal_1a9163841420591bf2df4c6ce3f5cf4b7c" prot="public" static="yes" mutable="no">
+        <type>std::vector&lt; <ref refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal" kindref="compound">NonTerminal</ref> * &gt;</type>
+        <definition>std::vector&lt;NonTerminal *&gt; ParseGen::GUI::NonTerminal::allNonTerminals</definition>
+        <argsstring></argsstring>
+        <name>allNonTerminals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/nonterminal.h" line="27" column="35" bodyfile="/root/fyp/project/src/nonterminal.h" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a11943a4f17d30c54ffe35b079a37d681" compoundref="maingui_8cpp" startline="157" endline="183">ParseGen::GUI::MainEditor::addRule</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ad0daa9dc59138ad797772f5d9b041d06" compoundref="maingui_8cpp" startline="265" endline="275">ParseGen::GUI::MainEditor::nonTerminalsCollapseGui</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a81093bfbfd33fcdc3669055736f97f0c" compoundref="maingui_8cpp" startline="603" endline="608">ParseGen::GUI::MainEditor::~MainEditor</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_1ad40a6b088dceeb3c0ff0fe11291ba40a" compoundref="nonterminal_8h" startline="17" endline="20">NonTerminal</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1af48aa5797c8078f171e7aff5056f8105" compoundref="rule_8cpp" startline="36" endline="266">ParseGen::GUI::Rule::RenderFrame</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_non_terminal_1ad40a6b088dceeb3c0ff0fe11291ba40a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ParseGen::GUI::NonTerminal::NonTerminal</definition>
+        <argsstring>(std::string name, bool isStart=false)</argsstring>
+        <name>NonTerminal</name>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isStart</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/nonterminal.h" line="17" column="9" bodyfile="/root/fyp/project/src/nonterminal.h" bodystart="17" bodyend="20"/>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_1a9163841420591bf2df4c6ce3f5cf4b7c" compoundref="nonterminal_8h" startline="25">allNonTerminals</references>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_non_terminal_1a4b41efccc3d742bd8e9428cf8875a7e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ParseGen::GUI::NonTerminal::rename</definition>
+        <argsstring>(std::string newName)</argsstring>
+        <name>rename</name>
+        <param>
+          <type>std::string</type>
+          <declname>newName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/nonterminal.h" line="22" column="14" bodyfile="/root/fyp/project/src/nonterminal.h" bodystart="22" bodyend="25"/>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_1ad45d361e3f3b78586436769a408360a7" compoundref="nonterminal_8h" startline="12">name</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ParseGen::GUI::NonTerminal</label>
+        <link refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal"/>
+      </node>
+    </collaborationgraph>
+    <location file="/root/fyp/project/src/nonterminal.h" line="9" column="1" bodyfile="/root/fyp/project/src/nonterminal.h" bodystart="8" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_1a9163841420591bf2df4c6ce3f5cf4b7c" prot="public" virt="non-virtual"><scope>ParseGen::GUI::NonTerminal</scope><name>allNonTerminals</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_1a85c6008f49d4f30a4d4f1577eebcec8b" prot="public" virt="non-virtual"><scope>ParseGen::GUI::NonTerminal</scope><name>current_id</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_1ad46400cc3dcde5e8dabb8ea6f6eb824c" prot="public" virt="non-virtual"><scope>ParseGen::GUI::NonTerminal</scope><name>id</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_1a512f155ad7adf2a8e7b6edeafed33fa1" prot="public" virt="non-virtual"><scope>ParseGen::GUI::NonTerminal</scope><name>isStartSymbol</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_1ad45d361e3f3b78586436769a408360a7" prot="public" virt="non-virtual"><scope>ParseGen::GUI::NonTerminal</scope><name>name</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_1ad40a6b088dceeb3c0ff0fe11291ba40a" prot="public" virt="non-virtual"><scope>ParseGen::GUI::NonTerminal</scope><name>NonTerminal</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_1a4b41efccc3d742bd8e9428cf8875a7e7" prot="public" virt="non-virtual"><scope>ParseGen::GUI::NonTerminal</scope><name>rename</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

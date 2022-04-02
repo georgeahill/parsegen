@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree" kind="class" language="C++" prot="public">
+    <compoundname>ParseGen::Parser::Util::ParseTree</compoundname>
+    <basecompoundref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" prot="public" virt="non-virtual">ParseGen::Parser::Util::Node</basecompoundref>
+    <includes refid="parsetree_8h" local="no">parsetree.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree_1ab1972d249a0a32432133b66b8eed4657" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ParseGen::Parser::Util::ParseTree::ParseTree</definition>
+        <argsstring>(Symbol val)</argsstring>
+        <name>ParseTree</name>
+        <param>
+          <type><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kindref="compound">Symbol</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="218" column="9" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="218" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree_1a22db00d2449cc61c0ae9279301dec0a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ParseGen::Parser::Util::ParseTree::ParseTree</definition>
+        <argsstring>(Symbol val, Node *parent)</argsstring>
+        <name>ParseTree</name>
+        <param>
+          <type><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kindref="compound">Symbol</ref></type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="219" column="9" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="219" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree_1ace551eaad1025e132c23024992ed5bcf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ParseGen::Parser::Util::ParseTree::isStub</definition>
+        <argsstring>()</argsstring>
+        <name>isStub</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="221" column="14" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="221" bodyend="224"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a82073c69377df2a10fd7d4350727ab73" compoundref="symbol_8h" startline="38" endline="41">ParseGen::Parser::Util::Symbol::isEnd</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0649b8bff8b5f5efafde371107b77d60" compoundref="parsetree_8h" startline="209">ParseGen::Parser::Util::Node::value</references>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree_1a35244364a4a6e54429dded0f88f2419f" compoundref="parsetree_8h" startline="226" endline="234">print</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ae50424eb009179d7c6942550e3ec7a9a" compoundref="maingui_8cpp" startline="308" endline="520">ParseGen::GUI::MainEditor::ruleTesterWindow</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree_1a35244364a4a6e54429dded0f88f2419f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ParseGen::Parser::Util::ParseTree::print</definition>
+        <argsstring>()</argsstring>
+        <name>print</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="226" column="21" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="226" bodyend="234"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree_1ace551eaad1025e132c23024992ed5bcf" compoundref="parsetree_8h" startline="221" endline="224">isStub</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a270a19c234614738ed31233b109e3d97" compoundref="symbol_8h" startline="19">ParseGen::Parser::Util::Symbol::name</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0649b8bff8b5f5efafde371107b77d60" compoundref="parsetree_8h" startline="209">ParseGen::Parser::Util::Node::value</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ParseGen::Parser::Util::Node</label>
+        <link refid="class_parse_gen_1_1_parser_1_1_util_1_1_node"/>
+      </node>
+      <node id="1">
+        <label>ParseGen::Parser::Util::ParseTree</label>
+        <link refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ParseGen::Parser::Util::Node</label>
+        <link refid="class_parse_gen_1_1_parser_1_1_util_1_1_node"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+parent</edgelabel>
+          <edgelabel>+thread</edgelabel>
+          <edgelabel>+ancestor</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+value</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ParseGen::Parser::Util::Symbol</label>
+        <link refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol"/>
+      </node>
+      <node id="1">
+        <label>ParseGen::Parser::Util::ParseTree</label>
+        <link refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="216" column="1" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="215" bodyend="235"/>
+    <listofallmembers>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a13b947f91d2eef13f6584d39d14f4d4f" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>addChildren</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a74fa7e68fce93a87cabab7a507c5442d" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>addChildren</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ab5fbb9f4625738938e12eb2f213e56e8" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>ancestor</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0ec0bfdd911a02f73b4d2a06cdc5fce5" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>change</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" prot="protected" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>children</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f6a4d36f302d5a99e02919f8e57b1b7" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>getChildren</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a01741e0c2ffacf157d126a9a75fddce7" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>isLeaf</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree_1ace551eaad1025e132c23024992ed5bcf" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>isStub</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a63c51c9fe2086a37af7fa0685d91a0fd" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>json</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a8b93e18b531df5422c8150ede8d5f7e4" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>left</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afbbbd132c124231845cb87dce14734d2" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>leftBrother</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ae7d9ec153e19801696a5b748983e2bb9" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>leftmostSibling</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a7932c83770b9b58a11ea0490db6b1d90" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>mod</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a1a3c8212b87ec8be202a8baee2edc523" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>Node</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1aa69a9996d7dc068a9061339170ea247d" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>Node</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1af01131ce359e0751d7c449a163fd9336" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>number</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ad5bf7d12effae629dca19cc7893d4891" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>parent</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree_1ab1972d249a0a32432133b66b8eed4657" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>ParseTree</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree_1a22db00d2449cc61c0ae9279301dec0a1" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>ParseTree</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree_1a35244364a4a6e54429dded0f88f2419f" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>print</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ada15558e544321b35ee981c7574d8cfe" prot="public" virt="non-virtual" ambiguityscope="ParseGen::Parser::Util::Node::"><scope>ParseGen::Parser::Util::ParseTree</scope><name>print</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a3f67e0f6869b4c7932ab1230173a0f13" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>right</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ae189682bef0e03336d49235ed679c6c0" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>shift</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a1683edb57c8bfafdd6ef06b97fde6eff" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>thread</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0649b8bff8b5f5efafde371107b77d60" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>value</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a5b3234e2a250dfb80bb9bb4a2dd54ffd" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>x</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f3c4baa0368d4969478428a78b35638" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::ParseTree</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

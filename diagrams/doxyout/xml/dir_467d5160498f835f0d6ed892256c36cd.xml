@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_467d5160498f835f0d6ed892256c36cd" kind="dir">
+    <compoundname>parsergenerator/llpred</compoundname>
+    <innerfile refid="lexer_8h">lexer.h</innerfile>
+    <innerfile refid="llpred_2parsergenerator_8h">parsergenerator.h</innerfile>
+    <innerfile refid="parsertable_8h">parsertable.h</innerfile>
+    <innerfile refid="token_8h">token.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="parsergenerator/llpred/"/>
+  </compounddef>
+</doxygen>

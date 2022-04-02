@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespace_parse_gen_1_1_parser" kind="namespace" language="C++">
+    <compoundname>ParseGen::Parser</compoundname>
+    <innerclass refid="class_parse_gen_1_1_parser_1_1_i_parser_generator" prot="public">ParseGen::Parser::IParserGenerator</innerclass>
+    <innerclass refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory" prot="public">ParseGen::Parser::ParserGeneratorFactory</innerclass>
+    <innernamespace refid="namespace_parse_gen_1_1_parser_1_1_b_n_f">ParseGen::Parser::BNF</innernamespace>
+    <innernamespace refid="namespace_parse_gen_1_1_parser_1_1_l_l_predictive_parser">ParseGen::Parser::LLPredictiveParser</innernamespace>
+    <innernamespace refid="namespace_parse_gen_1_1_parser_1_1_util">ParseGen::Parser::Util</innernamespace>
+    <innernamespace refid="namespace_parse_gen_1_1_parser_1_1_yacc">ParseGen::Parser::Yacc</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/fyp/project/src/parsergenerator/bnf/parsergenerator.h" line="7" column="1"/>
+  </compounddef>
+</doxygen>

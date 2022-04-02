@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespace_parse_gen_1_1_g_u_i" kind="namespace" language="C++">
+    <compoundname>ParseGen::GUI</compoundname>
+    <innerclass refid="class_parse_gen_1_1_g_u_i_1_1_main_editor" prot="public">ParseGen::GUI::MainEditor</innerclass>
+    <innerclass refid="class_parse_gen_1_1_g_u_i_1_1_node" prot="public">ParseGen::GUI::Node</innerclass>
+    <innerclass refid="class_parse_gen_1_1_g_u_i_1_1_node_link" prot="public">ParseGen::GUI::NodeLink</innerclass>
+    <innerclass refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal" prot="public">ParseGen::GUI::NonTerminal</innerclass>
+    <innerclass refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_node" prot="public">ParseGen::GUI::NonTerminalNode</innerclass>
+    <innerclass refid="class_parse_gen_1_1_g_u_i_1_1_rule" prot="public">ParseGen::GUI::Rule</innerclass>
+    <innerclass refid="class_parse_gen_1_1_g_u_i_1_1_special_node" prot="public">ParseGen::GUI::SpecialNode</innerclass>
+    <innerclass refid="class_parse_gen_1_1_g_u_i_1_1_terminal_node" prot="public">ParseGen::GUI::TerminalNode</innerclass>
+    <innernamespace refid="namespace_parse_gen_1_1_g_u_i_1_1_parse_tree">ParseGen::GUI::ParseTree</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_parse_gen_1_1_g_u_i_1a4549d14acce2df18784cefb0928fde5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::vector&lt; <ref refid="class_parse_gen_1_1_g_u_i_1_1_node" kindref="compound">Node</ref> * &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;Node *&gt; &gt; ParseGen::GUI::printPaths</definition>
+        <argsstring>(Node *start, Node *target, std::map&lt; Node *, std::set&lt; Node * &gt;&gt; *following, std::set&lt; Node * &gt; *visited, std::vector&lt; Node * &gt; prefix)</argsstring>
+        <name>printPaths</name>
+        <param>
+          <type><ref refid="class_parse_gen_1_1_g_u_i_1_1_node" kindref="compound">Node</ref> *</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type><ref refid="class_parse_gen_1_1_g_u_i_1_1_node" kindref="compound">Node</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>std::map&lt; <ref refid="class_parse_gen_1_1_g_u_i_1_1_node" kindref="compound">Node</ref> *, std::set&lt; <ref refid="class_parse_gen_1_1_g_u_i_1_1_node" kindref="compound">Node</ref> * &gt;&gt; *</type>
+          <declname>following</declname>
+        </param>
+        <param>
+          <type>std::set&lt; <ref refid="class_parse_gen_1_1_g_u_i_1_1_node" kindref="compound">Node</ref> * &gt; *</type>
+          <declname>visited</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="class_parse_gen_1_1_g_u_i_1_1_node" kindref="compound">Node</ref> * &gt;</type>
+          <declname>prefix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/rule.cpp" line="268" column="17" bodyfile="/root/fyp/project/src/rule.cpp" bodystart="268" bodyend="288"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a3eb6bd014f8c05a01c062c490ab5375a" compoundref="rule_8cpp" startline="290" endline="346">ParseGen::GUI::Rule::BNF</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/fyp/project/src/maingui.cpp" line="10" column="1"/>
+  </compounddef>
+</doxygen>

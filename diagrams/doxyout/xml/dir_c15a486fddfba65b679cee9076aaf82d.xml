@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_c15a486fddfba65b679cee9076aaf82d" kind="dir">
+    <compoundname>parsergenerator/lexyacc</compoundname>
+    <innerfile refid="lexyacc_2parsergenerator_8h">parsergenerator.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="parsergenerator/lexyacc/"/>
+  </compounddef>
+</doxygen>

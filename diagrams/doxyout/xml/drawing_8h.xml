@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="drawing_8h" kind="file" language="C++">
+    <compoundname>drawing.h</compoundname>
+    <includes local="no">imgui.h</includes>
+    <includedby refid="drawing_8cpp" local="yes">/root/fyp/project/src/drawing.cpp</includedby>
+    <includedby refid="node_8h" local="yes">/root/fyp/project/src/node.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/root/fyp/project/src/drawing.h</label>
+        <link refid="drawing_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>imgui.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/root/fyp/project/src/drawing.h</label>
+        <link refid="drawing_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/root/fyp/project/src/drawing.cpp</label>
+        <link refid="drawing_8cpp"/>
+      </node>
+      <node id="12">
+        <label>/root/fyp/project/src/terminalnode.h</label>
+        <link refid="terminalnode_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/root/fyp/project/src/specialnode.h</label>
+        <link refid="specialnode_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/root/fyp/project/src/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="7">
+        <label>/root/fyp/project/src/nodelink.h</label>
+        <link refid="nodelink_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>/root/fyp/project/src/maingui.cpp</label>
+        <link refid="maingui_8cpp"/>
+      </node>
+      <node id="4">
+        <label>/root/fyp/project/src/nonterminalnode.h</label>
+        <link refid="nonterminalnode_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>/root/fyp/project/src/rule.h</label>
+        <link refid="rule_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>/root/fyp/project/src/node.cpp</label>
+        <link refid="node_8cpp"/>
+      </node>
+      <node id="3">
+        <label>/root/fyp/project/src/node.h</label>
+        <link refid="node_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/root/fyp/project/src/maingui.h</label>
+        <link refid="maingui_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/root/fyp/project/src/rule.cpp</label>
+        <link refid="rule_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="drawing_8h_1ab83da487393d464a63f8b104776e1fdd" prot="public" static="no" strong="yes">
+        <type>ImU32</type>
+        <name>IconType</name>
+        <enumvalue id="drawing_8h_1ab83da487393d464a63f8b104776e1fdda30954d90085f6eaaf5817917fc5fecb3" prot="public">
+          <name>Circle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="drawing_8h_1ab83da487393d464a63f8b104776e1fddaceb46ca115d05c51aa5a16a8867c3304" prot="public">
+          <name>Square</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="drawing_8h_1ab83da487393d464a63f8b104776e1fdda5174d1309f275ba6f275db3af9eb3e18" prot="public">
+          <name>Grid</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="drawing_8h_1ab83da487393d464a63f8b104776e1fdda8d0b97f599498054e5e7a84b1d5c2140" prot="public">
+          <name>RoundSquare</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="drawing_8h_1ab83da487393d464a63f8b104776e1fdda8f7671185d590914ac21c7511767b699" prot="public">
+          <name>Diamond</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/drawing.h" line="6" column="1" bodyfile="/root/fyp/project/src/drawing.h" bodystart="5" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="drawing_8h_1a2717a237608a4721d43319698e74e542" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DrawIcon</definition>
+        <argsstring>(ImDrawList *drawList, IconType type, const ImVec2 &amp;a, const ImVec2 &amp;b, bool filled, ImColor color, ImColor innerColor)</argsstring>
+        <name>DrawIcon</name>
+        <param>
+          <type>ImDrawList *</type>
+          <declname>drawList</declname>
+        </param>
+        <param>
+          <type><ref refid="drawing_8h_1ab83da487393d464a63f8b104776e1fdd" kindref="member">IconType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const ImVec2 &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const ImVec2 &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>filled</declname>
+        </param>
+        <param>
+          <type>ImColor</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>ImColor</type>
+          <declname>innerColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/drawing.h" line="14" column="6" bodyfile="/root/fyp/project/src/drawing.cpp" bodystart="16" bodyend="167" declfile="/root/fyp/project/src/drawing.h" declline="14" declcolumn="6"/>
+        <references refid="drawing_8h_1ab83da487393d464a63f8b104776e1fdda30954d90085f6eaaf5817917fc5fecb3">Circle</references>
+        <references refid="drawing_8h_1ab83da487393d464a63f8b104776e1fdda8f7671185d590914ac21c7511767b699">Diamond</references>
+        <references refid="drawing_8h_1ab83da487393d464a63f8b104776e1fdda5174d1309f275ba6f275db3af9eb3e18">Grid</references>
+        <references refid="drawing_8h_1ab83da487393d464a63f8b104776e1fdda8d0b97f599498054e5e7a84b1d5c2140">RoundSquare</references>
+        <references refid="drawing_8h_1ab83da487393d464a63f8b104776e1fddaceb46ca115d05c51aa5a16a8867c3304">Square</references>
+        <referencedby refid="drawing_8h_1a0733fed66e38bebb3e8ee4d86b3515d5" compoundref="drawing_8cpp" startline="4" endline="14">Icon</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="drawing_8h_1a0733fed66e38bebb3e8ee4d86b3515d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Icon</definition>
+        <argsstring>(IconType type, const ImVec2 &amp;size, bool filled, const ImVec4 &amp;color, const ImVec4 &amp;innerColor)</argsstring>
+        <name>Icon</name>
+        <param>
+          <type><ref refid="drawing_8h_1ab83da487393d464a63f8b104776e1fdd" kindref="member">IconType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const ImVec2 &amp;</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>filled</declname>
+        </param>
+        <param>
+          <type>const ImVec4 &amp;</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>const ImVec4 &amp;</type>
+          <declname>innerColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/drawing.h" line="15" column="6" bodyfile="/root/fyp/project/src/drawing.cpp" bodystart="4" bodyend="14" declfile="/root/fyp/project/src/drawing.h" declline="15" declcolumn="6"/>
+        <references refid="drawing_8cpp_1a2717a237608a4721d43319698e74e542" compoundref="drawing_8cpp" startline="16" endline="167">DrawIcon</references>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_node_1a15a07e070beeb57842b4e1371c0d1794" compoundref="node_8cpp" startline="5" endline="39">ParseGen::GUI::Node::RenderFrame</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;imgui.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="drawing_8h_1ab83da487393d464a63f8b104776e1fdd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="drawing_8h_1ab83da487393d464a63f8b104776e1fdd" kindref="member">IconType</ref><sp/>:<sp/>ImU32</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="drawing_8h_1ab83da487393d464a63f8b104776e1fdda30954d90085f6eaaf5817917fc5fecb3" kindref="member">Circle</ref>,</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="drawing_8h_1ab83da487393d464a63f8b104776e1fddaceb46ca115d05c51aa5a16a8867c3304" kindref="member">Square</ref>,</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="drawing_8h_1ab83da487393d464a63f8b104776e1fdda5174d1309f275ba6f275db3af9eb3e18" kindref="member">Grid</ref>,</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="drawing_8h_1ab83da487393d464a63f8b104776e1fdda8d0b97f599498054e5e7a84b1d5c2140" kindref="member">RoundSquare</ref>,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="drawing_8h_1ab83da487393d464a63f8b104776e1fdda8f7671185d590914ac21c7511767b699" kindref="member">Diamond</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="drawing_8h_1a2717a237608a4721d43319698e74e542" kindref="member">DrawIcon</ref>(ImDrawList<sp/>*drawList,<sp/><ref refid="drawing_8h_1ab83da487393d464a63f8b104776e1fdd" kindref="member">IconType</ref><sp/>type,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ImVec2<sp/>&amp;a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ImVec2<sp/>&amp;b,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>filled,<sp/>ImColor<sp/>color,<sp/>ImColor<sp/>innerColor);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="drawing_8h_1a0733fed66e38bebb3e8ee4d86b3515d5" kindref="member">Icon</ref>(<ref refid="drawing_8h_1ab83da487393d464a63f8b104776e1fdd" kindref="member">IconType</ref><sp/>type,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ImVec2<sp/>&amp;size,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>filled,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ImVec4<sp/>&amp;color,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ImVec4<sp/>&amp;innerColor);</highlight></codeline>
+    </programlisting>
+    <location file="/root/fyp/project/src/drawing.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,449 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_parse_gen_1_1_g_u_i_1_1_main_editor" kind="class" language="C++" prot="public">
+    <compoundname>ParseGen::GUI::MainEditor</compoundname>
+    <includes refid="maingui_8h" local="no">maingui.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a4e40631202877581c3118b8fb7d088e0" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* ParseGen::GUI::MainEditor::m_WindowTitle</definition>
+        <argsstring></argsstring>
+        <name>m_WindowTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/maingui.h" line="23" column="20" bodyfile="/root/fyp/project/src/maingui.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a79634f787b0d0c3f00a4a1d78fb69677" compoundref="maingui_8cpp" startline="99" endline="149">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a096cbdb81a1400fee0106d256e848bd7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ParseGen::GUI::MainEditor::m_WindowWidth</definition>
+        <argsstring></argsstring>
+        <name>m_WindowWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/maingui.h" line="24" column="13" bodyfile="/root/fyp/project/src/maingui.h" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1af2e05bb8929d109f79420387aec45b46" compoundref="maingui_8cpp" startline="11" endline="16">framebuffer_size_callback</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a79634f787b0d0c3f00a4a1d78fb69677" compoundref="maingui_8cpp" startline="99" endline="149">Start</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a8cb7930ca709c3de86c173bb8ad29bd1" compoundref="maingui_8cpp" startline="522" endline="583">RenderFrame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ab5fc1d5bde18aa8fdb0c2cf5a725b230" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ParseGen::GUI::MainEditor::m_WindowHeight</definition>
+        <argsstring></argsstring>
+        <name>m_WindowHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/maingui.h" line="24" column="27" bodyfile="/root/fyp/project/src/maingui.h" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1af2e05bb8929d109f79420387aec45b46" compoundref="maingui_8cpp" startline="11" endline="16">framebuffer_size_callback</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a79634f787b0d0c3f00a4a1d78fb69677" compoundref="maingui_8cpp" startline="99" endline="149">Start</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a8cb7930ca709c3de86c173bb8ad29bd1" compoundref="maingui_8cpp" startline="522" endline="583">RenderFrame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a84b57362a6994d9fcbf53387ec31d73e" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="class_parse_gen_1_1_g_u_i_1_1_rule" kindref="compound">Rule</ref> &gt;</type>
+        <definition>std::vector&lt;Rule&gt; ParseGen::GUI::MainEditor::m_Rules</definition>
+        <argsstring></argsstring>
+        <name>m_Rules</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/maingui.h" line="26" column="21" bodyfile="/root/fyp/project/src/maingui.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a5411a31092bf479d80f14b216eaef83b" compoundref="maingui_8cpp" startline="151" endline="155">deleteRule</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a11943a4f17d30c54ffe35b079a37d681" compoundref="maingui_8cpp" startline="157" endline="183">addRule</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a0852bbc6c65396299a43ca2eafa3c42b" compoundref="maingui_8cpp" startline="185" endline="263">rulesCollapseGui</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a8cb7930ca709c3de86c173bb8ad29bd1" compoundref="maingui_8cpp" startline="522" endline="583">RenderFrame</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a375e7fc2018957b0d42313a9d87bb952" compoundref="maingui_8cpp" startline="585" endline="601">processRules</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a3027b81d1800d7fae2fd6842a1dd013e" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; ParseGen::GUI::MainEditor::inputs</definition>
+        <argsstring></argsstring>
+        <name>inputs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/maingui.h" line="49" column="21" bodyfile="/root/fyp/project/src/maingui.h" bodystart="49" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ae50424eb009179d7c6942550e3ec7a9a" compoundref="maingui_8cpp" startline="308" endline="520">ruleTesterWindow</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a823e46cc4db4674152a0aace986c2199" prot="private" static="no" mutable="no">
+        <type><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator" kindref="compound">Parser::IParserGenerator</ref> *</type>
+        <definition>Parser::IParserGenerator* ParseGen::GUI::MainEditor::parser</definition>
+        <argsstring></argsstring>
+        <name>parser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/maingui.h" line="50" column="34" bodyfile="/root/fyp/project/src/maingui.h" bodystart="50" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ae50424eb009179d7c6942550e3ec7a9a" compoundref="maingui_8cpp" startline="308" endline="520">ruleTesterWindow</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a375e7fc2018957b0d42313a9d87bb952" compoundref="maingui_8cpp" startline="585" endline="601">processRules</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a702e1b96db07cdd2906ef2682e8b8578" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ParseGen::GUI::MainEditor::MainEditor</definition>
+        <argsstring>(const char *windowTitle, int windowWidth, int windowHeight)</argsstring>
+        <name>MainEditor</name>
+        <param>
+          <type>const char *</type>
+          <declname>windowTitle</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>windowWidth</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>windowHeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/maingui.h" line="28" column="9" bodyfile="/root/fyp/project/src/maingui.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a81093bfbfd33fcdc3669055736f97f0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ParseGen::GUI::MainEditor::~MainEditor</definition>
+        <argsstring>()</argsstring>
+        <name>~MainEditor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/maingui.h" line="29" column="9" bodyfile="/root/fyp/project/src/maingui.cpp" bodystart="603" bodyend="608"/>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_1a9163841420591bf2df4c6ce3f5cf4b7c" compoundref="nonterminal_8h" startline="25">ParseGen::GUI::NonTerminal::allNonTerminals</references>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a79634f787b0d0c3f00a4a1d78fb69677" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ParseGen::GUI::MainEditor::Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/maingui.h" line="31" column="14" bodyfile="/root/fyp/project/src/maingui.cpp" bodystart="99" bodyend="149"/>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a81e5e1ec071ae0e81cfdf344aa5b78ed" compoundref="maingui_8cpp" startline="30" endline="97">initGLFW</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ab5fc1d5bde18aa8fdb0c2cf5a725b230" compoundref="maingui_8h" startline="24">m_WindowHeight</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a4e40631202877581c3118b8fb7d088e0" compoundref="maingui_8h" startline="23">m_WindowTitle</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a096cbdb81a1400fee0106d256e848bd7" compoundref="maingui_8h" startline="24">m_WindowWidth</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a8cb7930ca709c3de86c173bb8ad29bd1" compoundref="maingui_8cpp" startline="522" endline="583">RenderFrame</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ac3c8425e70057ad3f38829456d1fe002" compoundref="maingui_8cpp" startline="18" endline="28">teardown</references>
+        <referencedby refid="main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="main_8cpp" startline="12" endline="26">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a8cb7930ca709c3de86c173bb8ad29bd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ParseGen::GUI::MainEditor::RenderFrame</definition>
+        <argsstring>(float deltaTime)</argsstring>
+        <name>RenderFrame</name>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/maingui.h" line="33" column="14" bodyfile="/root/fyp/project/src/maingui.cpp" bodystart="522" bodyend="583"/>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a11943a4f17d30c54ffe35b079a37d681" compoundref="maingui_8cpp" startline="157" endline="183">addRule</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a84b57362a6994d9fcbf53387ec31d73e" compoundref="maingui_8h" startline="26">m_Rules</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ab5fc1d5bde18aa8fdb0c2cf5a725b230" compoundref="maingui_8h" startline="24">m_WindowHeight</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a096cbdb81a1400fee0106d256e848bd7" compoundref="maingui_8h" startline="24">m_WindowWidth</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ad0daa9dc59138ad797772f5d9b041d06" compoundref="maingui_8cpp" startline="265" endline="275">nonTerminalsCollapseGui</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a0852bbc6c65396299a43ca2eafa3c42b" compoundref="maingui_8cpp" startline="185" endline="263">rulesCollapseGui</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ae50424eb009179d7c6942550e3ec7a9a" compoundref="maingui_8cpp" startline="308" endline="520">ruleTesterWindow</references>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a79634f787b0d0c3f00a4a1d78fb69677" compoundref="maingui_8cpp" startline="99" endline="149">Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a11943a4f17d30c54ffe35b079a37d681" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ParseGen::GUI::MainEditor::addRule</definition>
+        <argsstring>(std::string name)</argsstring>
+        <name>addRule</name>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/maingui.h" line="34" column="14" bodyfile="/root/fyp/project/src/maingui.cpp" bodystart="157" bodyend="183"/>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_1a9163841420591bf2df4c6ce3f5cf4b7c" compoundref="nonterminal_8h" startline="25">ParseGen::GUI::NonTerminal::allNonTerminals</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a84b57362a6994d9fcbf53387ec31d73e" compoundref="maingui_8h" startline="26">m_Rules</references>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a8cb7930ca709c3de86c173bb8ad29bd1" compoundref="maingui_8cpp" startline="522" endline="583">RenderFrame</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a0852bbc6c65396299a43ca2eafa3c42b" compoundref="maingui_8cpp" startline="185" endline="263">rulesCollapseGui</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a81e5e1ec071ae0e81cfdf344aa5b78ed" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>GLFWwindow *</type>
+        <definition>GLFWwindow * ParseGen::GUI::MainEditor::initGLFW</definition>
+        <argsstring>(std::string programName, int width, int height)</argsstring>
+        <name>initGLFW</name>
+        <param>
+          <type>std::string</type>
+          <declname>programName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/maingui.h" line="37" column="20" bodyfile="/root/fyp/project/src/maingui.cpp" bodystart="30" bodyend="97"/>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ac3c8425e70057ad3f38829456d1fe002" compoundref="maingui_8cpp" startline="18" endline="28">teardown</references>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a79634f787b0d0c3f00a4a1d78fb69677" compoundref="maingui_8cpp" startline="99" endline="149">Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_main_editor_1af2e05bb8929d109f79420387aec45b46" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ParseGen::GUI::MainEditor::framebuffer_size_callback</definition>
+        <argsstring>(GLFWwindow *window, int width, int height)</argsstring>
+        <name>framebuffer_size_callback</name>
+        <param>
+          <type>GLFWwindow *</type>
+          <declname>window</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/maingui.h" line="38" column="14" bodyfile="/root/fyp/project/src/maingui.cpp" bodystart="11" bodyend="16"/>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ab5fc1d5bde18aa8fdb0c2cf5a725b230" compoundref="maingui_8h" startline="24">m_WindowHeight</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a096cbdb81a1400fee0106d256e848bd7" compoundref="maingui_8h" startline="24">m_WindowWidth</references>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ac3c8425e70057ad3f38829456d1fe002" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ParseGen::GUI::MainEditor::teardown</definition>
+        <argsstring>(GLFWwindow *window)</argsstring>
+        <name>teardown</name>
+        <param>
+          <type>GLFWwindow *</type>
+          <declname>window</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/maingui.h" line="39" column="14" bodyfile="/root/fyp/project/src/maingui.cpp" bodystart="18" bodyend="28"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a81e5e1ec071ae0e81cfdf344aa5b78ed" compoundref="maingui_8cpp" startline="30" endline="97">initGLFW</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a79634f787b0d0c3f00a4a1d78fb69677" compoundref="maingui_8cpp" startline="99" endline="149">Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a5411a31092bf479d80f14b216eaef83b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ParseGen::GUI::MainEditor::deleteRule</definition>
+        <argsstring>(int index)</argsstring>
+        <name>deleteRule</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/maingui.h" line="40" column="14" bodyfile="/root/fyp/project/src/maingui.cpp" bodystart="151" bodyend="155"/>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a84b57362a6994d9fcbf53387ec31d73e" compoundref="maingui_8h" startline="26">m_Rules</references>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a0852bbc6c65396299a43ca2eafa3c42b" compoundref="maingui_8cpp" startline="185" endline="263">rulesCollapseGui</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a0852bbc6c65396299a43ca2eafa3c42b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ParseGen::GUI::MainEditor::rulesCollapseGui</definition>
+        <argsstring>()</argsstring>
+        <name>rulesCollapseGui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/maingui.h" line="41" column="13" bodyfile="/root/fyp/project/src/maingui.cpp" bodystart="185" bodyend="263"/>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a11943a4f17d30c54ffe35b079a37d681" compoundref="maingui_8cpp" startline="157" endline="183">addRule</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a5411a31092bf479d80f14b216eaef83b" compoundref="maingui_8cpp" startline="151" endline="155">deleteRule</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a84b57362a6994d9fcbf53387ec31d73e" compoundref="maingui_8h" startline="26">m_Rules</references>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a8cb7930ca709c3de86c173bb8ad29bd1" compoundref="maingui_8cpp" startline="522" endline="583">RenderFrame</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ad0daa9dc59138ad797772f5d9b041d06" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ParseGen::GUI::MainEditor::nonTerminalsCollapseGui</definition>
+        <argsstring>()</argsstring>
+        <name>nonTerminalsCollapseGui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/maingui.h" line="42" column="14" bodyfile="/root/fyp/project/src/maingui.cpp" bodystart="265" bodyend="275"/>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_1a9163841420591bf2df4c6ce3f5cf4b7c" compoundref="nonterminal_8h" startline="25">ParseGen::GUI::NonTerminal::allNonTerminals</references>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a8cb7930ca709c3de86c173bb8ad29bd1" compoundref="maingui_8cpp" startline="522" endline="583">RenderFrame</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a0dd79cef141de2c8a6a08586f36d42a9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ParseGen::GUI::MainEditor::drawTree</definition>
+        <argsstring>(Parser::Util::ParseTree *parseTree)</argsstring>
+        <name>drawTree</name>
+        <param>
+          <type><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree" kindref="compound">Parser::Util::ParseTree</ref> *</type>
+          <declname>parseTree</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/maingui.h" line="44" column="14" bodyfile="/root/fyp/project/src/maingui.cpp" bodystart="302" bodyend="306"/>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1ac6962ed86384110616e7dad0f548ba84" compoundref="parsetreerenderer_8cpp" startline="190" endline="194">ParseGen::GUI::ParseTree::Renderer::Get</references>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ae50424eb009179d7c6942550e3ec7a9a" compoundref="maingui_8cpp" startline="308" endline="520">ruleTesterWindow</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ae50424eb009179d7c6942550e3ec7a9a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ParseGen::GUI::MainEditor::ruleTesterWindow</definition>
+        <argsstring>(bool *open)</argsstring>
+        <name>ruleTesterWindow</name>
+        <param>
+          <type>bool *</type>
+          <declname>open</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/maingui.h" line="45" column="14" bodyfile="/root/fyp/project/src/maingui.cpp" bodystart="308" bodyend="520"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1af62c9506f49ed5c8205082fb5d5bae98" compoundref="iparsergenerator_8h" startline="19">ParseGen::Parser::IParserGenerator::bnf</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1acc41ef8afafb3c17ec86292fecfaeb8d" compoundref="iparsergenerator_8h" startline="23" endline="42">ParseGen::Parser::IParserGenerator::codeToFile</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a0dd79cef141de2c8a6a08586f36d42a9" compoundref="maingui_8cpp" startline="302" endline="306">drawTree</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1aa6b235e2945524e7373a03b9b209fffd" compoundref="factory_8h" startline="34" endline="38">ParseGen::Parser::ParserGeneratorFactory::Get</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a36873b6eabc46913622d6a5dfdceffa1" compoundref="factory_8h" startline="68" endline="71">ParseGen::Parser::ParserGeneratorFactory::getOutputTypes</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a3027b81d1800d7fae2fd6842a1dd013e" compoundref="maingui_8h" startline="49">inputs</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree_1ace551eaad1025e132c23024992ed5bcf" compoundref="parsetree_8h" startline="221" endline="224">ParseGen::Parser::Util::ParseTree::isStub</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1ae29f6b1213c0fc23bfe5fe049be4ddbc">ParseGen::Parser::IParserGenerator::parse</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a823e46cc4db4674152a0aace986c2199" compoundref="maingui_8h" startline="50">parser</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a375e7fc2018957b0d42313a9d87bb952" compoundref="maingui_8cpp" startline="585" endline="601">processRules</references>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a8cb7930ca709c3de86c173bb8ad29bd1" compoundref="maingui_8cpp" startline="522" endline="583">RenderFrame</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a375e7fc2018957b0d42313a9d87bb952" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator" kindref="compound">Parser::IParserGenerator</ref> *</type>
+        <definition>Parser::IParserGenerator * ParseGen::GUI::MainEditor::processRules</definition>
+        <argsstring>(std::string, std::string)</argsstring>
+        <name>processRules</name>
+        <param>
+          <type>std::string</type>
+          <defname>outputType</defname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <defname>outputLang</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/maingui.h" line="47" column="34" bodyfile="/root/fyp/project/src/maingui.cpp" bodystart="585" bodyend="601"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1afa1ed5ce57448b5f8e854e303c171889" compoundref="factory_8h" startline="62" endline="66">ParseGen::Parser::ParserGeneratorFactory::Create</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a84b57362a6994d9fcbf53387ec31d73e" compoundref="maingui_8h" startline="26">m_Rules</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a823e46cc4db4674152a0aace986c2199" compoundref="maingui_8h" startline="50">parser</references>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ae50424eb009179d7c6942550e3ec7a9a" compoundref="maingui_8cpp" startline="308" endline="520">ruleTesterWindow</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>ParseGen::Parser::IParserGenerator</label>
+        <link refid="class_parse_gen_1_1_parser_1_1_i_parser_generator"/>
+      </node>
+      <node id="1">
+        <label>ParseGen::GUI::MainEditor</label>
+        <link refid="class_parse_gen_1_1_g_u_i_1_1_main_editor"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-parser</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/fyp/project/src/maingui.h" line="21" column="1" bodyfile="/root/fyp/project/src/maingui.h" bodystart="20" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a11943a4f17d30c54ffe35b079a37d681" prot="public" virt="non-virtual"><scope>ParseGen::GUI::MainEditor</scope><name>addRule</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a5411a31092bf479d80f14b216eaef83b" prot="private" virt="non-virtual"><scope>ParseGen::GUI::MainEditor</scope><name>deleteRule</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a0dd79cef141de2c8a6a08586f36d42a9" prot="private" virt="non-virtual"><scope>ParseGen::GUI::MainEditor</scope><name>drawTree</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1af2e05bb8929d109f79420387aec45b46" prot="private" virt="non-virtual"><scope>ParseGen::GUI::MainEditor</scope><name>framebuffer_size_callback</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a81e5e1ec071ae0e81cfdf344aa5b78ed" prot="private" virt="non-virtual"><scope>ParseGen::GUI::MainEditor</scope><name>initGLFW</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a3027b81d1800d7fae2fd6842a1dd013e" prot="private" virt="non-virtual"><scope>ParseGen::GUI::MainEditor</scope><name>inputs</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a84b57362a6994d9fcbf53387ec31d73e" prot="public" virt="non-virtual"><scope>ParseGen::GUI::MainEditor</scope><name>m_Rules</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ab5fc1d5bde18aa8fdb0c2cf5a725b230" prot="public" virt="non-virtual"><scope>ParseGen::GUI::MainEditor</scope><name>m_WindowHeight</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a4e40631202877581c3118b8fb7d088e0" prot="public" virt="non-virtual"><scope>ParseGen::GUI::MainEditor</scope><name>m_WindowTitle</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a096cbdb81a1400fee0106d256e848bd7" prot="public" virt="non-virtual"><scope>ParseGen::GUI::MainEditor</scope><name>m_WindowWidth</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a702e1b96db07cdd2906ef2682e8b8578" prot="public" virt="non-virtual"><scope>ParseGen::GUI::MainEditor</scope><name>MainEditor</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ad0daa9dc59138ad797772f5d9b041d06" prot="private" virt="non-virtual"><scope>ParseGen::GUI::MainEditor</scope><name>nonTerminalsCollapseGui</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a823e46cc4db4674152a0aace986c2199" prot="private" virt="non-virtual"><scope>ParseGen::GUI::MainEditor</scope><name>parser</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a375e7fc2018957b0d42313a9d87bb952" prot="private" virt="non-virtual"><scope>ParseGen::GUI::MainEditor</scope><name>processRules</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a8cb7930ca709c3de86c173bb8ad29bd1" prot="public" virt="non-virtual"><scope>ParseGen::GUI::MainEditor</scope><name>RenderFrame</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a0852bbc6c65396299a43ca2eafa3c42b" prot="private" virt="non-virtual"><scope>ParseGen::GUI::MainEditor</scope><name>rulesCollapseGui</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ae50424eb009179d7c6942550e3ec7a9a" prot="private" virt="non-virtual"><scope>ParseGen::GUI::MainEditor</scope><name>ruleTesterWindow</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a79634f787b0d0c3f00a4a1d78fb69677" prot="public" virt="non-virtual"><scope>ParseGen::GUI::MainEditor</scope><name>Start</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ac3c8425e70057ad3f38829456d1fe002" prot="private" virt="non-virtual"><scope>ParseGen::GUI::MainEditor</scope><name>teardown</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a81093bfbfd33fcdc3669055736f97f0c" prot="public" virt="non-virtual"><scope>ParseGen::GUI::MainEditor</scope><name>~MainEditor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

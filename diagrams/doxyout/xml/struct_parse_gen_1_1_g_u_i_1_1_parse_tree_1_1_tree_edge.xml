@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge" kind="struct" language="C++" prot="public">
+    <compoundname>ParseGen::GUI::ParseTree::TreeEdge</compoundname>
+    <includes refid="parsetreerenderer_8h" local="no">parsetreerenderer.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge_1abaf62ff5a1bb7c3f0e72a72c5778d237" prot="public" static="no" mutable="no">
+        <type>ImVec2</type>
+        <definition>ImVec2 ParseGen::GUI::ParseTree::TreeEdge::min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsetreerenderer.h" line="23" column="16" bodyfile="/root/fyp/project/src/parsetreerenderer.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge_1a425c3e883d6e4bb56abdfbf376291794" compoundref="parsetreerenderer_8cpp" startline="296" endline="301">draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge_1aad11941ccd2bd8e590ddd466caa21fac" prot="public" static="no" mutable="no">
+        <type>ImVec2</type>
+        <definition>ImVec2 ParseGen::GUI::ParseTree::TreeEdge::max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsetreerenderer.h" line="24" column="16" bodyfile="/root/fyp/project/src/parsetreerenderer.h" bodystart="24" bodyend="-1"/>
+        <referencedby refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge_1a425c3e883d6e4bb56abdfbf376291794" compoundref="parsetreerenderer_8cpp" startline="296" endline="301">draw</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge_1a425c3e883d6e4bb56abdfbf376291794" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ParseGen::GUI::ParseTree::TreeEdge::draw</definition>
+        <argsstring>(ImDrawList *drawList, ImVec2 origin)</argsstring>
+        <name>draw</name>
+        <param>
+          <type>ImDrawList *</type>
+          <declname>drawList</declname>
+        </param>
+        <param>
+          <type>ImVec2</type>
+          <declname>origin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsetreerenderer.h" line="26" column="14" bodyfile="/root/fyp/project/src/parsetreerenderer.cpp" bodystart="296" bodyend="301"/>
+        <references refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge_1aad11941ccd2bd8e590ddd466caa21fac" compoundref="parsetreerenderer_8h" startline="24">max</references>
+        <references refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge_1abaf62ff5a1bb7c3f0e72a72c5778d237" compoundref="parsetreerenderer_8h" startline="23">min</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ParseGen::GUI::ParseTree::TreeEdge</label>
+        <link refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge"/>
+      </node>
+    </collaborationgraph>
+    <location file="/root/fyp/project/src/parsetreerenderer.h" line="22" column="1" bodyfile="/root/fyp/project/src/parsetreerenderer.h" bodystart="21" bodyend="27"/>
+    <listofallmembers>
+      <member refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge_1a425c3e883d6e4bb56abdfbf376291794" prot="public" virt="non-virtual"><scope>ParseGen::GUI::ParseTree::TreeEdge</scope><name>draw</name></member>
+      <member refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge_1aad11941ccd2bd8e590ddd466caa21fac" prot="public" virt="non-virtual"><scope>ParseGen::GUI::ParseTree::TreeEdge</scope><name>max</name></member>
+      <member refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge_1abaf62ff5a1bb7c3f0e72a72c5778d237" prot="public" virt="non-virtual"><scope>ParseGen::GUI::ParseTree::TreeEdge</scope><name>min</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kind="class" language="C++" prot="public">
+    <compoundname>ParseGen::Parser::Util::Symbol</compoundname>
+    <includes refid="symbol_8h" local="no">symbol.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a270a19c234614738ed31233b109e3d97" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ParseGen::Parser::Util::Symbol::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/symbol.h" line="19" column="21" bodyfile="/root/fyp/project/src/parsergenerator/util/symbol.h" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator_1a076cf99ef4d6ad6c01ab28996ab5f356" compoundref="lexyacc_2parsergenerator_8h" startline="60" endline="178">ParseGen::Parser::Yacc::LexYaccGenerator::codeToString</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_l_l_predictive_parser_generator_1a42a21842cb2e37411d86980058cb6633" compoundref="llpred_2parsergenerator_8h" startline="88" endline="236">ParseGen::Parser::LLPredictiveParser::LLPredictiveParserGenerator::parse</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_parser_table_1a857d934a198b2d797840ac9a346f2d05" compoundref="parsertable_8h" startline="60" endline="89">ParseGen::Parser::LLPredictiveParser::ParserTable::creationCode</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_parseable_input_1add681150eacf21da1e967691a60f393d" compoundref="parseableinput_8h" startline="123" endline="184">ParseGen::Parser::Util::ParseableInput::calcFirst</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ada15558e544321b35ee981c7574d8cfe" compoundref="parsetree_8h" startline="48" endline="56">ParseGen::Parser::Util::Node::print</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a63c51c9fe2086a37af7fa0685d91a0fd" compoundref="parsetree_8h" startline="63" endline="129">ParseGen::Parser::Util::Node::json</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree_1a35244364a4a6e54429dded0f88f2419f" compoundref="parsetree_8h" startline="226" endline="234">ParseGen::Parser::Util::ParseTree::print</referencedby>
+        <referencedby refid="namespace_parse_gen_1_1_parser_1_1_util_1a2c61e46e1c539a3443798d102766cb94" compoundref="symbol_8cpp" startline="5" endline="27">ParseGen::Parser::Util::operator&lt;</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1adc385d0528bcc7b3cbb44c005136d238" compoundref="parsetreerenderer_8cpp" startline="196" endline="219">ParseGen::GUI::ParseTree::Renderer::createGeometry</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a05f3ad241a05034d2931464130589270" prot="protected" static="no" mutable="no">
+        <type><ref refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7" kindref="member">SymbolType</ref></type>
+        <definition>SymbolType ParseGen::Parser::Util::Symbol::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/symbol.h" line="53" column="20" bodyfile="/root/fyp/project/src/parsergenerator/util/symbol.h" bodystart="53" bodyend="-1"/>
+        <referencedby refid="namespace_parse_gen_1_1_parser_1_1_util_1a2c61e46e1c539a3443798d102766cb94" compoundref="symbol_8cpp" startline="5" endline="27">ParseGen::Parser::Util::operator&lt;</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1abee82169dd33dd46403dfab6406b91bf" compoundref="symbol_8h" startline="23" endline="26">isEmpty</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a7c2eaae0963a1a1e7b2ffe9e87fc0912" compoundref="symbol_8h" startline="28" endline="31">isNonTerminal</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a49004cbef803410ccc3a616a8ea6e628" compoundref="symbol_8h" startline="33" endline="36">isTerminal</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a82073c69377df2a10fd7d4350727ab73" compoundref="symbol_8h" startline="38" endline="41">isEnd</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a06360919e7f99bb129e361991c9db77a" compoundref="symbol_8h" startline="43" endline="46">getType</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a5d0abc64d8af94a6ddd33635efe8cbe7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ParseGen::Parser::Util::Symbol::Symbol</definition>
+        <argsstring>(std::string name, SymbolType type)</argsstring>
+        <name>Symbol</name>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7" kindref="member">SymbolType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/symbol.h" line="21" column="9" bodyfile="/root/fyp/project/src/parsergenerator/util/symbol.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1abee82169dd33dd46403dfab6406b91bf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ParseGen::Parser::Util::Symbol::isEmpty</definition>
+        <argsstring>() const</argsstring>
+        <name>isEmpty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/symbol.h" line="23" column="14" bodyfile="/root/fyp/project/src/parsergenerator/util/symbol.h" bodystart="23" bodyend="26"/>
+        <references refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7ad3a1a39cf25ba7d28375aae4352c6cf6" compoundref="symbol_8h" startline="11">ParseGen::Parser::Util::EMPTY</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a05f3ad241a05034d2931464130589270" compoundref="symbol_8h" startline="53">type</references>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_parseable_input_1add681150eacf21da1e967691a60f393d" compoundref="parseableinput_8h" startline="123" endline="184">ParseGen::Parser::Util::ParseableInput::calcFirst</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_l_l_predictive_parser_generator_1a42a21842cb2e37411d86980058cb6633" compoundref="llpred_2parsergenerator_8h" startline="88" endline="236">ParseGen::Parser::LLPredictiveParser::LLPredictiveParserGenerator::parse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a7c2eaae0963a1a1e7b2ffe9e87fc0912" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ParseGen::Parser::Util::Symbol::isNonTerminal</definition>
+        <argsstring>() const</argsstring>
+        <name>isNonTerminal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/symbol.h" line="28" column="14" bodyfile="/root/fyp/project/src/parsergenerator/util/symbol.h" bodystart="28" bodyend="31"/>
+        <references refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7a647d9601fc5b75ce9136189fc43c0ef9" compoundref="symbol_8h" startline="10">ParseGen::Parser::Util::NON_TERMINAL</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a05f3ad241a05034d2931464130589270" compoundref="symbol_8h" startline="53">type</references>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_parseable_input_1add681150eacf21da1e967691a60f393d" compoundref="parseableinput_8h" startline="123" endline="184">ParseGen::Parser::Util::ParseableInput::calcFirst</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a49004cbef803410ccc3a616a8ea6e628" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ParseGen::Parser::Util::Symbol::isTerminal</definition>
+        <argsstring>() const</argsstring>
+        <name>isTerminal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/symbol.h" line="33" column="14" bodyfile="/root/fyp/project/src/parsergenerator/util/symbol.h" bodystart="33" bodyend="36"/>
+        <references refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7ad3a1a39cf25ba7d28375aae4352c6cf6" compoundref="symbol_8h" startline="11">ParseGen::Parser::Util::EMPTY</references>
+        <references refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7a6ddd69c18850e3262d706184f67dd466" compoundref="symbol_8h" startline="9">ParseGen::Parser::Util::TERMINAL</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a05f3ad241a05034d2931464130589270" compoundref="symbol_8h" startline="53">type</references>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_parseable_input_1add681150eacf21da1e967691a60f393d" compoundref="parseableinput_8h" startline="123" endline="184">ParseGen::Parser::Util::ParseableInput::calcFirst</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1adc385d0528bcc7b3cbb44c005136d238" compoundref="parsetreerenderer_8cpp" startline="196" endline="219">ParseGen::GUI::ParseTree::Renderer::createGeometry</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_l_l_predictive_parser_generator_1a42a21842cb2e37411d86980058cb6633" compoundref="llpred_2parsergenerator_8h" startline="88" endline="236">ParseGen::Parser::LLPredictiveParser::LLPredictiveParserGenerator::parse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a82073c69377df2a10fd7d4350727ab73" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ParseGen::Parser::Util::Symbol::isEnd</definition>
+        <argsstring>() const</argsstring>
+        <name>isEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/symbol.h" line="38" column="14" bodyfile="/root/fyp/project/src/parsergenerator/util/symbol.h" bodystart="38" bodyend="41"/>
+        <references refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7afc1563cab35f3813cead3ebd55f40ea8" compoundref="symbol_8h" startline="12">ParseGen::Parser::Util::END</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a05f3ad241a05034d2931464130589270" compoundref="symbol_8h" startline="53">type</references>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree_1ace551eaad1025e132c23024992ed5bcf" compoundref="parsetree_8h" startline="221" endline="224">ParseGen::Parser::Util::ParseTree::isStub</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_l_l_predictive_parser_generator_1a42a21842cb2e37411d86980058cb6633" compoundref="llpred_2parsergenerator_8h" startline="88" endline="236">ParseGen::Parser::LLPredictiveParser::LLPredictiveParserGenerator::parse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a06360919e7f99bb129e361991c9db77a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7" kindref="member">SymbolType</ref></type>
+        <definition>SymbolType ParseGen::Parser::Util::Symbol::getType</definition>
+        <argsstring>() const</argsstring>
+        <name>getType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/symbol.h" line="43" column="20" bodyfile="/root/fyp/project/src/parsergenerator/util/symbol.h" bodystart="43" bodyend="46"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a05f3ad241a05034d2931464130589270" compoundref="symbol_8h" startline="53">type</references>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_parser_table_1a857d934a198b2d797840ac9a346f2d05" compoundref="parsertable_8h" startline="60" endline="89">ParseGen::Parser::LLPredictiveParser::ParserTable::creationCode</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a63c51c9fe2086a37af7fa0685d91a0fd" compoundref="parsetree_8h" startline="63" endline="129">ParseGen::Parser::Util::Node::json</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a7288464d171a3395d63d57596762e4e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend bool</type>
+        <definition>bool operator&lt;</definition>
+        <argsstring>(const Symbol &amp;, const Symbol &amp;)</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kindref="compound">Symbol</ref> &amp;</type>
+          <defname>first</defname>
+        </param>
+        <param>
+          <type>const <ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kindref="compound">Symbol</ref> &amp;</type>
+          <defname>second</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/symbol.h" line="48" column="16" bodyfile="/root/fyp/project/src/parsergenerator/util/symbol.cpp" bodystart="5" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1ae9f042a84687e313698528c7f5a63e64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const Symbol &amp;, const Symbol &amp;)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kindref="compound">Symbol</ref> &amp;</type>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>const <ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kindref="compound">Symbol</ref> &amp;</type>
+          <defname>b</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/symbol.h" line="49" column="21" bodyfile="/root/fyp/project/src/parsergenerator/util/symbol.cpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a0bafeb0cd8533742a4e0fff06641658a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend bool</type>
+        <definition>bool operator!=</definition>
+        <argsstring>(const Symbol &amp;, const Symbol &amp;)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kindref="compound">Symbol</ref> &amp;</type>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>const <ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kindref="compound">Symbol</ref> &amp;</type>
+          <defname>b</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/symbol.h" line="50" column="21" bodyfile="/root/fyp/project/src/parsergenerator/util/symbol.cpp" bodystart="34" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ParseGen::Parser::Util::Symbol</label>
+        <link refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol"/>
+      </node>
+    </collaborationgraph>
+    <location file="/root/fyp/project/src/parsergenerator/util/symbol.h" line="17" column="1" bodyfile="/root/fyp/project/src/parsergenerator/util/symbol.h" bodystart="16" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a06360919e7f99bb129e361991c9db77a" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Symbol</scope><name>getType</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1abee82169dd33dd46403dfab6406b91bf" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Symbol</scope><name>isEmpty</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a82073c69377df2a10fd7d4350727ab73" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Symbol</scope><name>isEnd</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a7c2eaae0963a1a1e7b2ffe9e87fc0912" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Symbol</scope><name>isNonTerminal</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a49004cbef803410ccc3a616a8ea6e628" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Symbol</scope><name>isTerminal</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a270a19c234614738ed31233b109e3d97" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Symbol</scope><name>name</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a0bafeb0cd8533742a4e0fff06641658a" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Symbol</scope><name>operator!=</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a7288464d171a3395d63d57596762e4e0" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Symbol</scope><name>operator&lt;</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1ae9f042a84687e313698528c7f5a63e64" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Symbol</scope><name>operator==</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a5d0abc64d8af94a6ddd33635efe8cbe7" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Symbol</scope><name>Symbol</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a05f3ad241a05034d2931464130589270" prot="protected" virt="non-virtual"><scope>ParseGen::Parser::Util::Symbol</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

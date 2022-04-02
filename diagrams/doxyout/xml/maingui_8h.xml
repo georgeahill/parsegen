@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="maingui_8h" kind="file" language="C++">
+    <compoundname>maingui.h</compoundname>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">GL/glew.h</includes>
+    <includes local="no">GLFW/glfw3.h</includes>
+    <includes local="no">imgui/imgui_internal.h</includes>
+    <includes local="no">imgui/backends/imgui_impl_glfw.h</includes>
+    <includes local="no">imgui/backends/imgui_impl_opengl3.h</includes>
+    <includes local="no">imgui/nodes/imgui_node_editor.h</includes>
+    <includes refid="rule_8h" local="yes">rule.h</includes>
+    <includes refid="iparsergenerator_8h" local="yes">parsergenerator/iparsergenerator.h</includes>
+    <includedby refid="main_8cpp" local="yes">/root/fyp/project/src/main.cpp</includedby>
+    <includedby refid="maingui_8cpp" local="yes">/root/fyp/project/src/maingui.cpp</includedby>
+    <incdepgraph>
+      <node id="6">
+        <label>imgui/imgui_internal.h</label>
+      </node>
+      <node id="22">
+        <label>filesystem</label>
+      </node>
+      <node id="20">
+        <label>parsergenerator/iparsergenerator.h</label>
+        <link refid="iparsergenerator_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>imgui/nodes/imgui_node_editor.h</label>
+      </node>
+      <node id="2">
+        <label>string</label>
+      </node>
+      <node id="4">
+        <label>GL/glew.h</label>
+      </node>
+      <node id="14">
+        <label>drawing.h</label>
+        <link refid="drawing_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>map</label>
+      </node>
+      <node id="23">
+        <label>util/parsetree.h</label>
+        <link refid="parsetree_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>GLFW/glfw3.h</label>
+      </node>
+      <node id="21">
+        <label>fstream</label>
+      </node>
+      <node id="19">
+        <label>terminalnode.h</label>
+        <link refid="terminalnode_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>imgui/backends/imgui_impl_opengl3.h</label>
+      </node>
+      <node id="18">
+        <label>specialnode.h</label>
+        <link refid="specialnode_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>nodelink.h</label>
+        <link refid="nodelink_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>nonterminal.h</label>
+        <link refid="nonterminal_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>vector</label>
+      </node>
+      <node id="7">
+        <label>imgui/backends/imgui_impl_glfw.h</label>
+      </node>
+      <node id="15">
+        <label>imgui.h</label>
+      </node>
+      <node id="16">
+        <label>iostream</label>
+      </node>
+      <node id="10">
+        <label>rule.h</label>
+        <link refid="rule_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>node.h</label>
+        <link refid="node_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/root/fyp/project/src/maingui.h</label>
+        <link refid="maingui_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>symbol.h</label>
+        <link refid="symbol_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>initializer_list</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>/root/fyp/project/src/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="3">
+        <label>/root/fyp/project/src/maingui.cpp</label>
+        <link refid="maingui_8cpp"/>
+      </node>
+      <node id="1">
+        <label>/root/fyp/project/src/maingui.h</label>
+        <link refid="maingui_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_parse_gen_1_1_g_u_i_1_1_main_editor" prot="public">ParseGen::GUI::MainEditor</innerclass>
+    <innernamespace refid="namespace_parse_gen">ParseGen</innernamespace>
+    <innernamespace refid="namespace_parse_gen_1_1_g_u_i">ParseGen::GUI</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="maingui_8h_1abcde84ea0ef5f934384e4620f092c85a" prot="public" static="no">
+        <name>GLEW_STATIC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/maingui.h" line="6" column="9" bodyfile="/root/fyp/project/src/maingui.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="maingui_8h_1abcde84ea0ef5f934384e4620f092c85a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GLEW_STATIC</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;GL/glew.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;GLFW/glfw3.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;imgui/imgui_internal.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;imgui/backends/imgui_impl_glfw.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;imgui/backends/imgui_impl_opengl3.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;imgui/nodes/imgui_node_editor.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="rule_8h" kindref="compound">rule.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="iparsergenerator_8h" kindref="compound">parsergenerator/iparsergenerator.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_parse_gen_1_1_g_u_i" kindref="compound">ParseGen::GUI</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MainEditor;</highlight></codeline>
+<codeline lineno="20" refid="class_parse_gen_1_1_g_u_i_1_1_main_editor" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_parse_gen_1_1_g_u_i_1_1_main_editor" kindref="compound">MainEditor</ref></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23" refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a4e40631202877581c3118b8fb7d088e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a4e40631202877581c3118b8fb7d088e0" kindref="member">m_WindowTitle</ref>;</highlight></codeline>
+<codeline lineno="24" refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a096cbdb81a1400fee0106d256e848bd7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a096cbdb81a1400fee0106d256e848bd7" kindref="member">m_WindowWidth</ref>,<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ab5fc1d5bde18aa8fdb0c2cf5a725b230" kindref="member">m_WindowHeight</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a84b57362a6994d9fcbf53387ec31d73e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;Rule&gt;<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a84b57362a6994d9fcbf53387ec31d73e" kindref="member">m_Rules</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a702e1b96db07cdd2906ef2682e8b8578" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a702e1b96db07cdd2906ef2682e8b8578" kindref="member">MainEditor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*windowTitle,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>windowWidth,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>windowHeight)<sp/>:<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a4e40631202877581c3118b8fb7d088e0" kindref="member">m_WindowTitle</ref>(windowTitle),<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a096cbdb81a1400fee0106d256e848bd7" kindref="member">m_WindowWidth</ref>(windowWidth),<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ab5fc1d5bde18aa8fdb0c2cf5a725b230" kindref="member">m_WindowHeight</ref>(windowHeight){};</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a81093bfbfd33fcdc3669055736f97f0c" kindref="member">~MainEditor</ref>();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a79634f787b0d0c3f00a4a1d78fb69677" kindref="member">Start</ref>();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a8cb7930ca709c3de86c173bb8ad29bd1" kindref="member">RenderFrame</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>deltaTime);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a11943a4f17d30c54ffe35b079a37d681" kindref="member">addRule</ref>(std::string<sp/>name);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GLFWwindow<sp/>*<ref refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a81e5e1ec071ae0e81cfdf344aa5b78ed" kindref="member">initGLFW</ref>(std::string<sp/>programName,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1af2e05bb8929d109f79420387aec45b46" kindref="member">framebuffer_size_callback</ref>(GLFWwindow<sp/>*window,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ac3c8425e70057ad3f38829456d1fe002" kindref="member">teardown</ref>(GLFWwindow<sp/>*window);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a5411a31092bf479d80f14b216eaef83b" kindref="member">deleteRule</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a0852bbc6c65396299a43ca2eafa3c42b" kindref="member">rulesCollapseGui</ref>();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ad0daa9dc59138ad797772f5d9b041d06" kindref="member">nonTerminalsCollapseGui</ref>();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>void<sp/>terminalsCollapseGui(int);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a0dd79cef141de2c8a6a08586f36d42a9" kindref="member">drawTree</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree" kindref="compound">Parser::Util::ParseTree</ref><sp/>*parseTree);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ae50424eb009179d7c6942550e3ec7a9a" kindref="member">ruleTesterWindow</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">*<sp/>open);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator" kindref="compound">Parser::IParserGenerator</ref><sp/>*<ref refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a375e7fc2018957b0d42313a9d87bb952" kindref="member">processRules</ref>(std::string,<sp/>std::string);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a3027b81d1800d7fae2fd6842a1dd013e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a3027b81d1800d7fae2fd6842a1dd013e" kindref="member">inputs</ref>;</highlight></codeline>
+<codeline lineno="50" refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a823e46cc4db4674152a0aace986c2199" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator" kindref="compound">Parser::IParserGenerator</ref>*<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a823e46cc4db4674152a0aace986c2199" kindref="member">parser</ref>;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/root/fyp/project/src/maingui.h"/>
+  </compounddef>
+</doxygen>

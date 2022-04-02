@@ -1,0 +1,6 @@
+<map id="ParseGen::GUI::Node" name="ParseGen::GUI::Node">
+<area shape="rect" id="node1" title=" " alt="" coords="291,5,449,361"/>
+<area shape="rect" id="node2" href="$class_parse_gen_1_1_g_u_i_1_1_non_terminal_node.html" title=" " alt="" coords="5,409,244,516"/>
+<area shape="rect" id="node3" href="$class_parse_gen_1_1_g_u_i_1_1_special_node.html" title=" " alt="" coords="268,424,472,501"/>
+<area shape="rect" id="node4" href="$class_parse_gen_1_1_g_u_i_1_1_terminal_node.html" title=" " alt="" coords="497,424,710,501"/>
+</map>

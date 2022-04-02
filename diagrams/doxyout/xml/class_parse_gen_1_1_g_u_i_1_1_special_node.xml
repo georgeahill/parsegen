@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_parse_gen_1_1_g_u_i_1_1_special_node" kind="class" language="C++" prot="public">
+    <compoundname>ParseGen::GUI::SpecialNode</compoundname>
+    <basecompoundref refid="class_parse_gen_1_1_g_u_i_1_1_node" prot="public" virt="non-virtual">ParseGen::GUI::Node</basecompoundref>
+    <includes refid="specialnode_8h" local="no">specialnode.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_special_node_1aa32e369ba3746674d5305fa3ae03ce8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ParseGen::GUI::SpecialNode::SpecialNode</definition>
+        <argsstring>(bool isStartNode)</argsstring>
+        <name>SpecialNode</name>
+        <param>
+          <type>bool</type>
+          <declname>isStartNode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/specialnode.h" line="9" column="9" bodyfile="/root/fyp/project/src/specialnode.h" bodystart="9" bodyend="25"/>
+        <references refid="drawing_8h_1ab83da487393d464a63f8b104776e1fdda8f7671185d590914ac21c7511767b699">Diamond</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1a1fa5b4d3b86ee42a3851b8ef96213b14" compoundref="node_8h" startline="45">ParseGen::GUI::Node::iconType</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1a9684b44a42bf27601a49b653b78e5bef" compoundref="node_8h" startline="47">ParseGen::GUI::Node::innerPinColor</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1acda79953dd0a138d822a164891a92970" compoundref="node_8h" startline="26">ParseGen::GUI::Node::inPin</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1aac9ba772f5c55af64bb6c4f05f1aa4b5" compoundref="node_8h" startline="37">ParseGen::GUI::Node::name</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1a3a21b6848f72a75fff702b4d2ce66211" compoundref="node_8h" startline="27">ParseGen::GUI::Node::outPin</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1a498449a349cd5a7439132ee2f7f6af3e" compoundref="node_8h" startline="46">ParseGen::GUI::Node::pinColor</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ParseGen::GUI::SpecialNode</label>
+        <link refid="class_parse_gen_1_1_g_u_i_1_1_special_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ParseGen::GUI::Node</label>
+        <link refid="class_parse_gen_1_1_g_u_i_1_1_node"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ParseGen::GUI::SpecialNode</label>
+        <link refid="class_parse_gen_1_1_g_u_i_1_1_special_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ParseGen::GUI::Node</label>
+        <link refid="class_parse_gen_1_1_g_u_i_1_1_node"/>
+      </node>
+    </collaborationgraph>
+    <location file="/root/fyp/project/src/specialnode.h" line="7" column="1" bodyfile="/root/fyp/project/src/specialnode.h" bodystart="6" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a778687b1df3ec68367bad6ded215773b" prot="public" virt="non-virtual"><scope>ParseGen::GUI::SpecialNode</scope><name>currentId</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a828fed066d03764b9b3da75b7698c7df" prot="public" virt="non-virtual"><scope>ParseGen::GUI::SpecialNode</scope><name>IconSize</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a1fa5b4d3b86ee42a3851b8ef96213b14" prot="public" virt="non-virtual"><scope>ParseGen::GUI::SpecialNode</scope><name>iconType</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a3be486d50da5c21ed7d8bdae0609b31a" prot="public" virt="non-virtual"><scope>ParseGen::GUI::SpecialNode</scope><name>id</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1ac73f5b712341ebf73d776c5a187abacf" prot="public" virt="non-virtual"><scope>ParseGen::GUI::SpecialNode</scope><name>inIsConnected</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a9684b44a42bf27601a49b653b78e5bef" prot="public" virt="non-virtual"><scope>ParseGen::GUI::SpecialNode</scope><name>innerPinColor</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1acda79953dd0a138d822a164891a92970" prot="public" virt="non-virtual"><scope>ParseGen::GUI::SpecialNode</scope><name>inPin</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1aac9ba772f5c55af64bb6c4f05f1aa4b5" prot="public" virt="non-virtual"><scope>ParseGen::GUI::SpecialNode</scope><name>name</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1aa5a9482b5c376e7ff39cea1e69ed80b8" prot="public" virt="non-virtual"><scope>ParseGen::GUI::SpecialNode</scope><name>nextLinks</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a2f5f94879213ef5fc9398507ae499d81" prot="public" virt="non-virtual"><scope>ParseGen::GUI::SpecialNode</scope><name>Node</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a1c51e5d36c9ca5329d576186842a6ea8" prot="public" virt="non-virtual"><scope>ParseGen::GUI::SpecialNode</scope><name>nodeId</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1ae472da092a73ddd4945fe2b0d5bb77dd" prot="public" virt="non-virtual"><scope>ParseGen::GUI::SpecialNode</scope><name>numInConnected</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a1b26c01f568b5fee67a90941df558d9f" prot="public" virt="non-virtual"><scope>ParseGen::GUI::SpecialNode</scope><name>numOutConnected</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a468856f0e11fdff554c8341c4b95db63" prot="public" virt="non-virtual"><scope>ParseGen::GUI::SpecialNode</scope><name>outIsConnected</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a3a21b6848f72a75fff702b4d2ce66211" prot="public" virt="non-virtual"><scope>ParseGen::GUI::SpecialNode</scope><name>outPin</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a498449a349cd5a7439132ee2f7f6af3e" prot="public" virt="non-virtual"><scope>ParseGen::GUI::SpecialNode</scope><name>pinColor</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a15a07e070beeb57842b4e1371c0d1794" prot="public" virt="virtual"><scope>ParseGen::GUI::SpecialNode</scope><name>RenderFrame</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_special_node_1aa32e369ba3746674d5305fa3ae03ce8a" prot="public" virt="non-virtual"><scope>ParseGen::GUI::SpecialNode</scope><name>SpecialNode</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a7d634dc35a1bae20b6e7e19c6e499abc" prot="public" virt="virtual"><scope>ParseGen::GUI::SpecialNode</scope><name>Update</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a8caf2191dc7636028a1467ca788cd9da" prot="public" virt="non-virtual"><scope>ParseGen::GUI::SpecialNode</scope><name>x</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a98f65ef47f86e054d47e1ea61bd0791e" prot="public" virt="non-virtual"><scope>ParseGen::GUI::SpecialNode</scope><name>y</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a10180aa1b8cfbbdba7eae52daa1ba834" prot="public" virt="virtual"><scope>ParseGen::GUI::SpecialNode</scope><name>~Node</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

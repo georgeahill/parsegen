@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator" kind="class" language="C++" prot="public">
+    <compoundname>ParseGen::Parser::BNF::BNFParserGenerator</compoundname>
+    <basecompoundref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator" prot="public" virt="non-virtual">ParseGen::Parser::IParserGenerator</basecompoundref>
+    <includes refid="bnf_2parsergenerator_8h" local="no">parsergenerator.h</includes>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator_1a8f65bc5bf79f1db569a5feaa6ee375dc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ParseGen::Parser::BNF::BNFParserGenerator::BNFParserGenerator</definition>
+        <argsstring>(std::string bnf)</argsstring>
+        <name>BNFParserGenerator</name>
+        <param>
+          <type>std::string</type>
+          <declname>bnf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/bnf/parsergenerator.h" line="12" column="9" bodyfile="/root/fyp/project/src/parsergenerator/bnf/parsergenerator.h" bodystart="12" bodyend="18"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1af62c9506f49ed5c8205082fb5d5bae98" compoundref="iparsergenerator_8h" startline="19">ParseGen::Parser::IParserGenerator::bnf</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1ab877ffe8a0b1428740320e470b9e0d79" compoundref="iparsergenerator_8h" startline="15">ParseGen::Parser::IParserGenerator::language</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1a59c1b456db3c6f2e2bb169a7123191c7" compoundref="iparsergenerator_8h" startline="16">ParseGen::Parser::IParserGenerator::templateSubDir</references>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator_1a14083a97fde4bb9047f2ecba935c6eda" compoundref="bnf_2parsergenerator_8h" startline="30" endline="33">Create</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator_1a0654fb90b03af600a3534213d981eddb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree" kindref="compound">Util::ParseTree</ref> *</type>
+        <definition>Util::ParseTree* ParseGen::Parser::BNF::BNFParserGenerator::parse</definition>
+        <argsstring>(std::string input)</argsstring>
+        <name>parse</name>
+        <reimplements refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1ae29f6b1213c0fc23bfe5fe049be4ddbc">parse</reimplements>
+        <param>
+          <type>std::string</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/bnf/parsergenerator.h" line="21" column="25" bodyfile="/root/fyp/project/src/parsergenerator/bnf/parsergenerator.h" bodystart="21" bodyend="24"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1af62c9506f49ed5c8205082fb5d5bae98" compoundref="iparsergenerator_8h" startline="19">ParseGen::Parser::IParserGenerator::bnf</references>
+        <references refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7afc1563cab35f3813cead3ebd55f40ea8" compoundref="symbol_8h" startline="12">ParseGen::Parser::Util::END</references>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator_1a5e568163936d4068de9c8b56c380ae9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string ParseGen::Parser::BNF::BNFParserGenerator::codeToString</definition>
+        <argsstring>()</argsstring>
+        <name>codeToString</name>
+        <reimplements refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1abb8807a107ad5b49c2d07aceab14273e">codeToString</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/bnf/parsergenerator.h" line="26" column="21" bodyfile="/root/fyp/project/src/parsergenerator/bnf/parsergenerator.h" bodystart="26" bodyend="28"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1af62c9506f49ed5c8205082fb5d5bae98" compoundref="iparsergenerator_8h" startline="19">ParseGen::Parser::IParserGenerator::bnf</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator_1a14083a97fde4bb9047f2ecba935c6eda" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator" kindref="compound">IParserGenerator</ref> *</type>
+        <definition>static IParserGenerator* ParseGen::Parser::BNF::BNFParserGenerator::Create</definition>
+        <argsstring>(std::string language, std::string bnf)</argsstring>
+        <name>Create</name>
+        <param>
+          <type>std::string</type>
+          <declname>language</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>bnf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/bnf/parsergenerator.h" line="30" column="33" bodyfile="/root/fyp/project/src/parsergenerator/bnf/parsergenerator.h" bodystart="30" bodyend="33"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1af62c9506f49ed5c8205082fb5d5bae98" compoundref="iparsergenerator_8h" startline="19">ParseGen::Parser::IParserGenerator::bnf</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator_1a8f65bc5bf79f1db569a5feaa6ee375dc" compoundref="bnf_2parsergenerator_8h" startline="12" endline="18">BNFParserGenerator</references>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1ac66b02ca8b2861ed3c53907114a856e2" compoundref="factory_8h" startline="18" endline="23">ParseGen::Parser::ParserGeneratorFactory::ParserGeneratorFactory</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ParseGen::Parser::IParserGenerator</label>
+        <link refid="class_parse_gen_1_1_parser_1_1_i_parser_generator"/>
+      </node>
+      <node id="1">
+        <label>ParseGen::Parser::BNF::BNFParserGenerator</label>
+        <link refid="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ParseGen::Parser::IParserGenerator</label>
+        <link refid="class_parse_gen_1_1_parser_1_1_i_parser_generator"/>
+      </node>
+      <node id="1">
+        <label>ParseGen::Parser::BNF::BNFParserGenerator</label>
+        <link refid="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/fyp/project/src/parsergenerator/bnf/parsergenerator.h" line="10" column="1" bodyfile="/root/fyp/project/src/parsergenerator/bnf/parsergenerator.h" bodystart="9" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1af62c9506f49ed5c8205082fb5d5bae98" prot="public" virt="non-virtual"><scope>ParseGen::Parser::BNF::BNFParserGenerator</scope><name>bnf</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator_1a8f65bc5bf79f1db569a5feaa6ee375dc" prot="private" virt="non-virtual"><scope>ParseGen::Parser::BNF::BNFParserGenerator</scope><name>BNFParserGenerator</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1acc41ef8afafb3c17ec86292fecfaeb8d" prot="public" virt="non-virtual"><scope>ParseGen::Parser::BNF::BNFParserGenerator</scope><name>codeToFile</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator_1a5e568163936d4068de9c8b56c380ae9b" prot="public" virt="virtual"><scope>ParseGen::Parser::BNF::BNFParserGenerator</scope><name>codeToString</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator_1a14083a97fde4bb9047f2ecba935c6eda" prot="public" virt="non-virtual"><scope>ParseGen::Parser::BNF::BNFParserGenerator</scope><name>Create</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1ab877ffe8a0b1428740320e470b9e0d79" prot="protected" virt="non-virtual"><scope>ParseGen::Parser::BNF::BNFParserGenerator</scope><name>language</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator_1a0654fb90b03af600a3534213d981eddb" prot="public" virt="virtual"><scope>ParseGen::Parser::BNF::BNFParserGenerator</scope><name>parse</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1a59c1b456db3c6f2e2bb169a7123191c7" prot="protected" virt="non-virtual"><scope>ParseGen::Parser::BNF::BNFParserGenerator</scope><name>templateSubDir</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_parse_gen_1_1_g_u_i_1_1_rule" kind="class" language="C++" prot="public">
+    <compoundname>ParseGen::GUI::Rule</compoundname>
+    <includes refid="rule_8h" local="no">rule.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_rule_1a43bd35c37bf696a00b96ec74fb8ed907" prot="public" static="no" mutable="no">
+        <type><ref refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal" kindref="compound">NonTerminal</ref> *</type>
+        <definition>NonTerminal* ParseGen::GUI::Rule::symbol</definition>
+        <argsstring></argsstring>
+        <name>symbol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/rule.h" line="18" column="21" bodyfile="/root/fyp/project/src/rule.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1ad39d96bb373c18ddf512bb0b69fb18bf" compoundref="rule_8cpp" startline="14" endline="17">getName</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a3df368635e918a51cb65c05a326a910d" compoundref="rule_8cpp" startline="19" endline="22">getNonTermId</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_rule_1a4a3739d72c4fc5815f71961c87575e0b" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="class_parse_gen_1_1_g_u_i_1_1_node_link" kindref="compound">NodeLink</ref> * &gt;</type>
+        <definition>std::vector&lt;NodeLink *&gt; ParseGen::GUI::Rule::m_Links</definition>
+        <argsstring></argsstring>
+        <name>m_Links</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/rule.h" line="20" column="21" bodyfile="/root/fyp/project/src/rule.h" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1af48aa5797c8078f171e7aff5056f8105" compoundref="rule_8cpp" startline="36" endline="266">RenderFrame</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a3eb6bd014f8c05a01c062c490ab5375a" compoundref="rule_8cpp" startline="290" endline="346">BNF</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_rule_1abeae266bd31c5413122f0fb01181df2f" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="class_parse_gen_1_1_g_u_i_1_1_node" kindref="compound">Node</ref> * &gt;</type>
+        <definition>std::vector&lt;Node *&gt; ParseGen::GUI::Rule::m_Nodes</definition>
+        <argsstring></argsstring>
+        <name>m_Nodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/rule.h" line="21" column="21" bodyfile="/root/fyp/project/src/rule.h" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1af48aa5797c8078f171e7aff5056f8105" compoundref="rule_8cpp" startline="36" endline="266">RenderFrame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_rule_1af7a4a8c6278f16f16ac4e3f919e12c79" prot="public" static="no" mutable="no">
+        <type>std::map&lt; std::string, int &gt;</type>
+        <definition>std::map&lt;std::string, int&gt; ParseGen::GUI::Rule::m_Terminals</definition>
+        <argsstring></argsstring>
+        <name>m_Terminals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/rule.h" line="22" column="18" bodyfile="/root/fyp/project/src/rule.h" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1af48aa5797c8078f171e7aff5056f8105" compoundref="rule_8cpp" startline="36" endline="266">RenderFrame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_rule_1a17a86feb26d9a93b553a82fafd8610b7" prot="public" static="no" mutable="no">
+        <type><ref refid="class_parse_gen_1_1_g_u_i_1_1_special_node" kindref="compound">SpecialNode</ref> *</type>
+        <definition>SpecialNode* ParseGen::GUI::Rule::m_StartNode</definition>
+        <argsstring></argsstring>
+        <name>m_StartNode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/rule.h" line="24" column="21" bodyfile="/root/fyp/project/src/rule.h" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a91f37f2b0bca35841d77b5c0bd6d7218" compoundref="rule_8cpp" startline="24" endline="34">Rule</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1af48aa5797c8078f171e7aff5056f8105" compoundref="rule_8cpp" startline="36" endline="266">RenderFrame</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a3eb6bd014f8c05a01c062c490ab5375a" compoundref="rule_8cpp" startline="290" endline="346">BNF</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_rule_1a2251addf4a1694e2547b1d894c785e73" prot="public" static="no" mutable="no">
+        <type><ref refid="class_parse_gen_1_1_g_u_i_1_1_special_node" kindref="compound">SpecialNode</ref> *</type>
+        <definition>SpecialNode * ParseGen::GUI::Rule::m_EndNode</definition>
+        <argsstring></argsstring>
+        <name>m_EndNode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/rule.h" line="24" column="33" bodyfile="/root/fyp/project/src/rule.h" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a91f37f2b0bca35841d77b5c0bd6d7218" compoundref="rule_8cpp" startline="24" endline="34">Rule</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1af48aa5797c8078f171e7aff5056f8105" compoundref="rule_8cpp" startline="36" endline="266">RenderFrame</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a3eb6bd014f8c05a01c062c490ab5375a" compoundref="rule_8cpp" startline="290" endline="346">BNF</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_rule_1a9ece98fe668e35b9bef66b4cfd7f381f" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint ParseGen::GUI::Rule::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/rule.h" line="36" column="14" bodyfile="/root/fyp/project/src/rule.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_rule_1aca41c6ff2c4fd6c81be977ebe51e14a3" prot="public" static="yes" mutable="no">
+        <type>uint</type>
+        <definition>uint ParseGen::GUI::Rule::currentId</definition>
+        <argsstring></argsstring>
+        <name>currentId</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/rule.h" line="37" column="28" bodyfile="/root/fyp/project/src/rule.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_rule_1ad05cb04f0b651efb8d787f97734af5df" prot="private" static="no" mutable="no">
+        <type>ed::EditorContext *</type>
+        <definition>ed::EditorContext* ParseGen::GUI::Rule::m_Context</definition>
+        <argsstring></argsstring>
+        <name>m_Context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/rule.h" line="40" column="27" bodyfile="/root/fyp/project/src/rule.h" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a91f37f2b0bca35841d77b5c0bd6d7218" compoundref="rule_8cpp" startline="24" endline="34">Rule</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1af48aa5797c8078f171e7aff5056f8105" compoundref="rule_8cpp" startline="36" endline="266">RenderFrame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_rule_1ae9f84c084d4ec5dfa349d948f584de4e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ParseGen::GUI::Rule::m_FirstFrame</definition>
+        <argsstring></argsstring>
+        <name>m_FirstFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/rule.h" line="41" column="14" bodyfile="/root/fyp/project/src/rule.h" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1af48aa5797c8078f171e7aff5056f8105" compoundref="rule_8cpp" startline="36" endline="266">RenderFrame</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_rule_1a91f37f2b0bca35841d77b5c0bd6d7218" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ParseGen::GUI::Rule::Rule</definition>
+        <argsstring>(NonTerminal *symbol)</argsstring>
+        <name>Rule</name>
+        <param>
+          <type><ref refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal" kindref="compound">NonTerminal</ref> *</type>
+          <declname>symbol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/rule.h" line="26" column="9" bodyfile="/root/fyp/project/src/rule.cpp" bodystart="24" bodyend="34"/>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_rule_1ad05cb04f0b651efb8d787f97734af5df" compoundref="rule_8h" startline="40">m_Context</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a2251addf4a1694e2547b1d894c785e73" compoundref="rule_8h" startline="24">m_EndNode</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a17a86feb26d9a93b553a82fafd8610b7" compoundref="rule_8h" startline="24">m_StartNode</references>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_rule_1ad39d96bb373c18ddf512bb0b69fb18bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ParseGen::GUI::Rule::getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/rule.h" line="29" column="21" bodyfile="/root/fyp/project/src/rule.cpp" bodystart="14" bodyend="17"/>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_1ad45d361e3f3b78586436769a408360a7" compoundref="nonterminal_8h" startline="12">ParseGen::GUI::NonTerminal::name</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a43bd35c37bf696a00b96ec74fb8ed907" compoundref="rule_8h" startline="18">symbol</references>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a3eb6bd014f8c05a01c062c490ab5375a" compoundref="rule_8cpp" startline="290" endline="346">BNF</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_rule_1a3df368635e918a51cb65c05a326a910d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint ParseGen::GUI::Rule::getNonTermId</definition>
+        <argsstring>()</argsstring>
+        <name>getNonTermId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/rule.h" line="31" column="14" bodyfile="/root/fyp/project/src/rule.cpp" bodystart="19" bodyend="22"/>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_1ad46400cc3dcde5e8dabb8ea6f6eb824c" compoundref="nonterminal_8h" startline="11">ParseGen::GUI::NonTerminal::id</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a43bd35c37bf696a00b96ec74fb8ed907" compoundref="rule_8h" startline="18">symbol</references>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_rule_1af48aa5797c8078f171e7aff5056f8105" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ParseGen::GUI::Rule::RenderFrame</definition>
+        <argsstring>()</argsstring>
+        <name>RenderFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/rule.h" line="33" column="21" bodyfile="/root/fyp/project/src/rule.cpp" bodystart="36" bodyend="266"/>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_1a9163841420591bf2df4c6ce3f5cf4b7c" compoundref="nonterminal_8h" startline="25">ParseGen::GUI::NonTerminal::allNonTerminals</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1ac73f5b712341ebf73d776c5a187abacf" compoundref="node_8h" startline="29">ParseGen::GUI::Node::inIsConnected</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1acda79953dd0a138d822a164891a92970" compoundref="node_8h" startline="26">ParseGen::GUI::Node::inPin</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_rule_1ad05cb04f0b651efb8d787f97734af5df" compoundref="rule_8h" startline="40">m_Context</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a2251addf4a1694e2547b1d894c785e73" compoundref="rule_8h" startline="24">m_EndNode</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_rule_1ae9f84c084d4ec5dfa349d948f584de4e" compoundref="rule_8h" startline="41">m_FirstFrame</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a4a3739d72c4fc5815f71961c87575e0b" compoundref="rule_8h" startline="20">m_Links</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_rule_1abeae266bd31c5413122f0fb01181df2f" compoundref="rule_8h" startline="21">m_Nodes</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a17a86feb26d9a93b553a82fafd8610b7" compoundref="rule_8h" startline="24">m_StartNode</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_rule_1af7a4a8c6278f16f16ac4e3f919e12c79" compoundref="rule_8h" startline="22">m_Terminals</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1a1c51e5d36c9ca5329d576186842a6ea8" compoundref="node_8h" startline="23">ParseGen::GUI::Node::nodeId</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1ae472da092a73ddd4945fe2b0d5bb77dd" compoundref="node_8h" startline="32">ParseGen::GUI::Node::numInConnected</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1a1b26c01f568b5fee67a90941df558d9f" compoundref="node_8h" startline="31">ParseGen::GUI::Node::numOutConnected</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1a468856f0e11fdff554c8341c4b95db63" compoundref="node_8h" startline="30">ParseGen::GUI::Node::outIsConnected</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1a3a21b6848f72a75fff702b4d2ce66211" compoundref="node_8h" startline="27">ParseGen::GUI::Node::outPin</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1a15a07e070beeb57842b4e1371c0d1794" compoundref="node_8cpp" startline="5" endline="39">ParseGen::GUI::Node::RenderFrame</references>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_rule_1a3eb6bd014f8c05a01c062c490ab5375a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ParseGen::GUI::Rule::BNF</definition>
+        <argsstring>()</argsstring>
+        <name>BNF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/rule.h" line="34" column="21" bodyfile="/root/fyp/project/src/rule.cpp" bodystart="290" bodyend="346"/>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_rule_1ad39d96bb373c18ddf512bb0b69fb18bf" compoundref="rule_8cpp" startline="14" endline="17">getName</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a2251addf4a1694e2547b1d894c785e73" compoundref="rule_8h" startline="24">m_EndNode</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a4a3739d72c4fc5815f71961c87575e0b" compoundref="rule_8h" startline="20">m_Links</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a17a86feb26d9a93b553a82fafd8610b7" compoundref="rule_8h" startline="24">m_StartNode</references>
+        <references refid="namespace_parse_gen_1_1_g_u_i_1a4549d14acce2df18784cefb0928fde5c" compoundref="rule_8cpp" startline="268" endline="288">ParseGen::GUI::printPaths</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ParseGen::GUI::Rule</label>
+        <link refid="class_parse_gen_1_1_g_u_i_1_1_rule"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+m_StartNode</edgelabel>
+          <edgelabel>+m_EndNode</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+symbol</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ParseGen::GUI::NonTerminal</label>
+        <link refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal"/>
+      </node>
+      <node id="2">
+        <label>ParseGen::GUI::SpecialNode</label>
+        <link refid="class_parse_gen_1_1_g_u_i_1_1_special_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ParseGen::GUI::Node</label>
+        <link refid="class_parse_gen_1_1_g_u_i_1_1_node"/>
+      </node>
+    </collaborationgraph>
+    <location file="/root/fyp/project/src/rule.h" line="16" column="1" bodyfile="/root/fyp/project/src/rule.h" bodystart="15" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a3eb6bd014f8c05a01c062c490ab5375a" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Rule</scope><name>BNF</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_rule_1aca41c6ff2c4fd6c81be977ebe51e14a3" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Rule</scope><name>currentId</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_rule_1ad39d96bb373c18ddf512bb0b69fb18bf" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Rule</scope><name>getName</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a3df368635e918a51cb65c05a326a910d" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Rule</scope><name>getNonTermId</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a9ece98fe668e35b9bef66b4cfd7f381f" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Rule</scope><name>id</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_rule_1ad05cb04f0b651efb8d787f97734af5df" prot="private" virt="non-virtual"><scope>ParseGen::GUI::Rule</scope><name>m_Context</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a2251addf4a1694e2547b1d894c785e73" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Rule</scope><name>m_EndNode</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_rule_1ae9f84c084d4ec5dfa349d948f584de4e" prot="private" virt="non-virtual"><scope>ParseGen::GUI::Rule</scope><name>m_FirstFrame</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a4a3739d72c4fc5815f71961c87575e0b" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Rule</scope><name>m_Links</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_rule_1abeae266bd31c5413122f0fb01181df2f" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Rule</scope><name>m_Nodes</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a17a86feb26d9a93b553a82fafd8610b7" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Rule</scope><name>m_StartNode</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_rule_1af7a4a8c6278f16f16ac4e3f919e12c79" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Rule</scope><name>m_Terminals</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_rule_1af48aa5797c8078f171e7aff5056f8105" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Rule</scope><name>RenderFrame</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a91f37f2b0bca35841d77b5c0bd6d7218" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Rule</scope><name>Rule</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_rule_1a43bd35c37bf696a00b96ec74fb8ed907" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Rule</scope><name>symbol</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

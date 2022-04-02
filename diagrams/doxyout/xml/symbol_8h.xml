@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="symbol_8h" kind="file" language="C++">
+    <compoundname>symbol.h</compoundname>
+    <includes local="no">string</includes>
+    <includedby refid="parsetree_8h" local="yes">/root/fyp/project/src/parsergenerator/util/parsetree.h</includedby>
+    <includedby refid="parseableinput_8h" local="yes">/root/fyp/project/src/parsergenerator/util/parseableinput.h</includedby>
+    <includedby refid="llpred_2parsergenerator_8h" local="yes">/root/fyp/project/src/parsergenerator/llpred/parsergenerator.h</includedby>
+    <includedby refid="parsertable_8h" local="yes">/root/fyp/project/src/parsergenerator/llpred/parsertable.h</includedby>
+    <includedby refid="bnf_2parsergenerator_8h" local="yes">/root/fyp/project/src/parsergenerator/bnf/parsergenerator.h</includedby>
+    <includedby refid="symbol_8cpp" local="yes">/root/fyp/project/src/parsergenerator/util/symbol.cpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>string</label>
+      </node>
+      <node id="1">
+        <label>/root/fyp/project/src/parsergenerator/util/symbol.h</label>
+        <link refid="symbol_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/root/fyp/project/src/parsergenerator/iparsergenerator.h</label>
+        <link refid="iparsergenerator_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>/root/fyp/project/src/parsergenerator/llpred/parsergenerator.h</label>
+        <link refid="llpred_2parsergenerator_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>/root/fyp/project/src/parsergenerator/llpred/parsertable.h</label>
+        <link refid="parsertable_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/root/fyp/project/src/parsergenerator/util/parsetree.h</label>
+        <link refid="parsetree_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>/root/fyp/project/src/parsetreerenderer.cpp</label>
+        <link refid="parsetreerenderer_8cpp"/>
+      </node>
+      <node id="7">
+        <label>/root/fyp/project/src/parsergenerator/factory.h</label>
+        <link refid="factory_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>/root/fyp/project/src/parsergenerator/util/parseableinput.h</label>
+        <link refid="parseableinput_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/root/fyp/project/src/parsetreerenderer.h</label>
+        <link refid="parsetreerenderer_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/root/fyp/project/src/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="6">
+        <label>/root/fyp/project/src/maingui.cpp</label>
+        <link refid="maingui_8cpp"/>
+      </node>
+      <node id="9">
+        <label>/root/fyp/project/src/parsergenerator/lexyacc/parsergenerator.h</label>
+        <link refid="lexyacc_2parsergenerator_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>/root/fyp/project/src/parsergenerator/bnf/parsergenerator.h</label>
+        <link refid="bnf_2parsergenerator_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/root/fyp/project/src/maingui.h</label>
+        <link refid="maingui_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/root/fyp/project/src/parsergenerator/util/symbol.h</label>
+        <link refid="symbol_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>/root/fyp/project/src/parsergenerator/util/symbol.cpp</label>
+        <link refid="symbol_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" prot="public">ParseGen::Parser::Util::Symbol</innerclass>
+    <innernamespace refid="namespace_parse_gen">ParseGen</innernamespace>
+    <innernamespace refid="namespace_parse_gen_1_1_parser">ParseGen::Parser</innernamespace>
+    <innernamespace refid="namespace_parse_gen_1_1_parser_1_1_util">ParseGen::Parser::Util</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_parse_gen_1_1_parser_1_1_util" kindref="compound">ParseGen::Parser::Util</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7" kindref="member">SymbolType</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9" refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7a6ddd69c18850e3262d706184f67dd466" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7a6ddd69c18850e3262d706184f67dd466" kindref="member">TERMINAL</ref>,</highlight></codeline>
+<codeline lineno="10" refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7a647d9601fc5b75ce9136189fc43c0ef9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7a647d9601fc5b75ce9136189fc43c0ef9" kindref="member">NON_TERMINAL</ref>,</highlight></codeline>
+<codeline lineno="11" refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7ad3a1a39cf25ba7d28375aae4352c6cf6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7ad3a1a39cf25ba7d28375aae4352c6cf6" kindref="member">EMPTY</ref>,</highlight></codeline>
+<codeline lineno="12" refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7afc1563cab35f3813cead3ebd55f40ea8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7afc1563cab35f3813cead3ebd55f40ea8" kindref="member">END</ref>,</highlight></codeline>
+<codeline lineno="13" refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7a55efe26371feb8143d658e05fd65e860" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7a55efe26371feb8143d658e05fd65e860" kindref="member">SYNCH</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kindref="compound">Symbol</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19" refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a270a19c234614738ed31233b109e3d97" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a270a19c234614738ed31233b109e3d97" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a5d0abc64d8af94a6ddd33635efe8cbe7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a5d0abc64d8af94a6ddd33635efe8cbe7" kindref="member">Symbol</ref>(std::string<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a270a19c234614738ed31233b109e3d97" kindref="member">name</ref>,<sp/><ref refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7" kindref="member">SymbolType</ref><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a05f3ad241a05034d2931464130589270" kindref="member">type</ref>)<sp/>:<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a270a19c234614738ed31233b109e3d97" kindref="member">name</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a270a19c234614738ed31233b109e3d97" kindref="member">name</ref>),<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a05f3ad241a05034d2931464130589270" kindref="member">type</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a05f3ad241a05034d2931464130589270" kindref="member">type</ref>){};</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1abee82169dd33dd46403dfab6406b91bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1abee82169dd33dd46403dfab6406b91bf" kindref="member">isEmpty</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="24"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a05f3ad241a05034d2931464130589270" kindref="member">type</ref><sp/>==<sp/><ref refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7ad3a1a39cf25ba7d28375aae4352c6cf6" kindref="member">EMPTY</ref>);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a7c2eaae0963a1a1e7b2ffe9e87fc0912" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a7c2eaae0963a1a1e7b2ffe9e87fc0912" kindref="member">isNonTerminal</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="29"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a05f3ad241a05034d2931464130589270" kindref="member">type</ref><sp/>==<sp/><ref refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7a647d9601fc5b75ce9136189fc43c0ef9" kindref="member">NON_TERMINAL</ref>);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a49004cbef803410ccc3a616a8ea6e628" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a49004cbef803410ccc3a616a8ea6e628" kindref="member">isTerminal</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="34"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a05f3ad241a05034d2931464130589270" kindref="member">type</ref><sp/>==<sp/><ref refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7a6ddd69c18850e3262d706184f67dd466" kindref="member">TERMINAL</ref><sp/>||<sp/>this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a05f3ad241a05034d2931464130589270" kindref="member">type</ref><sp/>==<sp/><ref refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7ad3a1a39cf25ba7d28375aae4352c6cf6" kindref="member">EMPTY</ref>);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a82073c69377df2a10fd7d4350727ab73" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a82073c69377df2a10fd7d4350727ab73" kindref="member">isEnd</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="39"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a05f3ad241a05034d2931464130589270" kindref="member">type</ref><sp/>==<sp/><ref refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7afc1563cab35f3813cead3ebd55f40ea8" kindref="member">END</ref>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a06360919e7f99bb129e361991c9db77a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7" kindref="member">SymbolType</ref><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a06360919e7f99bb129e361991c9db77a" kindref="member">getType</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="44"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a05f3ad241a05034d2931464130589270" kindref="member">type</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a7288464d171a3395d63d57596762e4e0" kindref="member">operator&lt;</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kindref="compound">Symbol</ref><sp/>&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kindref="compound">Symbol</ref><sp/>&amp;);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1ae9f042a84687e313698528c7f5a63e64" kindref="member">operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kindref="compound">Symbol</ref><sp/>&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kindref="compound">Symbol</ref><sp/>&amp;);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a0bafeb0cd8533742a4e0fff06641658a" kindref="member">operator!=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kindref="compound">Symbol</ref><sp/>&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kindref="compound">Symbol</ref><sp/>&amp;);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="53" refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a05f3ad241a05034d2931464130589270" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7" kindref="member">SymbolType</ref><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a05f3ad241a05034d2931464130589270" kindref="member">type</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/root/fyp/project/src/parsergenerator/util/symbol.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<map id="ParseGen::GUI::MainEditor::ruleTesterWindow" name="ParseGen::GUI::MainEditor::ruleTesterWindow">
+<area shape="rect" id="node1" title=" " alt="" coords="5,188,199,229"/>
+<area shape="rect" id="node2" href="$class_parse_gen_1_1_parser_1_1_i_parser_generator.html#acc41ef8afafb3c17ec86292fecfaeb8d" title=" " alt="" coords="277,5,459,47"/>
+<area shape="rect" id="node4" href="$class_parse_gen_1_1_g_u_i_1_1_main_editor.html#a0dd79cef141de2c8a6a08586f36d42a9" title=" " alt="" coords="271,71,465,112"/>
+<area shape="rect" id="node6" href="$class_parse_gen_1_1_parser_1_1_parser_generator_factory.html#aa6b235e2945524e7373a03b9b209fffd" title=" " alt="" coords="771,256,949,297"/>
+<area shape="rect" id="node7" href="$class_parse_gen_1_1_parser_1_1_parser_generator_factory.html#a36873b6eabc46913622d6a5dfdceffa1" title=" " alt="" coords="247,188,489,229"/>
+<area shape="rect" id="node8" href="$class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree.html#ace551eaad1025e132c23024992ed5bcf" title=" " alt="" coords="287,253,449,295"/>
+<area shape="rect" id="node10" href="$class_parse_gen_1_1_parser_1_1_i_parser_generator.html#ae29f6b1213c0fc23bfe5fe049be4ddbc" title=" " alt="" coords="277,319,459,360"/>
+<area shape="rect" id="node11" href="$class_parse_gen_1_1_g_u_i_1_1_main_editor.html#a375e7fc2018957b0d42313a9d87bb952" title=" " alt="" coords="271,384,465,425"/>
+<area shape="rect" id="node3" href="$class_parse_gen_1_1_parser_1_1_i_parser_generator.html#abb8807a107ad5b49c2d07aceab14273e" title=" " alt="" coords="539,5,721,47"/>
+<area shape="rect" id="node5" href="$class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer.html#ac6962ed86384110616e7dad0f548ba84" title=" " alt="" coords="537,71,723,112"/>
+<area shape="rect" id="node9" href="$class_parse_gen_1_1_parser_1_1_util_1_1_symbol.html#a82073c69377df2a10fd7d4350727ab73" title=" " alt="" coords="549,253,711,295"/>
+<area shape="rect" id="node12" href="$class_parse_gen_1_1_parser_1_1_parser_generator_factory.html#afa1ed5ce57448b5f8e854e303c171889" title=" " alt="" coords="538,351,722,392"/>
+</map>

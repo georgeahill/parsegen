@@ -1,0 +1,410 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_parse_gen_1_1_g_u_i_1_1_node" kind="class" language="C++" prot="public">
+    <compoundname>ParseGen::GUI::Node</compoundname>
+    <derivedcompoundref refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_node" prot="public" virt="non-virtual">ParseGen::GUI::NonTerminalNode</derivedcompoundref>
+    <derivedcompoundref refid="class_parse_gen_1_1_g_u_i_1_1_special_node" prot="public" virt="non-virtual">ParseGen::GUI::SpecialNode</derivedcompoundref>
+    <derivedcompoundref refid="class_parse_gen_1_1_g_u_i_1_1_terminal_node" prot="public" virt="non-virtual">ParseGen::GUI::TerminalNode</derivedcompoundref>
+    <includes refid="node_8h" local="no">node.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_node_1a3be486d50da5c21ed7d8bdae0609b31a" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint ParseGen::GUI::Node::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/node.h" line="21" column="14" bodyfile="/root/fyp/project/src/node.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_node_1a1c51e5d36c9ca5329d576186842a6ea8" prot="public" static="no" mutable="no">
+        <type>ed::NodeId</type>
+        <definition>ed::NodeId ParseGen::GUI::Node::nodeId</definition>
+        <argsstring></argsstring>
+        <name>nodeId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/node.h" line="23" column="20" bodyfile="/root/fyp/project/src/node.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_node_1a15a07e070beeb57842b4e1371c0d1794" compoundref="node_8cpp" startline="5" endline="39">RenderFrame</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_node_1a2f5f94879213ef5fc9398507ae499d81" compoundref="node_8h" startline="51" endline="57">Node</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1af48aa5797c8078f171e7aff5056f8105" compoundref="rule_8cpp" startline="36" endline="266">ParseGen::GUI::Rule::RenderFrame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_node_1acda79953dd0a138d822a164891a92970" prot="public" static="no" mutable="no">
+        <type>ed::PinId</type>
+        <definition>ed::PinId ParseGen::GUI::Node::inPin</definition>
+        <argsstring></argsstring>
+        <name>inPin</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/node.h" line="26" column="19" bodyfile="/root/fyp/project/src/node.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_node_1a15a07e070beeb57842b4e1371c0d1794" compoundref="node_8cpp" startline="5" endline="39">RenderFrame</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_node_1a2f5f94879213ef5fc9398507ae499d81" compoundref="node_8h" startline="51" endline="57">Node</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1af48aa5797c8078f171e7aff5056f8105" compoundref="rule_8cpp" startline="36" endline="266">ParseGen::GUI::Rule::RenderFrame</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_special_node_1aa32e369ba3746674d5305fa3ae03ce8a" compoundref="specialnode_8h" startline="9" endline="25">ParseGen::GUI::SpecialNode::SpecialNode</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_node_1a3a21b6848f72a75fff702b4d2ce66211" prot="public" static="no" mutable="no">
+        <type>ed::PinId</type>
+        <definition>ed::PinId ParseGen::GUI::Node::outPin</definition>
+        <argsstring></argsstring>
+        <name>outPin</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/node.h" line="27" column="19" bodyfile="/root/fyp/project/src/node.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_node_1a15a07e070beeb57842b4e1371c0d1794" compoundref="node_8cpp" startline="5" endline="39">RenderFrame</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_node_1a2f5f94879213ef5fc9398507ae499d81" compoundref="node_8h" startline="51" endline="57">Node</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1af48aa5797c8078f171e7aff5056f8105" compoundref="rule_8cpp" startline="36" endline="266">ParseGen::GUI::Rule::RenderFrame</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_special_node_1aa32e369ba3746674d5305fa3ae03ce8a" compoundref="specialnode_8h" startline="9" endline="25">ParseGen::GUI::SpecialNode::SpecialNode</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_node_1ac73f5b712341ebf73d776c5a187abacf" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ParseGen::GUI::Node::inIsConnected</definition>
+        <argsstring></argsstring>
+        <name>inIsConnected</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/node.h" line="29" column="14" bodyfile="/root/fyp/project/src/node.h" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_node_1a15a07e070beeb57842b4e1371c0d1794" compoundref="node_8cpp" startline="5" endline="39">RenderFrame</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1af48aa5797c8078f171e7aff5056f8105" compoundref="rule_8cpp" startline="36" endline="266">ParseGen::GUI::Rule::RenderFrame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_node_1a468856f0e11fdff554c8341c4b95db63" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ParseGen::GUI::Node::outIsConnected</definition>
+        <argsstring></argsstring>
+        <name>outIsConnected</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/node.h" line="30" column="14" bodyfile="/root/fyp/project/src/node.h" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_node_1a15a07e070beeb57842b4e1371c0d1794" compoundref="node_8cpp" startline="5" endline="39">RenderFrame</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1af48aa5797c8078f171e7aff5056f8105" compoundref="rule_8cpp" startline="36" endline="266">ParseGen::GUI::Rule::RenderFrame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_node_1a1b26c01f568b5fee67a90941df558d9f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ParseGen::GUI::Node::numOutConnected</definition>
+        <argsstring></argsstring>
+        <name>numOutConnected</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/node.h" line="31" column="13" bodyfile="/root/fyp/project/src/node.h" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1af48aa5797c8078f171e7aff5056f8105" compoundref="rule_8cpp" startline="36" endline="266">ParseGen::GUI::Rule::RenderFrame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_node_1ae472da092a73ddd4945fe2b0d5bb77dd" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ParseGen::GUI::Node::numInConnected</definition>
+        <argsstring></argsstring>
+        <name>numInConnected</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/node.h" line="32" column="13" bodyfile="/root/fyp/project/src/node.h" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1af48aa5797c8078f171e7aff5056f8105" compoundref="rule_8cpp" startline="36" endline="266">ParseGen::GUI::Rule::RenderFrame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_node_1a8caf2191dc7636028a1467ca788cd9da" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ParseGen::GUI::Node::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/node.h" line="34" column="13" bodyfile="/root/fyp/project/src/node.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_node_1a98f65ef47f86e054d47e1ea61bd0791e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ParseGen::GUI::Node::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/node.h" line="35" column="13" bodyfile="/root/fyp/project/src/node.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_node_1aac9ba772f5c55af64bb6c4f05f1aa4b5" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ParseGen::GUI::Node::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/node.h" line="37" column="21" bodyfile="/root/fyp/project/src/node.h" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_node_1a15a07e070beeb57842b4e1371c0d1794" compoundref="node_8cpp" startline="5" endline="39">RenderFrame</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_node_1a6bf16705e6b2fc9e84d3f474c76fbf64" compoundref="nonterminalnode_8h" startline="21" endline="24">ParseGen::GUI::NonTerminalNode::Update</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_special_node_1aa32e369ba3746674d5305fa3ae03ce8a" compoundref="specialnode_8h" startline="9" endline="25">ParseGen::GUI::SpecialNode::SpecialNode</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_terminal_node_1af90363c68bda25e5ae190294b977043d" compoundref="terminalnode_8h" startline="9" endline="15">ParseGen::GUI::TerminalNode::TerminalNode</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_node_1aa5a9482b5c376e7ff39cea1e69ed80b8" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="class_parse_gen_1_1_g_u_i_1_1_node_link" kindref="compound">NodeLink</ref> * &gt;</type>
+        <definition>std::vector&lt;NodeLink *&gt; ParseGen::GUI::Node::nextLinks</definition>
+        <argsstring></argsstring>
+        <name>nextLinks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/node.h" line="39" column="21" bodyfile="/root/fyp/project/src/node.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_node_1a1fa5b4d3b86ee42a3851b8ef96213b14" prot="public" static="no" mutable="no">
+        <type><ref refid="drawing_8h_1ab83da487393d464a63f8b104776e1fdd" kindref="member">IconType</ref></type>
+        <definition>IconType ParseGen::GUI::Node::iconType</definition>
+        <argsstring></argsstring>
+        <name>iconType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/node.h" line="45" column="18" bodyfile="/root/fyp/project/src/node.h" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_node_1a15a07e070beeb57842b4e1371c0d1794" compoundref="node_8cpp" startline="5" endline="39">RenderFrame</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_node_1a05192628f15517e8f3bd2a69bc942d30" compoundref="nonterminalnode_8h" startline="14" endline="19">ParseGen::GUI::NonTerminalNode::NonTerminalNode</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_special_node_1aa32e369ba3746674d5305fa3ae03ce8a" compoundref="specialnode_8h" startline="9" endline="25">ParseGen::GUI::SpecialNode::SpecialNode</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_terminal_node_1af90363c68bda25e5ae190294b977043d" compoundref="terminalnode_8h" startline="9" endline="15">ParseGen::GUI::TerminalNode::TerminalNode</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_node_1a498449a349cd5a7439132ee2f7f6af3e" prot="public" static="no" mutable="no">
+        <type>ImColor</type>
+        <definition>ImColor ParseGen::GUI::Node::pinColor</definition>
+        <argsstring></argsstring>
+        <name>pinColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/node.h" line="46" column="17" bodyfile="/root/fyp/project/src/node.h" bodystart="46" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_node_1a15a07e070beeb57842b4e1371c0d1794" compoundref="node_8cpp" startline="5" endline="39">RenderFrame</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_node_1a05192628f15517e8f3bd2a69bc942d30" compoundref="nonterminalnode_8h" startline="14" endline="19">ParseGen::GUI::NonTerminalNode::NonTerminalNode</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_special_node_1aa32e369ba3746674d5305fa3ae03ce8a" compoundref="specialnode_8h" startline="9" endline="25">ParseGen::GUI::SpecialNode::SpecialNode</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_terminal_node_1af90363c68bda25e5ae190294b977043d" compoundref="terminalnode_8h" startline="9" endline="15">ParseGen::GUI::TerminalNode::TerminalNode</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_node_1a9684b44a42bf27601a49b653b78e5bef" prot="public" static="no" mutable="no">
+        <type>ImColor</type>
+        <definition>ImColor ParseGen::GUI::Node::innerPinColor</definition>
+        <argsstring></argsstring>
+        <name>innerPinColor</name>
+        <initializer>= ImColor(ImVec4(0, 0, 0, 0))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/node.h" line="47" column="17" bodyfile="/root/fyp/project/src/node.h" bodystart="47" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_node_1a15a07e070beeb57842b4e1371c0d1794" compoundref="node_8cpp" startline="5" endline="39">RenderFrame</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_node_1a05192628f15517e8f3bd2a69bc942d30" compoundref="nonterminalnode_8h" startline="14" endline="19">ParseGen::GUI::NonTerminalNode::NonTerminalNode</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_special_node_1aa32e369ba3746674d5305fa3ae03ce8a" compoundref="specialnode_8h" startline="9" endline="25">ParseGen::GUI::SpecialNode::SpecialNode</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_terminal_node_1af90363c68bda25e5ae190294b977043d" compoundref="terminalnode_8h" startline="9" endline="15">ParseGen::GUI::TerminalNode::TerminalNode</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_node_1a778687b1df3ec68367bad6ded215773b" prot="public" static="yes" mutable="no">
+        <type>uint</type>
+        <definition>uint ParseGen::GUI::Node::currentId</definition>
+        <argsstring></argsstring>
+        <name>currentId</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/node.h" line="41" column="28" bodyfile="/root/fyp/project/src/node.h" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_node_1a2f5f94879213ef5fc9398507ae499d81" compoundref="node_8h" startline="51" endline="57">Node</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_node_1a828fed066d03764b9b3da75b7698c7df" prot="public" static="yes" mutable="no">
+        <type>const ImVec2</type>
+        <definition>const ImVec2 ParseGen::GUI::Node::IconSize</definition>
+        <argsstring></argsstring>
+        <name>IconSize</name>
+        <initializer>= ImVec2(24, 24)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/node.h" line="42" column="36" bodyfile="/root/fyp/project/src/node.h" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_node_1a15a07e070beeb57842b4e1371c0d1794" compoundref="node_8cpp" startline="5" endline="39">RenderFrame</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_node_1a2f5f94879213ef5fc9398507ae499d81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ParseGen::GUI::Node::Node</definition>
+        <argsstring>()</argsstring>
+        <name>Node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/node.h" line="51" column="9" bodyfile="/root/fyp/project/src/node.h" bodystart="51" bodyend="57"/>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1a778687b1df3ec68367bad6ded215773b" compoundref="node_8h" startline="41">currentId</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1acda79953dd0a138d822a164891a92970" compoundref="node_8h" startline="26">inPin</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1a1c51e5d36c9ca5329d576186842a6ea8" compoundref="node_8h" startline="23">nodeId</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1a3a21b6848f72a75fff702b4d2ce66211" compoundref="node_8h" startline="27">outPin</references>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_node_1a7d634dc35a1bae20b6e7e19c6e499abc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ParseGen::GUI::Node::Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <reimplementedby refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_node_1a6bf16705e6b2fc9e84d3f474c76fbf64">Update</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/node.h" line="60" column="22" bodyfile="/root/fyp/project/src/node.h" bodystart="60" bodyend="60"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_node_1a15a07e070beeb57842b4e1371c0d1794" compoundref="node_8cpp" startline="5" endline="39">RenderFrame</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_node_1a15a07e070beeb57842b4e1371c0d1794" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ParseGen::GUI::Node::RenderFrame</definition>
+        <argsstring>()</argsstring>
+        <name>RenderFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/node.h" line="62" column="22" bodyfile="/root/fyp/project/src/node.cpp" bodystart="5" bodyend="39"/>
+        <references refid="drawing_8cpp_1a0733fed66e38bebb3e8ee4d86b3515d5" compoundref="drawing_8cpp" startline="4" endline="14">Icon</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1a828fed066d03764b9b3da75b7698c7df" compoundref="node_8h" startline="42">IconSize</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1a1fa5b4d3b86ee42a3851b8ef96213b14" compoundref="node_8h" startline="45">iconType</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1ac73f5b712341ebf73d776c5a187abacf" compoundref="node_8h" startline="29">inIsConnected</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1a9684b44a42bf27601a49b653b78e5bef" compoundref="node_8h" startline="47">innerPinColor</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1acda79953dd0a138d822a164891a92970" compoundref="node_8h" startline="26">inPin</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1aac9ba772f5c55af64bb6c4f05f1aa4b5" compoundref="node_8h" startline="37">name</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1a1c51e5d36c9ca5329d576186842a6ea8" compoundref="node_8h" startline="23">nodeId</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1a468856f0e11fdff554c8341c4b95db63" compoundref="node_8h" startline="30">outIsConnected</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1a3a21b6848f72a75fff702b4d2ce66211" compoundref="node_8h" startline="27">outPin</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1a498449a349cd5a7439132ee2f7f6af3e" compoundref="node_8h" startline="46">pinColor</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_1a7d634dc35a1bae20b6e7e19c6e499abc" compoundref="node_8h" startline="60" endline="60">Update</references>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_rule_1af48aa5797c8078f171e7aff5056f8105" compoundref="rule_8cpp" startline="36" endline="266">ParseGen::GUI::Rule::RenderFrame</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_node_1a10180aa1b8cfbbdba7eae52daa1ba834" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ParseGen::GUI::Node::~Node</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/node.h" line="64" column="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ParseGen::GUI::NonTerminalNode</label>
+        <link refid="class_parse_gen_1_1_g_u_i_1_1_non_terminal_node"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ParseGen::GUI::TerminalNode</label>
+        <link refid="class_parse_gen_1_1_g_u_i_1_1_terminal_node"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ParseGen::GUI::SpecialNode</label>
+        <link refid="class_parse_gen_1_1_g_u_i_1_1_special_node"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ParseGen::GUI::Node</label>
+        <link refid="class_parse_gen_1_1_g_u_i_1_1_node"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ParseGen::GUI::Node</label>
+        <link refid="class_parse_gen_1_1_g_u_i_1_1_node"/>
+      </node>
+    </collaborationgraph>
+    <location file="/root/fyp/project/src/node.h" line="19" column="1" bodyfile="/root/fyp/project/src/node.h" bodystart="18" bodyend="65"/>
+    <listofallmembers>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a778687b1df3ec68367bad6ded215773b" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Node</scope><name>currentId</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a828fed066d03764b9b3da75b7698c7df" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Node</scope><name>IconSize</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a1fa5b4d3b86ee42a3851b8ef96213b14" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Node</scope><name>iconType</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a3be486d50da5c21ed7d8bdae0609b31a" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Node</scope><name>id</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1ac73f5b712341ebf73d776c5a187abacf" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Node</scope><name>inIsConnected</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a9684b44a42bf27601a49b653b78e5bef" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Node</scope><name>innerPinColor</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1acda79953dd0a138d822a164891a92970" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Node</scope><name>inPin</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1aac9ba772f5c55af64bb6c4f05f1aa4b5" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Node</scope><name>name</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1aa5a9482b5c376e7ff39cea1e69ed80b8" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Node</scope><name>nextLinks</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a2f5f94879213ef5fc9398507ae499d81" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Node</scope><name>Node</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a1c51e5d36c9ca5329d576186842a6ea8" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Node</scope><name>nodeId</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1ae472da092a73ddd4945fe2b0d5bb77dd" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Node</scope><name>numInConnected</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a1b26c01f568b5fee67a90941df558d9f" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Node</scope><name>numOutConnected</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a468856f0e11fdff554c8341c4b95db63" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Node</scope><name>outIsConnected</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a3a21b6848f72a75fff702b4d2ce66211" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Node</scope><name>outPin</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a498449a349cd5a7439132ee2f7f6af3e" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Node</scope><name>pinColor</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a15a07e070beeb57842b4e1371c0d1794" prot="public" virt="virtual"><scope>ParseGen::GUI::Node</scope><name>RenderFrame</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a7d634dc35a1bae20b6e7e19c6e499abc" prot="public" virt="virtual"><scope>ParseGen::GUI::Node</scope><name>Update</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a8caf2191dc7636028a1467ca788cd9da" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Node</scope><name>x</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a98f65ef47f86e054d47e1ea61bd0791e" prot="public" virt="non-virtual"><scope>ParseGen::GUI::Node</scope><name>y</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_1a10180aa1b8cfbbdba7eae52daa1ba834" prot="public" virt="virtual"><scope>ParseGen::GUI::Node</scope><name>~Node</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

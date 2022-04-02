@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_70c47e1517162d591d36a76d1c0ac260" kind="dir">
+    <compoundname>/root/fyp/project/src/parsergenerator/bnf</compoundname>
+    <innerfile refid="bnf_2parsergenerator_8h">parsergenerator.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/fyp/project/src/parsergenerator/bnf/"/>
+  </compounddef>
+</doxygen>

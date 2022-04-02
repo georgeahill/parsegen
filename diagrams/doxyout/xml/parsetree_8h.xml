@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="parsetree_8h" kind="file" language="C++">
+    <compoundname>parsetree.h</compoundname>
+    <includes local="no">vector</includes>
+    <includes local="no">initializer_list</includes>
+    <includes local="no">iostream</includes>
+    <includes refid="symbol_8h" local="yes">symbol.h</includes>
+    <includedby refid="iparsergenerator_8h" local="yes">/root/fyp/project/src/parsergenerator/iparsergenerator.h</includedby>
+    <includedby refid="llpred_2parsergenerator_8h" local="yes">/root/fyp/project/src/parsergenerator/llpred/parsergenerator.h</includedby>
+    <includedby refid="bnf_2parsergenerator_8h" local="yes">/root/fyp/project/src/parsergenerator/bnf/parsergenerator.h</includedby>
+    <includedby refid="maingui_8cpp" local="yes">/root/fyp/project/src/maingui.cpp</includedby>
+    <includedby refid="parsetreerenderer_8h" local="yes">/root/fyp/project/src/parsetreerenderer.h</includedby>
+    <incdepgraph>
+      <node id="6">
+        <label>string</label>
+      </node>
+      <node id="1">
+        <label>/root/fyp/project/src/parsergenerator/util/parsetree.h</label>
+        <link refid="parsetree_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>vector</label>
+      </node>
+      <node id="4">
+        <label>iostream</label>
+      </node>
+      <node id="5">
+        <label>symbol.h</label>
+        <link refid="symbol_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>initializer_list</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>/root/fyp/project/src/parsergenerator/iparsergenerator.h</label>
+        <link refid="iparsergenerator_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>/root/fyp/project/src/parsergenerator/llpred/parsergenerator.h</label>
+        <link refid="llpred_2parsergenerator_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/root/fyp/project/src/parsergenerator/util/parsetree.h</label>
+        <link refid="parsetree_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/root/fyp/project/src/parsetreerenderer.cpp</label>
+        <link refid="parsetreerenderer_8cpp"/>
+      </node>
+      <node id="6">
+        <label>/root/fyp/project/src/parsergenerator/factory.h</label>
+        <link refid="factory_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>/root/fyp/project/src/parsetreerenderer.h</label>
+        <link refid="parsetreerenderer_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/root/fyp/project/src/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="5">
+        <label>/root/fyp/project/src/maingui.cpp</label>
+        <link refid="maingui_8cpp"/>
+      </node>
+      <node id="8">
+        <label>/root/fyp/project/src/parsergenerator/lexyacc/parsergenerator.h</label>
+        <link refid="lexyacc_2parsergenerator_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/root/fyp/project/src/parsergenerator/bnf/parsergenerator.h</label>
+        <link refid="bnf_2parsergenerator_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/root/fyp/project/src/maingui.h</label>
+        <link refid="maingui_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" prot="public">ParseGen::Parser::Util::Node</innerclass>
+    <innerclass refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree" prot="public">ParseGen::Parser::Util::ParseTree</innerclass>
+    <innernamespace refid="namespace_parse_gen">ParseGen</innernamespace>
+    <innernamespace refid="namespace_parse_gen_1_1_parser">ParseGen::Parser</innernamespace>
+    <innernamespace refid="namespace_parse_gen_1_1_parser_1_1_util">ParseGen::Parser::Util</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;initializer_list&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="symbol_8h" kindref="compound">symbol.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>FIXME</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_parse_gen_1_1_parser_1_1_util" kindref="compound">ParseGen::Parser::Util</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Node;</highlight></codeline>
+<codeline lineno="14" refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="17" refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a1a3c8212b87ec8be202a8baee2edc523" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a1a3c8212b87ec8be202a8baee2edc523" kindref="member">Node</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kindref="compound">Symbol</ref><sp/>val)<sp/>:<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0649b8bff8b5f5efafde371107b77d60" kindref="member">value</ref>(val),<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ad5bf7d12effae629dca19cc7893d4891" kindref="member">parent</ref>(nullptr)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ab5fbb9f4625738938e12eb2f213e56e8" kindref="member">ancestor</ref><sp/>=<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f3c4baa0368d4969478428a78b35638" kindref="member">y</ref><sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="22" refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1aa69a9996d7dc068a9061339170ea247d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1aa69a9996d7dc068a9061339170ea247d" kindref="member">Node</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kindref="compound">Symbol</ref><sp/>val,<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref><sp/>*<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ad5bf7d12effae629dca19cc7893d4891" kindref="member">parent</ref>)<sp/>:<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0649b8bff8b5f5efafde371107b77d60" kindref="member">value</ref>(val),<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ad5bf7d12effae629dca19cc7893d4891" kindref="member">parent</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ad5bf7d12effae629dca19cc7893d4891" kindref="member">parent</ref>)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ab5fbb9f4625738938e12eb2f213e56e8" kindref="member">ancestor</ref><sp/>=<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>curPar<sp/>=<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(curPar<sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f3c4baa0368d4969478428a78b35638" kindref="member">y</ref>++;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>curPar<sp/>=<sp/>curPar-&gt;parent;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a13b947f91d2eef13f6584d39d14f4d4f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a13b947f91d2eef13f6584d39d14f4d4f" kindref="member">addChildren</ref>(std::initializer_list&lt;Symbol&gt;<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" kindref="member">children</ref>)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>symbol<sp/>:<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" kindref="member">children</ref>)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;children.push_back(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a1a3c8212b87ec8be202a8baee2edc523" kindref="member">Node</ref>(symbol,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a74fa7e68fce93a87cabab7a507c5442d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a74fa7e68fce93a87cabab7a507c5442d" kindref="member">addChildren</ref>(std::vector&lt;Symbol&gt;<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" kindref="member">children</ref>)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>symbol<sp/>:<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" kindref="member">children</ref>)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;children.push_back(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a1a3c8212b87ec8be202a8baee2edc523" kindref="member">Node</ref>(symbol,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ada15558e544321b35ee981c7574d8cfe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ada15558e544321b35ee981c7574d8cfe" kindref="member">print</ref>(std::string<sp/>prefix<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>prefix<sp/>&lt;&lt;<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0649b8bff8b5f5efafde371107b77d60" kindref="member">value</ref>.<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a270a19c234614738ed31233b109e3d97" kindref="member">name</ref><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prefix<sp/>=<sp/>prefix<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;\t&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>child<sp/>:<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" kindref="member">children</ref>)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>child-&gt;print(prefix);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1af1fdece4c65a27e6f76412bf741d5c24" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>std::ostream&amp;<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1af1fdece4c65a27e6f76412bf741d5c24" kindref="member">operator&lt;&lt; </ref>(std::ostream&amp;<sp/>stream,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref>&amp;<sp/>w)<sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stream<sp/>&lt;&lt;<sp/>w.<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0649b8bff8b5f5efafde371107b77d60" kindref="member">value</ref>.<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a270a19c234614738ed31233b109e3d97" kindref="member">name</ref><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;:<sp/>x=&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>w.<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a5b3234e2a250dfb80bb9bb4a2dd54ffd" kindref="member">x</ref><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>mod=&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>w.<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a7932c83770b9b58a11ea0490db6b1d90" kindref="member">mod</ref>;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>stream;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a63c51c9fe2086a37af7fa0685d91a0fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a63c51c9fe2086a37af7fa0685d91a0fd" kindref="member">json</ref>()</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"></highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>val:<sp/>&quot;E&quot;</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>type:<sp/>&quot;NonTerminal&quot;,</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>children:<sp/>[</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>val:<sp/>&quot;T&quot;,</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>type:<sp/>&quot;NonTerminal&quot;,</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>children:<sp/>[</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>val:<sp/>&quot;id&quot;,</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>type:<sp/>&quot;Terminal&quot;</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>]</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>]</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"></highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>jsonStr<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;{<sp/>\&quot;val\&quot;:<sp/>\&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>jsonStr<sp/>+=<sp/>this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0649b8bff8b5f5efafde371107b77d60" kindref="member">value</ref>.<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a270a19c234614738ed31233b109e3d97" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>jsonStr<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;\&quot;,<sp/>\&quot;type\&quot;:<sp/>\&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0649b8bff8b5f5efafde371107b77d60" kindref="member">value</ref>.<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a06360919e7f99bb129e361991c9db77a" kindref="member">getType</ref>())</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7a647d9601fc5b75ce9136189fc43c0ef9" kindref="member">NON_TERMINAL</ref>:</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>jsonStr<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;NonTerminal&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7a6ddd69c18850e3262d706184f67dd466" kindref="member">TERMINAL</ref>:</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>jsonStr<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Terminal&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7ad3a1a39cf25ba7d28375aae4352c6cf6" kindref="member">EMPTY</ref>:</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>jsonStr<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Empty&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7afc1563cab35f3813cead3ebd55f40ea8" kindref="member">END</ref>:</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>jsonStr<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;End&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>jsonStr<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;\&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" kindref="member">children</ref>.size()<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>jsonStr<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;,<sp/>\&quot;children\&quot;:<sp/>[&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>childrenCount<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>child<sp/>:<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" kindref="member">children</ref>)</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>jsonStr<sp/>+=<sp/>child-&gt;json();</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(childrenCount<sp/>&lt;<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" kindref="member">children</ref>.size()<sp/>-<sp/>1)</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>jsonStr<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;,<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>childrenCount++;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>jsonStr<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;]&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>jsonStr<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;}&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>jsonStr;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f6a4d36f302d5a99e02919f8e57b1b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;Node<sp/>*&gt;<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f6a4d36f302d5a99e02919f8e57b1b7" kindref="member">getChildren</ref>()</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" kindref="member">children</ref>;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a01741e0c2ffacf157d126a9a75fddce7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a01741e0c2ffacf157d126a9a75fddce7" kindref="member">isLeaf</ref>()</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" kindref="member">children</ref>.size()<sp/>==<sp/>0);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afbbbd132c124231845cb87dce14734d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref><sp/>*<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afbbbd132c124231845cb87dce14734d2" kindref="member">leftBrother</ref>()</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>use<sp/>number()<sp/>below</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref><sp/>*n<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ad5bf7d12effae629dca19cc7893d4891" kindref="member">parent</ref><sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>node<sp/>:<sp/>this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ad5bf7d12effae629dca19cc7893d4891" kindref="member">parent</ref>-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f6a4d36f302d5a99e02919f8e57b1b7" kindref="member">getChildren</ref>())</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(node<sp/>==<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>n;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>n<sp/>=<sp/>node;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ae7d9ec153e19801696a5b748983e2bb9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref><sp/>*<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ae7d9ec153e19801696a5b748983e2bb9" kindref="member">leftmostSibling</ref>()</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ad5bf7d12effae629dca19cc7893d4891" kindref="member">parent</ref><sp/>==<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ad5bf7d12effae629dca19cc7893d4891" kindref="member">parent</ref>-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f6a4d36f302d5a99e02919f8e57b1b7" kindref="member">getChildren</ref>()[0]<sp/>==<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ad5bf7d12effae629dca19cc7893d4891" kindref="member">parent</ref>-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f6a4d36f302d5a99e02919f8e57b1b7" kindref="member">getChildren</ref>()[0];</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1af01131ce359e0751d7c449a163fd9336" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1af01131ce359e0751d7c449a163fd9336" kindref="member">number</ref>()</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ad5bf7d12effae629dca19cc7893d4891" kindref="member">parent</ref><sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>node<sp/>:<sp/>this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ad5bf7d12effae629dca19cc7893d4891" kindref="member">parent</ref>-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f6a4d36f302d5a99e02919f8e57b1b7" kindref="member">getChildren</ref>())</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(node<sp/>==<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>n;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>++n;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a8b93e18b531df5422c8150ede8d5f7e4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref><sp/>*<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a8b93e18b531df5422c8150ede8d5f7e4" kindref="member">left</ref>()</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a1683edb57c8bfafdd6ef06b97fde6eff" kindref="member">thread</ref><sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a1683edb57c8bfafdd6ef06b97fde6eff" kindref="member">thread</ref>;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" kindref="member">children</ref>.size()<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" kindref="member">children</ref>[0];</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a3f67e0f6869b4c7932ab1230173a0f13" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref><sp/>*<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a3f67e0f6869b4c7932ab1230173a0f13" kindref="member">right</ref>()</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a1683edb57c8bfafdd6ef06b97fde6eff" kindref="member">thread</ref><sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a1683edb57c8bfafdd6ef06b97fde6eff" kindref="member">thread</ref>;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" kindref="member">children</ref>.size()<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" kindref="member">children</ref>[this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" kindref="member">children</ref>.size()<sp/>-<sp/>1];</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>for<sp/>positioning<sp/>algorithms<sp/>etc.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a5b3234e2a250dfb80bb9bb4a2dd54ffd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a5b3234e2a250dfb80bb9bb4a2dd54ffd" kindref="member">x</ref><sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="201" refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f3c4baa0368d4969478428a78b35638" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f3c4baa0368d4969478428a78b35638" kindref="member">y</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="202" refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a7932c83770b9b58a11ea0490db6b1d90" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a7932c83770b9b58a11ea0490db6b1d90" kindref="member">mod</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="203" refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ae189682bef0e03336d49235ed679c6c0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ae189682bef0e03336d49235ed679c6c0" kindref="member">shift</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="204" refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0ec0bfdd911a02f73b4d2a06cdc5fce5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0ec0bfdd911a02f73b4d2a06cdc5fce5" kindref="member">change</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="205" refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a1683edb57c8bfafdd6ef06b97fde6eff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref><sp/>*<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a1683edb57c8bfafdd6ef06b97fde6eff" kindref="member">thread</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="206" refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ab5fbb9f4625738938e12eb2f213e56e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref><sp/>*<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ab5fbb9f4625738938e12eb2f213e56e8" kindref="member">ancestor</ref>;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ad5bf7d12effae629dca19cc7893d4891" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref><sp/>*<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ad5bf7d12effae629dca19cc7893d4891" kindref="member">parent</ref>;</highlight></codeline>
+<codeline lineno="209" refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0649b8bff8b5f5efafde371107b77d60" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kindref="compound">Symbol</ref><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0649b8bff8b5f5efafde371107b77d60" kindref="member">value</ref>;</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="212" refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;Node<sp/>*&gt;<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" kindref="member">children</ref>;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree" kindref="compound">ParseTree</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="218" refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree_1ab1972d249a0a32432133b66b8eed4657" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree_1ab1972d249a0a32432133b66b8eed4657" kindref="member">ParseTree</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kindref="compound">Symbol</ref><sp/>val)<sp/>:<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref>(val){};</highlight></codeline>
+<codeline lineno="219" refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree_1a22db00d2449cc61c0ae9279301dec0a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree_1a22db00d2449cc61c0ae9279301dec0a1" kindref="member">ParseTree</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kindref="compound">Symbol</ref><sp/>val,<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref><sp/>*<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ad5bf7d12effae629dca19cc7893d4891" kindref="member">parent</ref>)<sp/>:<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref>(val,<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ad5bf7d12effae629dca19cc7893d4891" kindref="member">parent</ref>){};</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree_1ace551eaad1025e132c23024992ed5bcf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree_1ace551eaad1025e132c23024992ed5bcf" kindref="member">isStub</ref>()</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>((this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0649b8bff8b5f5efafde371107b77d60" kindref="member">value</ref>.<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a82073c69377df2a10fd7d4350727ab73" kindref="member">isEnd</ref>()<sp/>||<sp/>this-&gt;value.isEmpty())<sp/>&amp;&amp;<sp/>this-&gt;isLeaf());</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226" refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree_1a35244364a4a6e54429dded0f88f2419f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree_1a35244364a4a6e54429dded0f88f2419f" kindref="member">print</ref>()</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree_1ace551eaad1025e132c23024992ed5bcf" kindref="member">isStub</ref>())</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0649b8bff8b5f5efafde371107b77d60" kindref="member">value</ref>.<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a270a19c234614738ed31233b109e3d97" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>else<sp/>do<sp/>nothing<sp/>(since<sp/>this<sp/>is<sp/>invalid)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;NotImplemented&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="236"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h"/>
+  </compounddef>
+</doxygen>

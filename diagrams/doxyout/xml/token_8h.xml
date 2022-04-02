@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="token_8h" kind="file" language="C++">
+    <compoundname>token.h</compoundname>
+    <includes local="no">string</includes>
+    <includedby refid="lexer_8h" local="yes">/root/fyp/project/src/parsergenerator/llpred/lexer.h</includedby>
+    <includedby refid="llpred_2parsergenerator_8h" local="yes">/root/fyp/project/src/parsergenerator/llpred/parsergenerator.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>string</label>
+      </node>
+      <node id="1">
+        <label>/root/fyp/project/src/parsergenerator/llpred/token.h</label>
+        <link refid="token_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/root/fyp/project/src/parsergenerator/llpred/parsergenerator.h</label>
+        <link refid="llpred_2parsergenerator_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/root/fyp/project/src/parsergenerator/factory.h</label>
+        <link refid="factory_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/root/fyp/project/src/maingui.cpp</label>
+        <link refid="maingui_8cpp"/>
+      </node>
+      <node id="1">
+        <label>/root/fyp/project/src/parsergenerator/llpred/token.h</label>
+        <link refid="token_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/root/fyp/project/src/parsergenerator/llpred/lexer.h</label>
+        <link refid="lexer_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token" prot="public">ParseGen::Parser::LLPredictiveParser::Token</innerclass>
+    <innernamespace refid="namespace_parse_gen">ParseGen</innernamespace>
+    <innernamespace refid="namespace_parse_gen_1_1_parser">ParseGen::Parser</innernamespace>
+    <innernamespace refid="namespace_parse_gen_1_1_parser_1_1_l_l_predictive_parser">ParseGen::Parser::LLPredictiveParser</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_parse_gen_1_1_parser_1_1_l_l_predictive_parser" kindref="compound">ParseGen::Parser::LLPredictiveParser</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="namespace_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1ac070452fab067d9fb8b9f00286ca8b78" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9" refid="namespace_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1ac070452fab067d9fb8b9f00286ca8b78a421274d594ecb620a3bcbe5a18f7d7ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1ac070452fab067d9fb8b9f00286ca8b78a421274d594ecb620a3bcbe5a18f7d7ae" kindref="member">TOKEN_TOKEN</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/><ref refid="namespace_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1ac070452fab067d9fb8b9f00286ca8b78" kindref="member">TokenType</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token" kindref="compound">Token</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14" refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1add5d367521200e0f1d6ce2e0a6b3ce68" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1add5d367521200e0f1d6ce2e0a6b3ce68" kindref="member">Token</ref>(std::string<sp/><ref refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1adcd1e21d11f0d91af7cb8e0c29bf8fc2" kindref="member">lexeme</ref>)<sp/>:<sp/><ref refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1adcd1e21d11f0d91af7cb8e0c29bf8fc2" kindref="member">lexeme</ref>(<ref refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1adcd1e21d11f0d91af7cb8e0c29bf8fc2" kindref="member">lexeme</ref>){};</highlight></codeline>
+<codeline lineno="15" refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1a8b78a99a57e1b7f8b2891c5749ee2b12" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1a90b9b20f7aa9b487389c10736ed59eef" kindref="member">Token</ref>()<sp/>:<sp/><ref refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1adcd1e21d11f0d91af7cb8e0c29bf8fc2" kindref="member">lexeme</ref>(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">){};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1ac070452fab067d9fb8b9f00286ca8b78" kindref="member">TokenType</ref><sp/><ref refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1a8b78a99a57e1b7f8b2891c5749ee2b12" kindref="member">type</ref>;</highlight></codeline>
+<codeline lineno="17" refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1adcd1e21d11f0d91af7cb8e0c29bf8fc2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1adcd1e21d11f0d91af7cb8e0c29bf8fc2" kindref="member">lexeme</ref>;</highlight></codeline>
+<codeline lineno="18" refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1a9b75f12faf3d3a5dd77468e341c1bcb5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1a9b75f12faf3d3a5dd77468e341c1bcb5" kindref="member">posX</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="19" refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1a93f1b59d3e22871ee6e7e4042e1620aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1a93f1b59d3e22871ee6e7e4042e1620aa" kindref="member">posY</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1a2b97d8670030028c8250ee87fa5919df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1a2b97d8670030028c8250ee87fa5919df" kindref="member">posStr</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>out<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;(&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>out<sp/>+=<sp/>std::to_string(<ref refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1a93f1b59d3e22871ee6e7e4042e1620aa" kindref="member">posY</ref>);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>out<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;,<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>out<sp/>+=<sp/>std::to_string(<ref refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1a9b75f12faf3d3a5dd77468e341c1bcb5" kindref="member">posX</ref>);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>out<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>out;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/root/fyp/project/src/parsergenerator/llpred/token.h"/>
+  </compounddef>
+</doxygen>

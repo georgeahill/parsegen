@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="factory_8h" kind="file" language="C++">
+    <compoundname>factory.h</compoundname>
+    <includes local="no">functional</includes>
+    <includes local="no">string</includes>
+    <includes refid="iparsergenerator_8h" local="yes">iparsergenerator.h</includes>
+    <includes refid="llpred_2parsergenerator_8h" local="yes">llpred/parsergenerator.h</includes>
+    <includes refid="lexyacc_2parsergenerator_8h" local="yes">lexyacc/parsergenerator.h</includes>
+    <includes refid="bnf_2parsergenerator_8h" local="yes">bnf/parsergenerator.h</includes>
+    <includedby refid="maingui_8cpp" local="yes">/root/fyp/project/src/maingui.cpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>functional</label>
+      </node>
+      <node id="6">
+        <label>filesystem</label>
+      </node>
+      <node id="4">
+        <label>iparsergenerator.h</label>
+        <link refid="iparsergenerator_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>llpred/parsergenerator.h</label>
+        <link refid="llpred_2parsergenerator_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>parsertable.h</label>
+        <link refid="parsertable_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>string</label>
+      </node>
+      <node id="16">
+        <label>map</label>
+      </node>
+      <node id="7">
+        <label>util/parsetree.h</label>
+        <link refid="parsetree_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/root/fyp/project/src/parsergenerator/factory.h</label>
+        <link refid="factory_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>fstream</label>
+      </node>
+      <node id="15">
+        <label>../util/parseableinput.h</label>
+        <link refid="parseableinput_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>stack</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
+      </node>
+      <node id="14">
+        <label>sstream</label>
+      </node>
+      <node id="10">
+        <label>iostream</label>
+      </node>
+      <node id="21">
+        <label>lexyacc/parsergenerator.h</label>
+        <link refid="lexyacc_2parsergenerator_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>bnf/parsergenerator.h</label>
+        <link refid="bnf_2parsergenerator_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>token.h</label>
+        <link refid="token_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>set</label>
+      </node>
+      <node id="11">
+        <label>symbol.h</label>
+        <link refid="symbol_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>initializer_list</label>
+      </node>
+      <node id="19">
+        <label>lexer.h</label>
+        <link refid="lexer_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/root/fyp/project/src/parsergenerator/factory.h</label>
+        <link refid="factory_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/root/fyp/project/src/maingui.cpp</label>
+        <link refid="maingui_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory" prot="public">ParseGen::Parser::ParserGeneratorFactory</innerclass>
+    <innernamespace refid="namespace_parse_gen">ParseGen</innernamespace>
+    <innernamespace refid="namespace_parse_gen_1_1_parser">ParseGen::Parser</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="iparsergenerator_8h" kindref="compound">iparsergenerator.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="llpred_2parsergenerator_8h" kindref="compound">llpred/parsergenerator.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="lexyacc_2parsergenerator_8h" kindref="compound">lexyacc/parsergenerator.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="bnf_2parsergenerator_8h" kindref="compound">bnf/parsergenerator.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_parse_gen_1_1_parser" kindref="compound">ParseGen::Parser</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ParserGeneratorFactory;</highlight></codeline>
+<codeline lineno="15" refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory" kindref="compound">ParserGeneratorFactory</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18" refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1ac66b02ca8b2861ed3c53907114a856e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1ac66b02ca8b2861ed3c53907114a856e2" kindref="member">ParserGeneratorFactory</ref>()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1abe6ea07883a3aae197c83a310dbdac6c" kindref="member">Register</ref>(</highlight><highlight class="stringliteral">&quot;BNF&quot;</highlight><highlight class="normal">,<sp/>&amp;<ref refid="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator_1a14083a97fde4bb9047f2ecba935c6eda" kindref="member">BNF::BNFParserGenerator::Create</ref>);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1abe6ea07883a3aae197c83a310dbdac6c" kindref="member">Register</ref>(</highlight><highlight class="stringliteral">&quot;LL(1)<sp/>Predictive<sp/>Parser&quot;</highlight><highlight class="normal">,<sp/>&amp;<ref refid="class_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_l_l_predictive_parser_generator_1a342390258fa7f492e2e65984100f56a0" kindref="member">LLPredictiveParser::LLPredictiveParserGenerator::Create</ref>);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1abe6ea07883a3aae197c83a310dbdac6c" kindref="member">Register</ref>(</highlight><highlight class="stringliteral">&quot;LEX/YACC&quot;</highlight><highlight class="normal">,<sp/>&amp;<ref refid="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator_1a87ef78dd0104f5c0ff6feaedaaf22d1c" kindref="member">Yacc::LexYaccGenerator::Create</ref>);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1ae0b948e0016a5fed88995946baab56c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1ae0b948e0016a5fed88995946baab56c6" kindref="member">ParserGeneratorFactory</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory" kindref="compound">ParserGeneratorFactory</ref><sp/>&amp;){};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a2ff76abf99bd4010e6e890b070039d6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory" kindref="compound">ParserGeneratorFactory</ref><sp/>&amp;<ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a2ff76abf99bd4010e6e890b070039d6c" kindref="member">operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory" kindref="compound">ParserGeneratorFactory</ref><sp/>&amp;)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>lang,<sp/>pair:<sp/>func</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1aae166d03a61c05e86501e4154ce4edc6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::map&lt;std::string,<sp/><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator" kindref="compound">IParserGenerator</ref><sp/>*(*)(std::string,<sp/>std::string)&gt;<sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1aae166d03a61c05e86501e4154ce4edc6" kindref="member">m_FactoryMap</ref>;</highlight></codeline>
+<codeline lineno="31" refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a34f59f1e6d2aa6c4c02acc3ac1385c5e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**<ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a34f59f1e6d2aa6c4c02acc3ac1385c5e" kindref="member">options</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="34" refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1aa6b235e2945524e7373a03b9b209fffd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory" kindref="compound">ParserGeneratorFactory</ref><sp/>*<ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1aa6b235e2945524e7373a03b9b209fffd" kindref="member">Get</ref>()</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory" kindref="compound">ParserGeneratorFactory</ref><sp/>instance;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;instance;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1abe6ea07883a3aae197c83a310dbdac6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1abe6ea07883a3aae197c83a310dbdac6c" kindref="member">Register</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;type,<sp/><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator" kindref="compound">IParserGenerator</ref><sp/>*(*pfnCreate)(std::string,<sp/>std::string))</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1aae166d03a61c05e86501e4154ce4edc6" kindref="member">m_FactoryMap</ref>[type]<sp/>=<sp/>pfnCreate;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a34f59f1e6d2aa6c4c02acc3ac1385c5e" kindref="member">options</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a34f59f1e6d2aa6c4c02acc3ac1385c5e" kindref="member">options</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*[<ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1aae166d03a61c05e86501e4154ce4edc6" kindref="member">m_FactoryMap</ref>.size()];</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>it<sp/>=<sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1aae166d03a61c05e86501e4154ce4edc6" kindref="member">m_FactoryMap</ref>.begin();<sp/>it<sp/>!=<sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1aae166d03a61c05e86501e4154ce4edc6" kindref="member">m_FactoryMap</ref>.end();<sp/>++it)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a34f59f1e6d2aa6c4c02acc3ac1385c5e" kindref="member">options</ref>[i]<sp/>=<sp/>(*it).first.c_str();</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>++i;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1ac77f64c2b5a52cab0e1db2a10ed14ac0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator" kindref="compound">IParserGenerator</ref><sp/>*<ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1ac77f64c2b5a52cab0e1db2a10ed14ac0" kindref="member">create</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;type,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;lang,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;bnf)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>it<sp/>=<sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1aae166d03a61c05e86501e4154ce4edc6" kindref="member">m_FactoryMap</ref>.find(type);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(it<sp/>!=<sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1aae166d03a61c05e86501e4154ce4edc6" kindref="member">m_FactoryMap</ref>.end())</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>it-&gt;second(lang,<sp/>bnf);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1afa1ed5ce57448b5f8e854e303c171889" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator" kindref="compound">IParserGenerator</ref><sp/>*<ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1afa1ed5ce57448b5f8e854e303c171889" kindref="member">Create</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;type,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;lang,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;bnf)</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>instance<sp/>=<sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1aa6b235e2945524e7373a03b9b209fffd" kindref="member">Get</ref>();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>instance-&gt;create(type,<sp/>lang,<sp/>bnf);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a36873b6eabc46913622d6a5dfdceffa1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**<ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a36873b6eabc46913622d6a5dfdceffa1" kindref="member">getOutputTypes</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="69"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a34f59f1e6d2aa6c4c02acc3ac1385c5e" kindref="member">options</ref>;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a086e0f8c712c389dc9b94c683b1f5f33" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**<ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a086e0f8c712c389dc9b94c683b1f5f33" kindref="member">GetOutputTypes</ref>()</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>instance<sp/>=<sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1aa6b235e2945524e7373a03b9b209fffd" kindref="member">Get</ref>();</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>instance-&gt;getOutputTypes();</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a67f85470bbda2662ff0fcf03e3cd83b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a67f85470bbda2662ff0fcf03e3cd83b1" kindref="member">size</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="80"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1aae166d03a61c05e86501e4154ce4edc6" kindref="member">m_FactoryMap</ref>.size();</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a9074b757423d82d9c6725264ae2704ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a9074b757423d82d9c6725264ae2704ef" kindref="member">Size</ref>()</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>instance<sp/>=<sp/><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1aa6b235e2945524e7373a03b9b209fffd" kindref="member">Get</ref>();</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>instance-&gt;size();</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/root/fyp/project/src/parsergenerator/factory.h"/>
+  </compounddef>
+</doxygen>

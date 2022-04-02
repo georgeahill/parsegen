@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="parsetreerenderer_8cpp" kind="file" language="C++">
+    <compoundname>parsetreerenderer.cpp</compoundname>
+    <includes local="no">algorithm</includes>
+    <includes local="no">iostream</includes>
+    <includes refid="parsetreerenderer_8h" local="yes">parsetreerenderer.h</includes>
+    <incdepgraph>
+      <node id="6">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>parsergenerator/util/parsetree.h</label>
+        <link refid="parsetree_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/root/fyp/project/src/parsetreerenderer.cpp</label>
+        <link refid="parsetreerenderer_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>parsetreerenderer.h</label>
+        <link refid="parsetreerenderer_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>vector</label>
+      </node>
+      <node id="7">
+        <label>imgui.h</label>
+      </node>
+      <node id="3">
+        <label>iostream</label>
+      </node>
+      <node id="10">
+        <label>symbol.h</label>
+        <link refid="symbol_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>algorithm</label>
+      </node>
+      <node id="9">
+        <label>initializer_list</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_parse_gen">ParseGen</innernamespace>
+    <innernamespace refid="namespace_parse_gen_1_1_g_u_i">ParseGen::GUI</innernamespace>
+    <innernamespace refid="namespace_parse_gen_1_1_g_u_i_1_1_parse_tree">ParseGen::GUI::ParseTree</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="parsetreerenderer_8cpp_1a61b11771d694b076a5738eb176657cf7" prot="public" static="no">
+        <name>PG_FLOAT_INF</name>
+        <initializer>1000000.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsetreerenderer.cpp" line="144" column="9" bodyfile="/root/fyp/project/src/parsetreerenderer.cpp" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;algorithm&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>FIXME</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="parsetreerenderer_8h" kindref="compound">parsetreerenderer.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="namespace_parse_gen_1_1_g_u_i_1_1_parse_tree" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_parse_gen_1_1_g_u_i_1_1_parse_tree" kindref="compound">ParseGen::GUI::ParseTree</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a46550a469f1074425bd471df5810bdfa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a46550a469f1074425bd471df5810bdfa" kindref="member">Renderer::firstWalk</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*v,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distance<sp/>=<sp/>1.0)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a01741e0c2ffacf157d126a9a75fddce7" kindref="member">isLeaf</ref>())</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ae7d9ec153e19801696a5b748983e2bb9" kindref="member">leftmostSibling</ref>()<sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a5b3234e2a250dfb80bb9bb4a2dd54ffd" kindref="member">x</ref><sp/>=<sp/>v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afbbbd132c124231845cb87dce14734d2" kindref="member">leftBrother</ref>()-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a5b3234e2a250dfb80bb9bb4a2dd54ffd" kindref="member">x</ref><sp/>+<sp/>distance;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a5b3234e2a250dfb80bb9bb4a2dd54ffd" kindref="member">x</ref><sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*defaultAncestor<sp/>=<sp/>v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f6a4d36f302d5a99e02919f8e57b1b7" kindref="member">getChildren</ref>()[0];</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>w<sp/>:<sp/>v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f6a4d36f302d5a99e02919f8e57b1b7" kindref="member">getChildren</ref>())</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a46550a469f1074425bd471df5810bdfa" kindref="member">firstWalk</ref>(w);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>defaultAncestor<sp/>=<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a1ec1420e7fd1ee44109571b9ffe9dfd2" kindref="member">apportion</ref>(w,<sp/>defaultAncestor,<sp/>distance);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1ae4290efcf6d563e34bed71e13794008d" kindref="member">executeShifts</ref>(v);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>ell<sp/>=<sp/>v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f6a4d36f302d5a99e02919f8e57b1b7" kindref="member">getChildren</ref>()[0];</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>arr<sp/>=<sp/>v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f6a4d36f302d5a99e02919f8e57b1b7" kindref="member">getChildren</ref>()[v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f6a4d36f302d5a99e02919f8e57b1b7" kindref="member">getChildren</ref>().size()<sp/>-<sp/>1];</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>midpoint<sp/>=<sp/>(ell-&gt;x<sp/>+<sp/>arr-&gt;x)<sp/>/<sp/>2;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>w<sp/>=<sp/>v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afbbbd132c124231845cb87dce14734d2" kindref="member">leftBrother</ref>();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(w<sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a5b3234e2a250dfb80bb9bb4a2dd54ffd" kindref="member">x</ref><sp/>=<sp/>w-&gt;x<sp/>+<sp/>distance;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a7932c83770b9b58a11ea0490db6b1d90" kindref="member">mod</ref><sp/>=<sp/>v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a5b3234e2a250dfb80bb9bb4a2dd54ffd" kindref="member">x</ref><sp/>-<sp/>midpoint;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a5b3234e2a250dfb80bb9bb4a2dd54ffd" kindref="member">x</ref><sp/>=<sp/>midpoint;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>v;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a1ec1420e7fd1ee44109571b9ffe9dfd2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a1ec1420e7fd1ee44109571b9ffe9dfd2" kindref="member">Renderer::apportion</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*v,<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*defaultAncestor,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distance)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*w<sp/>=<sp/>v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afbbbd132c124231845cb87dce14734d2" kindref="member">leftBrother</ref>();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(w<sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>vir<sp/>=<sp/>v;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>vor<sp/>=<sp/>v;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>vil<sp/>=<sp/>w;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>vol<sp/>=<sp/>v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ae7d9ec153e19801696a5b748983e2bb9" kindref="member">leftmostSibling</ref>();</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>sir<sp/>=<sp/>v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a7932c83770b9b58a11ea0490db6b1d90" kindref="member">mod</ref>;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>sor<sp/>=<sp/>v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a7932c83770b9b58a11ea0490db6b1d90" kindref="member">mod</ref>;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>sil<sp/>=<sp/>vil-&gt;mod;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>sol<sp/>=<sp/>vol-&gt;mod;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(vil-&gt;right()<sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>vir-&gt;left()<sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vil<sp/>=<sp/>vil-&gt;right();</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vir<sp/>=<sp/>vir-&gt;left();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vol<sp/>=<sp/>vol-&gt;left();</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vor<sp/>=<sp/>vor-&gt;right();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vor-&gt;ancestor<sp/>=<sp/>v;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>shift<sp/>=<sp/>(vil-&gt;x<sp/>+<sp/>sil)<sp/>-<sp/>(vir-&gt;x<sp/>+<sp/>sir)<sp/>+<sp/>distance;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(shift<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*a<sp/>=<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1ab05b5f4e1d932c0d1f40e58b1356a356" kindref="member">ancestor</ref>(vil,<sp/>v,<sp/>defaultAncestor);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a423a8b985db786b9b1be9fbfaeeb1a85" kindref="member">moveSubtree</ref>(a,<sp/>v,<sp/>shift);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sir<sp/>=<sp/>sir<sp/>+<sp/>shift;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sor<sp/>=<sp/>sor<sp/>+<sp/>shift;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sil<sp/>+=<sp/>vil-&gt;mod;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sir<sp/>+=<sp/>vir-&gt;mod;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sol<sp/>+=<sp/>vol-&gt;mod;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sor<sp/>+=<sp/>vor-&gt;mod;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(vil-&gt;right()<sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>vor-&gt;right()<sp/>==<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vor-&gt;thread<sp/>=<sp/>vil-&gt;right();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vor-&gt;mod<sp/>+=<sp/>sil<sp/>-<sp/>sor;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(vir-&gt;left()<sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>vol-&gt;left()<sp/>==<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vol-&gt;thread<sp/>=<sp/>vir-&gt;left();</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vol-&gt;mod<sp/>+=<sp/>sir<sp/>-<sp/>sol;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>defaultAncestor<sp/>=<sp/>v;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>defaultAncestor;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a423a8b985db786b9b1be9fbfaeeb1a85" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a423a8b985db786b9b1be9fbfaeeb1a85" kindref="member">Renderer::moveSubtree</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*wl,<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*wr,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>shift)</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>subtrees<sp/>=<sp/>(float)(wr-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1af01131ce359e0751d7c449a163fd9336" kindref="member">number</ref>()<sp/>-<sp/>wl-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1af01131ce359e0751d7c449a163fd9336" kindref="member">number</ref>());</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wr-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0ec0bfdd911a02f73b4d2a06cdc5fce5" kindref="member">change</ref><sp/>-=<sp/>shift<sp/>/<sp/>subtrees;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wr-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ae189682bef0e03336d49235ed679c6c0" kindref="member">shift</ref><sp/>+=<sp/>shift;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wl-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0ec0bfdd911a02f73b4d2a06cdc5fce5" kindref="member">change</ref><sp/>+=<sp/>shift<sp/>/<sp/>subtrees;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wr-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a5b3234e2a250dfb80bb9bb4a2dd54ffd" kindref="member">x</ref><sp/>+=<sp/>shift;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wr-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a7932c83770b9b58a11ea0490db6b1d90" kindref="member">mod</ref><sp/>+=<sp/>shift;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1ae4290efcf6d563e34bed71e13794008d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1ae4290efcf6d563e34bed71e13794008d" kindref="member">Renderer::executeShifts</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*v)</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>shift<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>change<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>vChildren<sp/>=<sp/>v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f6a4d36f302d5a99e02919f8e57b1b7" kindref="member">getChildren</ref>();</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>it<sp/>=<sp/>vChildren.rbegin();<sp/>it<sp/>!=<sp/>vChildren.rend();<sp/>++it)</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>w<sp/>=<sp/>*it;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>w-&gt;x<sp/>+=<sp/>shift;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>w-&gt;mod<sp/>+=<sp/>shift;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>change<sp/>+=<sp/>w-&gt;change;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>shift<sp/>+=<sp/>w-&gt;shift<sp/>+<sp/>change;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1ab05b5f4e1d932c0d1f40e58b1356a356" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1ab05b5f4e1d932c0d1f40e58b1356a356" kindref="member">Renderer::ancestor</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*vil,<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*v,<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*defaultAncestor)</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>child<sp/>:<sp/>v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ad5bf7d12effae629dca19cc7893d4891" kindref="member">parent</ref>-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f6a4d36f302d5a99e02919f8e57b1b7" kindref="member">getChildren</ref>())</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(child<sp/>==<sp/>vil-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ab5fbb9f4625738938e12eb2f213e56e8" kindref="member">ancestor</ref>)</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vil-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ab5fbb9f4625738938e12eb2f213e56e8" kindref="member">ancestor</ref>;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>defaultAncestor;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="parsetreerenderer_8cpp_1a61b11771d694b076a5738eb176657cf7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PG_FLOAT_INF<sp/>1000000.0f</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a6ab1ab51e304147a0e9caf27b469ca47" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a6ab1ab51e304147a0e9caf27b469ca47" kindref="member">Renderer::secondWalk</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*v,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>m<sp/>=<sp/>0,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>depth<sp/>=<sp/>0,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>min<sp/>=<sp/><ref refid="parsetreerenderer_8cpp_1a61b11771d694b076a5738eb176657cf7" kindref="member">PG_FLOAT_INF</ref>)</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a5b3234e2a250dfb80bb9bb4a2dd54ffd" kindref="member">x</ref><sp/>+=<sp/>m;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f3c4baa0368d4969478428a78b35638" kindref="member">y</ref><sp/>=<sp/>depth;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(min<sp/>==<sp/><ref refid="parsetreerenderer_8cpp_1a61b11771d694b076a5738eb176657cf7" kindref="member">PG_FLOAT_INF</ref><sp/>or<sp/>v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a5b3234e2a250dfb80bb9bb4a2dd54ffd" kindref="member">x</ref><sp/>&lt;<sp/>min)</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>min<sp/>=<sp/>v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a5b3234e2a250dfb80bb9bb4a2dd54ffd" kindref="member">x</ref>;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>w<sp/>:<sp/>v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f6a4d36f302d5a99e02919f8e57b1b7" kindref="member">getChildren</ref>())</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>min<sp/>=<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a6ab1ab51e304147a0e9caf27b469ca47" kindref="member">secondWalk</ref>(w,<sp/>m<sp/>+<sp/>v-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a7932c83770b9b58a11ea0490db6b1d90" kindref="member">mod</ref>,<sp/>depth<sp/>+<sp/>1,<sp/>min);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>min;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>PG_FLOAT_INF</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a035117435d0ca469a41974801c15b624" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a035117435d0ca469a41974801c15b624" kindref="member">Renderer::thirdWalk</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*tree,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>n)</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tree-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a5b3234e2a250dfb80bb9bb4a2dd54ffd" kindref="member">x</ref><sp/>+=<sp/>n;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>c<sp/>:<sp/>tree-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f6a4d36f302d5a99e02919f8e57b1b7" kindref="member">getChildren</ref>())</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a035117435d0ca469a41974801c15b624" kindref="member">thirdWalk</ref>(c,<sp/>n);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>tree;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1ad78db935f4cf7c17e347cc1e26b469c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1ad78db935f4cf7c17e347cc1e26b469c3" kindref="member">Renderer::buchheim</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*parseTree)</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*dt<sp/>=<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a46550a469f1074425bd471df5810bdfa" kindref="member">firstWalk</ref>(<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a5d49c35b904172997acff53f40edd05e" kindref="member">parseTree</ref>);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>min<sp/>=<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a6ab1ab51e304147a0e9caf27b469ca47" kindref="member">secondWalk</ref>(dt);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(min<sp/>&lt;<sp/>0)</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a035117435d0ca469a41974801c15b624" kindref="member">thirdWalk</ref>(dt,<sp/>-min);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dt;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a3468346e6eaa23ebc18482e508118f8f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a3468346e6eaa23ebc18482e508118f8f" kindref="member">Renderer::simpleDraw</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*parseTree)</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>child<sp/>:<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a5d49c35b904172997acff53f40edd05e" kindref="member">parseTree</ref>-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f6a4d36f302d5a99e02919f8e57b1b7" kindref="member">getChildren</ref>())</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a3468346e6eaa23ebc18482e508118f8f" kindref="member">simpleDraw</ref>(child);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190" refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1ac6962ed86384110616e7dad0f548ba84" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer" kindref="compound">Renderer</ref><sp/>*<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1ac6962ed86384110616e7dad0f548ba84" kindref="member">Renderer::Get</ref>()</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer" kindref="compound">Renderer</ref><sp/>instance;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;instance;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196" refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1adc385d0528bcc7b3cbb44c005136d238" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect" kindref="compound">TreeRect</ref><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1adc385d0528bcc7b3cbb44c005136d238" kindref="member">Renderer::createGeometry</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*node)</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>padding<sp/>=<sp/>10.0f;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>levelSize<sp/>=<sp/>50.0f;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>xDist<sp/>=<sp/>100.0f;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>text<sp/>=<sp/>node-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0649b8bff8b5f5efafde371107b77d60" kindref="member">value</ref>.<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a270a19c234614738ed31233b109e3d97" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>textSize<sp/>=<sp/>ImGui::CalcTextSize(text.c_str());</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>textSize<sp/>=<sp/>ImGui::CalcTextSize(text.c_str());</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a69a8ea2126d08dd2d3420282eea3489d" kindref="member">nodes</ref>.push_back({ImVec2(node-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a5b3234e2a250dfb80bb9bb4a2dd54ffd" kindref="member">x</ref><sp/>*<sp/>xDist,<sp/>node-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f3c4baa0368d4969478428a78b35638" kindref="member">y</ref><sp/>*<sp/>levelSize),<sp/>ImVec2((padding<sp/>*<sp/>2)<sp/>+<sp/>node-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a5b3234e2a250dfb80bb9bb4a2dd54ffd" kindref="member">x</ref><sp/>*<sp/>xDist<sp/>+<sp/>textSize.x,<sp/>(padding<sp/>*<sp/>2)<sp/>+<sp/>node-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f3c4baa0368d4969478428a78b35638" kindref="member">y</ref><sp/>*<sp/>levelSize<sp/>+<sp/>textSize.y),<sp/>text,<sp/>node-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0649b8bff8b5f5efafde371107b77d60" kindref="member">value</ref>.<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a49004cbef803410ccc3a616a8ea6e628" kindref="member">isTerminal</ref>()});</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect" kindref="compound">TreeRect</ref><sp/>parentNode<sp/>=<sp/>this-&gt;<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a69a8ea2126d08dd2d3420282eea3489d" kindref="member">nodes</ref>.back();</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>child<sp/>:<sp/>node-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f6a4d36f302d5a99e02919f8e57b1b7" kindref="member">getChildren</ref>())</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>childNode<sp/>=<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1adc385d0528bcc7b3cbb44c005136d238" kindref="member">createGeometry</ref>(child);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>link<sp/>parent<sp/>to<sp/>child</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a93ea45b7be197b184b88a640299b63a4" kindref="member">edges</ref>.push_back({ImVec2(parentNode.<ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect_1aa5517b5c6a077bdfe1a487ffaa72269d" kindref="member">min</ref>.x<sp/>+<sp/>(parentNode.<ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect_1a3c4ed948eee138124bd029a5326bd246" kindref="member">max</ref>.x<sp/>-<sp/>parentNode.<ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect_1aa5517b5c6a077bdfe1a487ffaa72269d" kindref="member">min</ref>.x)<sp/>/<sp/>2,<sp/>parentNode.<ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect_1a3c4ed948eee138124bd029a5326bd246" kindref="member">max</ref>.y),<sp/>ImVec2(childNode.min.x<sp/>+<sp/>(childNode.max.x<sp/>-<sp/>childNode.min.x)<sp/>/<sp/>2,<sp/>childNode.min.y)});</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>parentNode;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a43ca960ae888ca639273b8ac3b2e58ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a43ca960ae888ca639273b8ac3b2e58ef" kindref="member">Renderer::render</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree" kindref="compound">Parser::Util::ParseTree</ref><sp/>*parseTree)</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;parseTree<sp/>!=<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a5d49c35b904172997acff53f40edd05e" kindref="member">parseTree</ref>)</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a69a8ea2126d08dd2d3420282eea3489d" kindref="member">nodes</ref>.clear();</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a93ea45b7be197b184b88a640299b63a4" kindref="member">edges</ref>.clear();</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;parseTree<sp/>=<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a5d49c35b904172997acff53f40edd05e" kindref="member">parseTree</ref>;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>dt<sp/>=<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1ad78db935f4cf7c17e347cc1e26b469c3" kindref="member">buchheim</ref>(<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a5d49c35b904172997acff53f40edd05e" kindref="member">parseTree</ref>);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1adc385d0528bcc7b3cbb44c005136d238" kindref="member">createGeometry</ref>(<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a5d49c35b904172997acff53f40edd05e" kindref="member">parseTree</ref>);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>ImVector&lt;ImVec2&gt;<sp/>points;</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>ImVec2<sp/>scrolling(0.0f,<sp/>0.0f);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>adding_line<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Typically<sp/>you<sp/>would<sp/>use<sp/>a<sp/>BeginChild()/EndChild()<sp/>pair<sp/>to<sp/>benefit<sp/>from<sp/>a<sp/>clipping<sp/>region<sp/>+<sp/>own<sp/>scrolling.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Here<sp/>we<sp/>demonstrate<sp/>that<sp/>this<sp/>can<sp/>be<sp/>replaced<sp/>by<sp/>simple<sp/>offsetting<sp/>+<sp/>custom<sp/>drawing<sp/>+<sp/>PushClipRect/PopClipRect()<sp/>calls.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>To<sp/>use<sp/>a<sp/>child<sp/>window<sp/>instead<sp/>we<sp/>could<sp/>use,<sp/>e.g:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>ImGui::PushStyleVar(ImGuiStyleVar_WindowPadding,<sp/>ImVec2(0,<sp/>0));<sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Disable<sp/>padding</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>ImGui::PushStyleColor(ImGuiCol_ChildBg,<sp/>IM_COL32(50,<sp/>50,<sp/>50,<sp/>255));<sp/><sp/>//<sp/>Set<sp/>a<sp/>background<sp/>color</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>ImGui::BeginChild(&quot;canvas&quot;,<sp/>ImVec2(0.0f,<sp/>0.0f),<sp/>true,<sp/>ImGuiWindowFlags_NoMove);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>ImGui::PopStyleColor();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>ImGui::PopStyleVar();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>[...]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>ImGui::EndChild();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Using<sp/>InvisibleButton()<sp/>as<sp/>a<sp/>convenience<sp/>1)<sp/>it<sp/>will<sp/>advance<sp/>the<sp/>layout<sp/>cursor<sp/>and<sp/>2)<sp/>allows<sp/>us<sp/>to<sp/>use<sp/>IsItemHovered()/IsItemActive()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImVec2<sp/>canvas_p0<sp/>=<sp/>ImGui::GetCursorScreenPos();<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ImDrawList<sp/>API<sp/>uses<sp/>screen<sp/>coordinates!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImVec2<sp/>canvas_sz<sp/>=<sp/>ImGui::GetContentRegionAvail();<sp/></highlight><highlight class="comment">//<sp/>Resize<sp/>canvas<sp/>to<sp/>what&apos;s<sp/>available</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(canvas_sz.x<sp/>&lt;<sp/>50.0f)</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>canvas_sz.x<sp/>=<sp/>50.0f;</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(canvas_sz.y<sp/>&lt;<sp/>50.0f)</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>canvas_sz.y<sp/>=<sp/>50.0f;</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImVec2<sp/>canvas_p1<sp/>=<sp/>ImVec2(canvas_p0.x<sp/>+<sp/>canvas_sz.x,<sp/>canvas_p0.y<sp/>+<sp/>canvas_sz.y);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Draw<sp/>border<sp/>and<sp/>background<sp/>color</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImGuiIO<sp/>&amp;io<sp/>=<sp/>ImGui::GetIO();</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImDrawList<sp/>*draw_list<sp/>=<sp/>ImGui::GetWindowDrawList();</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>draw_list-&gt;AddRectFilled(canvas_p0,<sp/>canvas_p1,<sp/>IM_COL32(50,<sp/>50,<sp/>50,<sp/>255));</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>draw_list-&gt;AddRect(canvas_p0,<sp/>canvas_p1,<sp/>IM_COL32(255,<sp/>255,<sp/>255,<sp/>255));</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>will<sp/>catch<sp/>our<sp/>interactions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImGui::InvisibleButton(</highlight><highlight class="stringliteral">&quot;canvas&quot;</highlight><highlight class="normal">,<sp/>canvas_sz,<sp/>ImGuiButtonFlags_MouseButtonLeft<sp/>|<sp/>ImGuiButtonFlags_MouseButtonRight);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>is_hovered<sp/>=<sp/>ImGui::IsItemHovered();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Hovered</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>is_active<sp/>=<sp/>ImGui::IsItemActive();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Held</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ImVec2<sp/>origin(canvas_p0.x<sp/>+<sp/>scrolling.x,<sp/>canvas_p0.y<sp/>+<sp/>scrolling.y);<sp/></highlight><highlight class="comment">//<sp/>Lock<sp/>scrolled<sp/>origin</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ImVec2<sp/>mouse_pos_in_canvas(io.MousePos.x<sp/>-<sp/>origin.x,<sp/>io.MousePos.y<sp/>-<sp/>origin.y);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(is_active<sp/>&amp;&amp;<sp/>ImGui::IsMouseDragging(ImGuiMouseButton_Right,<sp/>0.0f))</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scrolling.x<sp/>+=<sp/>io.MouseDelta.x;</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scrolling.y<sp/>+=<sp/>io.MouseDelta.y;</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Context<sp/>menu<sp/>(under<sp/>default<sp/>mouse<sp/>threshold)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImVec2<sp/>drag_delta<sp/>=<sp/>ImGui::GetMouseDragDelta(ImGuiMouseButton_Right);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Draw<sp/>grid<sp/>+<sp/>all<sp/>lines<sp/>in<sp/>the<sp/>canvas</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>draw_list-&gt;PushClipRect(canvas_p0,<sp/>canvas_p1,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>for<sp/>(int<sp/>n<sp/>=<sp/>0;<sp/>n<sp/>&lt;<sp/>points.Size;<sp/>n<sp/>+=<sp/>2)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>draw_list-&gt;AddLine(ImVec2(origin.x<sp/>+<sp/>points[n].x,<sp/>origin.y<sp/>+<sp/>points[n].y),<sp/>ImVec2(origin.x<sp/>+<sp/>points[n<sp/>+<sp/>1].x,<sp/>origin.y<sp/>+<sp/>points[n<sp/>+<sp/>1].y),<sp/>IM_COL32(255,<sp/>255,<sp/>0,<sp/>255),<sp/>2.0f);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>node<sp/>:<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a69a8ea2126d08dd2d3420282eea3489d" kindref="member">nodes</ref>)</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node.draw(draw_list,<sp/>origin);</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>edge<sp/>:<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a93ea45b7be197b184b88a640299b63a4" kindref="member">edges</ref>)</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>edge.draw(draw_list,<sp/>origin);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>draw_list-&gt;PopClipRect();</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge_1a425c3e883d6e4bb56abdfbf376291794" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge_1a425c3e883d6e4bb56abdfbf376291794" kindref="member">TreeEdge::draw</ref>(ImDrawList<sp/>*drawList,<sp/>ImVec2<sp/>origin)</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImVec2<sp/>startPos<sp/>=<sp/>ImVec2(<ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge_1abaf62ff5a1bb7c3f0e72a72c5778d237" kindref="member">min</ref>.x<sp/>+<sp/>origin.x,<sp/><ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge_1abaf62ff5a1bb7c3f0e72a72c5778d237" kindref="member">min</ref>.y<sp/>+<sp/>origin.y);</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImVec2<sp/>endPos<sp/>=<sp/>ImVec2(<ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge_1aad11941ccd2bd8e590ddd466caa21fac" kindref="member">max</ref>.x<sp/>+<sp/>origin.x,<sp/><ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge_1aad11941ccd2bd8e590ddd466caa21fac" kindref="member">max</ref>.y<sp/>+<sp/>origin.y);</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>drawList-&gt;AddLine(startPos,<sp/>endPos,<sp/>ImColor(255,<sp/>255,<sp/>255,<sp/>255),<sp/>1.0f);<sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>elbows</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303" refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect_1a65bfe1ccee68a33bfaa960e4fb37a95b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect_1a65bfe1ccee68a33bfaa960e4fb37a95b" kindref="member">TreeRect::draw</ref>(ImDrawList<sp/>*drawList,<sp/>ImVec2<sp/>origin)</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>padding<sp/>=<sp/>10.0f;</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImVec2<sp/>minPos<sp/>=<sp/>ImVec2(<ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect_1aa5517b5c6a077bdfe1a487ffaa72269d" kindref="member">min</ref>.x<sp/>+<sp/>origin.x,<sp/><ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect_1aa5517b5c6a077bdfe1a487ffaa72269d" kindref="member">min</ref>.y<sp/>+<sp/>origin.y);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImVec2<sp/>maxPos<sp/>=<sp/>ImVec2(<ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect_1a3c4ed948eee138124bd029a5326bd246" kindref="member">max</ref>.x<sp/>+<sp/>origin.x,<sp/><ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect_1a3c4ed948eee138124bd029a5326bd246" kindref="member">max</ref>.y<sp/>+<sp/>origin.y);</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImVec2<sp/>contentPos<sp/>=<sp/>ImVec2(padding<sp/>+<sp/>minPos.x,<sp/>padding<sp/>+<sp/>minPos.y);</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect_1a9478d19e9bb11f4c530445bf43e9b4db" kindref="member">isTerminal</ref>)</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>drawList-&gt;AddRectFilled(minPos,<sp/>maxPos,<sp/>ImColor(255,<sp/>255,<sp/>255,<sp/>255));</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>drawList-&gt;AddRectFilled(minPos,<sp/>maxPos,<sp/>ImColor(180,<sp/>180,<sp/>180,<sp/>255));</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>drawList-&gt;AddText(contentPos,<sp/>ImColor(0,<sp/>0,<sp/>0,<sp/>255),<sp/><ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect_1a94a89e21dbdcdfa59ca2719fbd1a21c8" kindref="member">text</ref>.c_str());</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="316"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/root/fyp/project/src/parsetreerenderer.cpp"/>
+  </compounddef>
+</doxygen>

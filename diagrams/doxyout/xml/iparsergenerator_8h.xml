@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="iparsergenerator_8h" kind="file" language="C++">
+    <compoundname>iparsergenerator.h</compoundname>
+    <includes local="no">fstream</includes>
+    <includes local="no">filesystem</includes>
+    <includes local="no">string</includes>
+    <includes refid="parsetree_8h" local="yes">util/parsetree.h</includes>
+    <includedby refid="maingui_8h" local="yes">/root/fyp/project/src/maingui.h</includedby>
+    <includedby refid="factory_8h" local="yes">/root/fyp/project/src/parsergenerator/factory.h</includedby>
+    <includedby refid="llpred_2parsergenerator_8h" local="yes">/root/fyp/project/src/parsergenerator/llpred/parsergenerator.h</includedby>
+    <includedby refid="lexyacc_2parsergenerator_8h" local="yes">/root/fyp/project/src/parsergenerator/lexyacc/parsergenerator.h</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>filesystem</label>
+      </node>
+      <node id="1">
+        <label>/root/fyp/project/src/parsergenerator/iparsergenerator.h</label>
+        <link refid="iparsergenerator_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>string</label>
+      </node>
+      <node id="5">
+        <label>util/parsetree.h</label>
+        <link refid="parsetree_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>fstream</label>
+      </node>
+      <node id="6">
+        <label>vector</label>
+      </node>
+      <node id="8">
+        <label>iostream</label>
+      </node>
+      <node id="9">
+        <label>symbol.h</label>
+        <link refid="symbol_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>initializer_list</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/root/fyp/project/src/parsergenerator/iparsergenerator.h</label>
+        <link refid="iparsergenerator_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/root/fyp/project/src/parsergenerator/llpred/parsergenerator.h</label>
+        <link refid="llpred_2parsergenerator_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/root/fyp/project/src/parsergenerator/factory.h</label>
+        <link refid="factory_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/root/fyp/project/src/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="4">
+        <label>/root/fyp/project/src/maingui.cpp</label>
+        <link refid="maingui_8cpp"/>
+      </node>
+      <node id="7">
+        <label>/root/fyp/project/src/parsergenerator/lexyacc/parsergenerator.h</label>
+        <link refid="lexyacc_2parsergenerator_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/root/fyp/project/src/maingui.h</label>
+        <link refid="maingui_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_parse_gen_1_1_parser_1_1_i_parser_generator" prot="public">ParseGen::Parser::IParserGenerator</innerclass>
+    <innernamespace refid="namespace_parse_gen">ParseGen</innernamespace>
+    <innernamespace refid="namespace_parse_gen_1_1_parser">ParseGen::Parser</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;filesystem&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="parsetree_8h" kindref="compound">util/parsetree.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_parse_gen_1_1_parser" kindref="compound">ParseGen::Parser</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">IParserGenerator;</highlight></codeline>
+<codeline lineno="12" refid="class_parse_gen_1_1_parser_1_1_i_parser_generator" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator" kindref="compound">IParserGenerator</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15" refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1ab877ffe8a0b1428740320e470b9e0d79" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1ab877ffe8a0b1428740320e470b9e0d79" kindref="member">language</ref>;</highlight></codeline>
+<codeline lineno="16" refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1a59c1b456db3c6f2e2bb169a7123191c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1a59c1b456db3c6f2e2bb169a7123191c7" kindref="member">templateSubDir</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19" refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1af62c9506f49ed5c8205082fb5d5bae98" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1af62c9506f49ed5c8205082fb5d5bae98" kindref="member">bnf</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree" kindref="compound">Util::ParseTree</ref><sp/>*<ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1ae29f6b1213c0fc23bfe5fe049be4ddbc" kindref="member">parse</ref>(std::string<sp/>input)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1abb8807a107ad5b49c2d07aceab14273e" kindref="member">codeToString</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1acc41ef8afafb3c17ec86292fecfaeb8d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1acc41ef8afafb3c17ec86292fecfaeb8d" kindref="member">codeToFile</ref>()</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1a59c1b456db3c6f2e2bb169a7123191c7" kindref="member">templateSubDir</ref><sp/>==<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>templateDir<sp/>=<sp/>std::filesystem::current_path()<sp/>/<sp/></highlight><highlight class="stringliteral">&quot;templates&quot;</highlight><highlight class="normal"><sp/>/<sp/><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1a59c1b456db3c6f2e2bb169a7123191c7" kindref="member">templateSubDir</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>targetDir<sp/>=<sp/>std::filesystem::current_path()<sp/>/<sp/></highlight><highlight class="stringliteral">&quot;target&quot;</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>take<sp/>as<sp/>input!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>&amp;entry<sp/>:<sp/>std::filesystem::directory_iterator(targetDir))</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::filesystem::remove_all(entry.path());</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::filesystem::copy(templateDir,<sp/>targetDir,<sp/>std::filesystem::copy_options::overwrite_existing<sp/>|<sp/>std::filesystem::copy_options::recursive);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>code<sp/>=<sp/>this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1abb8807a107ad5b49c2d07aceab14273e" kindref="member">codeToString</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::ofstream<sp/>outTemplate(targetDir<sp/>/<sp/></highlight><highlight class="stringliteral">&quot;template.cpp&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>outTemplate<sp/>&lt;&lt;<sp/>code;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>outTemplate.close();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>required,<sp/>but<sp/>not<sp/>implemented<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>static<sp/>IParserGenerator<sp/>*Create(std::string<sp/>language,<sp/>std::string<sp/>bnf);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/root/fyp/project/src/parsergenerator/iparsergenerator.h"/>
+  </compounddef>
+</doxygen>

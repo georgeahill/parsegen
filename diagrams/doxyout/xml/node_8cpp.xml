@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="node_8cpp" kind="file" language="C++">
+    <compoundname>node.cpp</compoundname>
+    <includes refid="node_8h" local="yes">node.h</includes>
+    <incdepgraph>
+      <node id="6">
+        <label>imgui/nodes/imgui_node_editor.h</label>
+      </node>
+      <node id="3">
+        <label>string</label>
+      </node>
+      <node id="7">
+        <label>drawing.h</label>
+        <link refid="drawing_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nodelink.h</label>
+        <link refid="nodelink_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>vector</label>
+      </node>
+      <node id="8">
+        <label>imgui.h</label>
+      </node>
+      <node id="9">
+        <label>iostream</label>
+      </node>
+      <node id="1">
+        <label>/root/fyp/project/src/node.cpp</label>
+        <link refid="node_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>node.h</label>
+        <link refid="node_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_parse_gen">ParseGen</innernamespace>
+    <innernamespace refid="namespace_parse_gen_1_1_g_u_i">ParseGen::GUI</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="node_8h" kindref="compound">node.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_parse_gen_1_1_g_u_i" kindref="compound">ParseGen::GUI</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="class_parse_gen_1_1_g_u_i_1_1_node_1a15a07e070beeb57842b4e1371c0d1794" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a15a07e070beeb57842b4e1371c0d1794" kindref="member">Node::RenderFrame</ref>()</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a7d634dc35a1bae20b6e7e19c6e499abc" kindref="member">Update</ref>();</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ed::BeginNode(this-&gt;<ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a1c51e5d36c9ca5329d576186842a6ea8" kindref="member">nodeId</ref>);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1acda79953dd0a138d822a164891a92970" kindref="member">inPin</ref>)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImGui::BeginGroup();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ed::BeginPin(this-&gt;<ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1acda79953dd0a138d822a164891a92970" kindref="member">inPin</ref>,<sp/>ed::PinKind::Input);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="drawing_8cpp_1a0733fed66e38bebb3e8ee4d86b3515d5" kindref="member">Icon</ref>(<ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a1fa5b4d3b86ee42a3851b8ef96213b14" kindref="member">iconType</ref>,<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a828fed066d03764b9b3da75b7698c7df" kindref="member">Node::IconSize</ref>,<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1ac73f5b712341ebf73d776c5a187abacf" kindref="member">inIsConnected</ref>,<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a498449a349cd5a7439132ee2f7f6af3e" kindref="member">pinColor</ref>,<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a9684b44a42bf27601a49b653b78e5bef" kindref="member">innerPinColor</ref>);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ed::EndPin();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImGui::EndGroup();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImGui::SameLine();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>align<sp/>text<sp/>to<sp/>middle-ish</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1acda79953dd0a138d822a164891a92970" kindref="member">inPin</ref><sp/>||<sp/>this-&gt;<ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a3a21b6848f72a75fff702b4d2ce66211" kindref="member">outPin</ref>)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImGui::AlignTextToFramePadding();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImGui::TextUnformatted(<ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1aac9ba772f5c55af64bb6c4f05f1aa4b5" kindref="member">name</ref>.c_str());</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a3a21b6848f72a75fff702b4d2ce66211" kindref="member">outPin</ref>)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImGui::SameLine();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImGui::BeginGroup();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ed::BeginPin(this-&gt;<ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a3a21b6848f72a75fff702b4d2ce66211" kindref="member">outPin</ref>,<sp/>ed::PinKind::Output);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="drawing_8cpp_1a0733fed66e38bebb3e8ee4d86b3515d5" kindref="member">Icon</ref>(<ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a1fa5b4d3b86ee42a3851b8ef96213b14" kindref="member">iconType</ref>,<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a828fed066d03764b9b3da75b7698c7df" kindref="member">Node::IconSize</ref>,<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a468856f0e11fdff554c8341c4b95db63" kindref="member">outIsConnected</ref>,<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a498449a349cd5a7439132ee2f7f6af3e" kindref="member">pinColor</ref>,<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a9684b44a42bf27601a49b653b78e5bef" kindref="member">innerPinColor</ref>);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ed::EndPin();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImGui::EndGroup();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ed::EndNode();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/root/fyp/project/src/node.cpp"/>
+  </compounddef>
+</doxygen>

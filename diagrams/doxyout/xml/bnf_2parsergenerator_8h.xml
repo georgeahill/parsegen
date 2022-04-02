@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="bnf_2parsergenerator_8h" kind="file" language="C++">
+    <compoundname>parsergenerator.h</compoundname>
+    <includes refid="parsetree_8h" local="yes">../util/parsetree.h</includes>
+    <includes refid="symbol_8h" local="yes">../util/symbol.h</includes>
+    <includedby refid="factory_8h" local="yes">/root/fyp/project/src/parsergenerator/factory.h</includedby>
+    <incdepgraph>
+      <node id="7">
+        <label>string</label>
+      </node>
+      <node id="2">
+        <label>../util/parsetree.h</label>
+        <link refid="parsetree_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>vector</label>
+      </node>
+      <node id="5">
+        <label>iostream</label>
+      </node>
+      <node id="1">
+        <label>/root/fyp/project/src/parsergenerator/bnf/parsergenerator.h</label>
+        <link refid="bnf_2parsergenerator_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>symbol.h</label>
+        <link refid="symbol_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>initializer_list</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>/root/fyp/project/src/parsergenerator/factory.h</label>
+        <link refid="factory_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/root/fyp/project/src/maingui.cpp</label>
+        <link refid="maingui_8cpp"/>
+      </node>
+      <node id="1">
+        <label>/root/fyp/project/src/parsergenerator/bnf/parsergenerator.h</label>
+        <link refid="bnf_2parsergenerator_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator" prot="public">ParseGen::Parser::BNF::BNFParserGenerator</innerclass>
+    <innernamespace refid="namespace_parse_gen">ParseGen</innernamespace>
+    <innernamespace refid="namespace_parse_gen_1_1_parser">ParseGen::Parser</innernamespace>
+    <innernamespace refid="namespace_parse_gen_1_1_parser_1_1_b_n_f">ParseGen::Parser::BNF</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../util/parsetree.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../util/symbol.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="namespace_parse_gen_1_1_parser_1_1_b_n_f" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_parse_gen_1_1_parser_1_1_b_n_f" kindref="compound">ParseGen::Parser::BNF</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator" kindref="compound">BNFParserGenerator</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator" kindref="compound">IParserGenerator</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="12" refid="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator_1a8f65bc5bf79f1db569a5feaa6ee375dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator_1a8f65bc5bf79f1db569a5feaa6ee375dc" kindref="member">BNFParserGenerator</ref>(std::string<sp/><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1af62c9506f49ed5c8205082fb5d5bae98" kindref="member">bnf</ref>)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>BNF<sp/>is<sp/>only<sp/>option!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1ab877ffe8a0b1428740320e470b9e0d79" kindref="member">language</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;BNF&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;bnf<sp/>=<sp/><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1af62c9506f49ed5c8205082fb5d5bae98" kindref="member">bnf</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1a59c1b456db3c6f2e2bb169a7123191c7" kindref="member">templateSubDir</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;bnf&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="21" refid="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator_1a0654fb90b03af600a3534213d981eddb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree" kindref="compound">Util::ParseTree</ref>*<sp/><ref refid="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator_1a0654fb90b03af600a3534213d981eddb" kindref="member">parse</ref>(std::string<sp/>input){</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>this<sp/>format<sp/>will<sp/>just<sp/>print<sp/>text<sp/>in<sp/>output<sp/>window<sp/>:)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree" kindref="compound">Util::ParseTree</ref>({<ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1af62c9506f49ed5c8205082fb5d5bae98" kindref="member">bnf</ref>,<sp/><ref refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7afc1563cab35f3813cead3ebd55f40ea8" kindref="member">Util::SymbolType::END</ref>});</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator_1a5e568163936d4068de9c8b56c380ae9b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator_1a5e568163936d4068de9c8b56c380ae9b" kindref="member">codeToString</ref>(){</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;<ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1af62c9506f49ed5c8205082fb5d5bae98" kindref="member">bnf</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator_1a14083a97fde4bb9047f2ecba935c6eda" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator" kindref="compound">IParserGenerator</ref><sp/>*<ref refid="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator_1a14083a97fde4bb9047f2ecba935c6eda" kindref="member">Create</ref>(std::string<sp/><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1ab877ffe8a0b1428740320e470b9e0d79" kindref="member">language</ref>,<sp/>std::string<sp/><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1af62c9506f49ed5c8205082fb5d5bae98" kindref="member">bnf</ref>)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator_1a8f65bc5bf79f1db569a5feaa6ee375dc" kindref="member">BNFParserGenerator</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1af62c9506f49ed5c8205082fb5d5bae98" kindref="member">bnf</ref>);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/root/fyp/project/src/parsergenerator/bnf/parsergenerator.h"/>
+  </compounddef>
+</doxygen>

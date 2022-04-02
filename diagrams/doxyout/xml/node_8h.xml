@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="node_8h" kind="file" language="C++">
+    <compoundname>node.h</compoundname>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includes refid="nodelink_8h" local="yes">nodelink.h</includes>
+    <includes refid="drawing_8h" local="yes">drawing.h</includes>
+    <includes local="no">imgui/nodes/imgui_node_editor.h</includes>
+    <includes local="no">iostream</includes>
+    <includedby refid="nonterminalnode_8h" local="yes">/root/fyp/project/src/nonterminalnode.h</includedby>
+    <includedby refid="nodelink_8h" local="yes">/root/fyp/project/src/nodelink.h</includedby>
+    <includedby refid="main_8cpp" local="yes">/root/fyp/project/src/main.cpp</includedby>
+    <includedby refid="specialnode_8h" local="yes">/root/fyp/project/src/specialnode.h</includedby>
+    <includedby refid="terminalnode_8h" local="yes">/root/fyp/project/src/terminalnode.h</includedby>
+    <includedby refid="node_8cpp" local="yes">/root/fyp/project/src/node.cpp</includedby>
+    <includedby refid="rule_8cpp" local="yes">/root/fyp/project/src/rule.cpp</includedby>
+    <incdepgraph>
+      <node id="5">
+        <label>imgui/nodes/imgui_node_editor.h</label>
+      </node>
+      <node id="2">
+        <label>string</label>
+      </node>
+      <node id="6">
+        <label>drawing.h</label>
+        <link refid="drawing_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nodelink.h</label>
+        <link refid="nodelink_8h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>vector</label>
+      </node>
+      <node id="7">
+        <label>imgui.h</label>
+      </node>
+      <node id="8">
+        <label>iostream</label>
+      </node>
+      <node id="1">
+        <label>/root/fyp/project/src/node.h</label>
+        <link refid="node_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="10">
+        <label>/root/fyp/project/src/terminalnode.h</label>
+        <link refid="terminalnode_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/root/fyp/project/src/specialnode.h</label>
+        <link refid="specialnode_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/root/fyp/project/src/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="5">
+        <label>/root/fyp/project/src/nodelink.h</label>
+        <link refid="nodelink_8h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>/root/fyp/project/src/maingui.cpp</label>
+        <link refid="maingui_8cpp"/>
+      </node>
+      <node id="2">
+        <label>/root/fyp/project/src/nonterminalnode.h</label>
+        <link refid="nonterminalnode_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/root/fyp/project/src/rule.h</label>
+        <link refid="rule_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/root/fyp/project/src/node.cpp</label>
+        <link refid="node_8cpp"/>
+      </node>
+      <node id="1">
+        <label>/root/fyp/project/src/node.h</label>
+        <link refid="node_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>/root/fyp/project/src/maingui.h</label>
+        <link refid="maingui_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/root/fyp/project/src/rule.cpp</label>
+        <link refid="rule_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_parse_gen_1_1_g_u_i_1_1_node" prot="public">ParseGen::GUI::Node</innerclass>
+    <innernamespace refid="namespace_parse_gen">ParseGen</innernamespace>
+    <innernamespace refid="namespace_parse_gen_1_1_g_u_i">ParseGen::GUI</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Node;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="nodelink_8h" kindref="compound">nodelink.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="drawing_8h" kindref="compound">drawing.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;imgui/nodes/imgui_node_editor.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">ed<sp/>=<sp/>ax::NodeEditor;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_parse_gen_1_1_g_u_i" kindref="compound">ParseGen::GUI</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18" refid="class_parse_gen_1_1_g_u_i_1_1_node" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_parse_gen_1_1_g_u_i_1_1_node" kindref="compound">Node</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="21" refid="class_parse_gen_1_1_g_u_i_1_1_node_1a3be486d50da5c21ed7d8bdae0609b31a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a3be486d50da5c21ed7d8bdae0609b31a" kindref="member">id</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="class_parse_gen_1_1_g_u_i_1_1_node_1a1c51e5d36c9ca5329d576186842a6ea8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ed::NodeId<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a1c51e5d36c9ca5329d576186842a6ea8" kindref="member">nodeId</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>these<sp/>can<sp/>never<sp/>be<sp/>0<sp/>(since<sp/>they<sp/>are<sp/>offset<sp/>from<sp/>nodeId)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>so<sp/>we<sp/>can<sp/>use<sp/>this<sp/>to<sp/>check<sp/>if<sp/>they&apos;ve<sp/>been<sp/>set</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="class_parse_gen_1_1_g_u_i_1_1_node_1acda79953dd0a138d822a164891a92970" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ed::PinId<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1acda79953dd0a138d822a164891a92970" kindref="member">inPin</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="27" refid="class_parse_gen_1_1_g_u_i_1_1_node_1a3a21b6848f72a75fff702b4d2ce66211" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ed::PinId<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a3a21b6848f72a75fff702b4d2ce66211" kindref="member">outPin</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="class_parse_gen_1_1_g_u_i_1_1_node_1ac73f5b712341ebf73d776c5a187abacf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1ac73f5b712341ebf73d776c5a187abacf" kindref="member">inIsConnected</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30" refid="class_parse_gen_1_1_g_u_i_1_1_node_1a468856f0e11fdff554c8341c4b95db63" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a468856f0e11fdff554c8341c4b95db63" kindref="member">outIsConnected</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31" refid="class_parse_gen_1_1_g_u_i_1_1_node_1a1b26c01f568b5fee67a90941df558d9f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a1b26c01f568b5fee67a90941df558d9f" kindref="member">numOutConnected</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="32" refid="class_parse_gen_1_1_g_u_i_1_1_node_1ae472da092a73ddd4945fe2b0d5bb77dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1ae472da092a73ddd4945fe2b0d5bb77dd" kindref="member">numInConnected</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="class_parse_gen_1_1_g_u_i_1_1_node_1a8caf2191dc7636028a1467ca788cd9da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a8caf2191dc7636028a1467ca788cd9da" kindref="member">x</ref>;</highlight></codeline>
+<codeline lineno="35" refid="class_parse_gen_1_1_g_u_i_1_1_node_1a98f65ef47f86e054d47e1ea61bd0791e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a98f65ef47f86e054d47e1ea61bd0791e" kindref="member">y</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="class_parse_gen_1_1_g_u_i_1_1_node_1aac9ba772f5c55af64bb6c4f05f1aa4b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1aac9ba772f5c55af64bb6c4f05f1aa4b5" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="class_parse_gen_1_1_g_u_i_1_1_node_1aa5a9482b5c376e7ff39cea1e69ed80b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;NodeLink<sp/>*&gt;<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1aa5a9482b5c376e7ff39cea1e69ed80b8" kindref="member">nextLinks</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="class_parse_gen_1_1_g_u_i_1_1_node_1a778687b1df3ec68367bad6ded215773b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>uint<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a778687b1df3ec68367bad6ded215773b" kindref="member">currentId</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="42" refid="class_parse_gen_1_1_g_u_i_1_1_node_1a828fed066d03764b9b3da75b7698c7df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ImVec2<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a828fed066d03764b9b3da75b7698c7df" kindref="member">IconSize</ref><sp/>=<sp/>ImVec2(24,<sp/>24);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>should<sp/>be<sp/>set<sp/>by<sp/>individual<sp/>derived<sp/>classes;<sp/>(non-static)<sp/>option<sp/>is<sp/>left<sp/>to<sp/>set<sp/>on<sp/>a<sp/>node-level</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="class_parse_gen_1_1_g_u_i_1_1_node_1a1fa5b4d3b86ee42a3851b8ef96213b14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="drawing_8h_1ab83da487393d464a63f8b104776e1fdd" kindref="member">IconType</ref><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a1fa5b4d3b86ee42a3851b8ef96213b14" kindref="member">iconType</ref>;</highlight></codeline>
+<codeline lineno="46" refid="class_parse_gen_1_1_g_u_i_1_1_node_1a498449a349cd5a7439132ee2f7f6af3e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImColor<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a498449a349cd5a7439132ee2f7f6af3e" kindref="member">pinColor</ref>;</highlight></codeline>
+<codeline lineno="47" refid="class_parse_gen_1_1_g_u_i_1_1_node_1a9684b44a42bf27601a49b653b78e5bef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImColor<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a9684b44a42bf27601a49b653b78e5bef" kindref="member">innerPinColor</ref><sp/>=<sp/>ImColor(ImVec4(0,<sp/>0,<sp/>0,<sp/>0));</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>this<sp/>looks<sp/>messy<sp/>but<sp/>simply<sp/>assigns<sp/>id<sp/>to<sp/>currentId</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>and<sp/>increments<sp/>currentId<sp/>by<sp/>3<sp/>(for<sp/>nodeId,<sp/>inPin,<sp/>outPin)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="class_parse_gen_1_1_g_u_i_1_1_node_1a2f5f94879213ef5fc9398507ae499d81" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a2f5f94879213ef5fc9398507ae499d81" kindref="member">Node</ref>()</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a778687b1df3ec68367bad6ded215773b" kindref="member">currentId</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a1c51e5d36c9ca5329d576186842a6ea8" kindref="member">nodeId</ref><sp/>=<sp/>ed::NodeId(<ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a778687b1df3ec68367bad6ded215773b" kindref="member">currentId</ref>++);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1acda79953dd0a138d822a164891a92970" kindref="member">inPin</ref><sp/>=<sp/>ed::PinId(<ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a778687b1df3ec68367bad6ded215773b" kindref="member">currentId</ref>++);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a3a21b6848f72a75fff702b4d2ce66211" kindref="member">outPin</ref><sp/>=<sp/>ed::PinId(<ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a778687b1df3ec68367bad6ded215773b" kindref="member">currentId</ref>++);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>optionally<sp/>called<sp/>each<sp/>frame,<sp/>if<sp/>overridden</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="class_parse_gen_1_1_g_u_i_1_1_node_1a7d634dc35a1bae20b6e7e19c6e499abc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a7d634dc35a1bae20b6e7e19c6e499abc" kindref="member">Update</ref>(){};</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a15a07e070beeb57842b4e1371c0d1794" kindref="member">RenderFrame</ref>();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_node_1a10180aa1b8cfbbdba7eae52daa1ba834" kindref="member">~Node</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/root/fyp/project/src/node.h"/>
+  </compounddef>
+</doxygen>

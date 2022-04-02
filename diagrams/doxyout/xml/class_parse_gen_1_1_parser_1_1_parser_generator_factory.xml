@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_parse_gen_1_1_parser_1_1_parser_generator_factory" kind="class" language="C++" prot="public">
+    <compoundname>ParseGen::Parser::ParserGeneratorFactory</compoundname>
+    <includes refid="factory_8h" local="no">factory.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1aae166d03a61c05e86501e4154ce4edc6" prot="private" static="no" mutable="no">
+        <type>std::map&lt; std::string, <ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator" kindref="compound">IParserGenerator</ref> *(*)(std::string, std::string)&gt;</type>
+        <definition>std::map&lt;std::string, IParserGenerator *(*)(std::string, std::string)&gt; ParseGen::Parser::ParserGeneratorFactory::m_FactoryMap</definition>
+        <argsstring></argsstring>
+        <name>m_FactoryMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/factory.h" line="30" column="18" bodyfile="/root/fyp/project/src/parsergenerator/factory.h" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1abe6ea07883a3aae197c83a310dbdac6c" compoundref="factory_8h" startline="40" endline="52">Register</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1ac77f64c2b5a52cab0e1db2a10ed14ac0" compoundref="factory_8h" startline="54" endline="60">create</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a67f85470bbda2662ff0fcf03e3cd83b1" compoundref="factory_8h" startline="79" endline="82">size</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a34f59f1e6d2aa6c4c02acc3ac1385c5e" prot="private" static="no" mutable="no">
+        <type>const char **</type>
+        <definition>const char** ParseGen::Parser::ParserGeneratorFactory::options</definition>
+        <argsstring></argsstring>
+        <name>options</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/factory.h" line="31" column="20" bodyfile="/root/fyp/project/src/parsergenerator/factory.h" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1abe6ea07883a3aae197c83a310dbdac6c" compoundref="factory_8h" startline="40" endline="52">Register</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a36873b6eabc46913622d6a5dfdceffa1" compoundref="factory_8h" startline="68" endline="71">getOutputTypes</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1ac66b02ca8b2861ed3c53907114a856e2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ParseGen::Parser::ParserGeneratorFactory::ParserGeneratorFactory</definition>
+        <argsstring>()</argsstring>
+        <name>ParserGeneratorFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/factory.h" line="18" column="9" bodyfile="/root/fyp/project/src/parsergenerator/factory.h" bodystart="18" bodyend="23"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_b_n_f_1_1_b_n_f_parser_generator_1a14083a97fde4bb9047f2ecba935c6eda" compoundref="bnf_2parsergenerator_8h" startline="30" endline="33">ParseGen::Parser::BNF::BNFParserGenerator::Create</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator_1a87ef78dd0104f5c0ff6feaedaaf22d1c" compoundref="lexyacc_2parsergenerator_8h" startline="180" endline="183">ParseGen::Parser::Yacc::LexYaccGenerator::Create</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_l_l_predictive_parser_generator_1a342390258fa7f492e2e65984100f56a0" compoundref="llpred_2parsergenerator_8h" startline="280" endline="283">ParseGen::Parser::LLPredictiveParser::LLPredictiveParserGenerator::Create</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1abe6ea07883a3aae197c83a310dbdac6c" compoundref="factory_8h" startline="40" endline="52">Register</references>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1ae0b948e0016a5fed88995946baab56c6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ParseGen::Parser::ParserGeneratorFactory::ParserGeneratorFactory</definition>
+        <argsstring>(const ParserGeneratorFactory &amp;)</argsstring>
+        <name>ParserGeneratorFactory</name>
+        <param>
+          <type>const <ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory" kindref="compound">ParserGeneratorFactory</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/factory.h" line="25" column="9" bodyfile="/root/fyp/project/src/parsergenerator/factory.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a2ff76abf99bd4010e6e890b070039d6c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory" kindref="compound">ParserGeneratorFactory</ref> &amp;</type>
+        <definition>ParserGeneratorFactory&amp; ParseGen::Parser::ParserGeneratorFactory::operator=</definition>
+        <argsstring>(const ParserGeneratorFactory &amp;)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory" kindref="compound">ParserGeneratorFactory</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/factory.h" line="27" column="32" bodyfile="/root/fyp/project/src/parsergenerator/factory.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1aa6b235e2945524e7373a03b9b209fffd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory" kindref="compound">ParserGeneratorFactory</ref> *</type>
+        <definition>static ParserGeneratorFactory* ParseGen::Parser::ParserGeneratorFactory::Get</definition>
+        <argsstring>()</argsstring>
+        <name>Get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/factory.h" line="34" column="39" bodyfile="/root/fyp/project/src/parsergenerator/factory.h" bodystart="34" bodyend="38"/>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1afa1ed5ce57448b5f8e854e303c171889" compoundref="factory_8h" startline="62" endline="66">Create</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a086e0f8c712c389dc9b94c683b1f5f33" compoundref="factory_8h" startline="73" endline="77">GetOutputTypes</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ae50424eb009179d7c6942550e3ec7a9a" compoundref="maingui_8cpp" startline="308" endline="520">ParseGen::GUI::MainEditor::ruleTesterWindow</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a9074b757423d82d9c6725264ae2704ef" compoundref="factory_8h" startline="84" endline="88">Size</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1afa1ed5ce57448b5f8e854e303c171889" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator" kindref="compound">IParserGenerator</ref> *</type>
+        <definition>static IParserGenerator* ParseGen::Parser::ParserGeneratorFactory::Create</definition>
+        <argsstring>(const std::string &amp;type, const std::string &amp;lang, const std::string &amp;bnf)</argsstring>
+        <name>Create</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>lang</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>bnf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/factory.h" line="62" column="33" bodyfile="/root/fyp/project/src/parsergenerator/factory.h" bodystart="62" bodyend="66"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1aa6b235e2945524e7373a03b9b209fffd" compoundref="factory_8h" startline="34" endline="38">Get</references>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1a375e7fc2018957b0d42313a9d87bb952" compoundref="maingui_8cpp" startline="585" endline="601">ParseGen::GUI::MainEditor::processRules</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a086e0f8c712c389dc9b94c683b1f5f33" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char **</type>
+        <definition>static const char** ParseGen::Parser::ParserGeneratorFactory::GetOutputTypes</definition>
+        <argsstring>()</argsstring>
+        <name>GetOutputTypes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/factory.h" line="73" column="27" bodyfile="/root/fyp/project/src/parsergenerator/factory.h" bodystart="73" bodyend="77"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1aa6b235e2945524e7373a03b9b209fffd" compoundref="factory_8h" startline="34" endline="38">Get</references>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a9074b757423d82d9c6725264ae2704ef" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int ParseGen::Parser::ParserGeneratorFactory::Size</definition>
+        <argsstring>()</argsstring>
+        <name>Size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/factory.h" line="84" column="20" bodyfile="/root/fyp/project/src/parsergenerator/factory.h" bodystart="84" bodyend="88"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1aa6b235e2945524e7373a03b9b209fffd" compoundref="factory_8h" startline="34" endline="38">Get</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1abe6ea07883a3aae197c83a310dbdac6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ParseGen::Parser::ParserGeneratorFactory::Register</definition>
+        <argsstring>(const std::string &amp;type, IParserGenerator *(*pfnCreate)(std::string, std::string))</argsstring>
+        <name>Register</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator" kindref="compound">IParserGenerator</ref> *(*)(std::string, std::string)</type>
+          <declname>pfnCreate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/factory.h" line="40" column="14" bodyfile="/root/fyp/project/src/parsergenerator/factory.h" bodystart="40" bodyend="52"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1aae166d03a61c05e86501e4154ce4edc6" compoundref="factory_8h" startline="30">m_FactoryMap</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a34f59f1e6d2aa6c4c02acc3ac1385c5e" compoundref="factory_8h" startline="31">options</references>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1ac66b02ca8b2861ed3c53907114a856e2" compoundref="factory_8h" startline="18" endline="23">ParserGeneratorFactory</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1ac77f64c2b5a52cab0e1db2a10ed14ac0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator" kindref="compound">IParserGenerator</ref> *</type>
+        <definition>IParserGenerator* ParseGen::Parser::ParserGeneratorFactory::create</definition>
+        <argsstring>(const std::string &amp;type, const std::string &amp;lang, const std::string &amp;bnf)</argsstring>
+        <name>create</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>lang</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>bnf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/factory.h" line="54" column="26" bodyfile="/root/fyp/project/src/parsergenerator/factory.h" bodystart="54" bodyend="60"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1aae166d03a61c05e86501e4154ce4edc6" compoundref="factory_8h" startline="30">m_FactoryMap</references>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a36873b6eabc46913622d6a5dfdceffa1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char **</type>
+        <definition>const char** ParseGen::Parser::ParserGeneratorFactory::getOutputTypes</definition>
+        <argsstring>() const</argsstring>
+        <name>getOutputTypes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/factory.h" line="68" column="20" bodyfile="/root/fyp/project/src/parsergenerator/factory.h" bodystart="68" bodyend="71"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a34f59f1e6d2aa6c4c02acc3ac1385c5e" compoundref="factory_8h" startline="31">options</references>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_main_editor_1ae50424eb009179d7c6942550e3ec7a9a" compoundref="maingui_8cpp" startline="308" endline="520">ParseGen::GUI::MainEditor::ruleTesterWindow</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a67f85470bbda2662ff0fcf03e3cd83b1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ParseGen::Parser::ParserGeneratorFactory::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/factory.h" line="79" column="13" bodyfile="/root/fyp/project/src/parsergenerator/factory.h" bodystart="79" bodyend="82"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1aae166d03a61c05e86501e4154ce4edc6" compoundref="factory_8h" startline="30">m_FactoryMap</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ParseGen::Parser::ParserGeneratorFactory</label>
+        <link refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="/root/fyp/project/src/parsergenerator/factory.h" line="16" column="1" bodyfile="/root/fyp/project/src/parsergenerator/factory.h" bodystart="15" bodyend="89"/>
+    <listofallmembers>
+      <member refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1ac77f64c2b5a52cab0e1db2a10ed14ac0" prot="public" virt="non-virtual"><scope>ParseGen::Parser::ParserGeneratorFactory</scope><name>create</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1afa1ed5ce57448b5f8e854e303c171889" prot="public" virt="non-virtual"><scope>ParseGen::Parser::ParserGeneratorFactory</scope><name>Create</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1aa6b235e2945524e7373a03b9b209fffd" prot="public" virt="non-virtual"><scope>ParseGen::Parser::ParserGeneratorFactory</scope><name>Get</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a36873b6eabc46913622d6a5dfdceffa1" prot="public" virt="non-virtual"><scope>ParseGen::Parser::ParserGeneratorFactory</scope><name>getOutputTypes</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a086e0f8c712c389dc9b94c683b1f5f33" prot="public" virt="non-virtual"><scope>ParseGen::Parser::ParserGeneratorFactory</scope><name>GetOutputTypes</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1aae166d03a61c05e86501e4154ce4edc6" prot="private" virt="non-virtual"><scope>ParseGen::Parser::ParserGeneratorFactory</scope><name>m_FactoryMap</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a2ff76abf99bd4010e6e890b070039d6c" prot="private" virt="non-virtual"><scope>ParseGen::Parser::ParserGeneratorFactory</scope><name>operator=</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a34f59f1e6d2aa6c4c02acc3ac1385c5e" prot="private" virt="non-virtual"><scope>ParseGen::Parser::ParserGeneratorFactory</scope><name>options</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1ac66b02ca8b2861ed3c53907114a856e2" prot="private" virt="non-virtual"><scope>ParseGen::Parser::ParserGeneratorFactory</scope><name>ParserGeneratorFactory</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1ae0b948e0016a5fed88995946baab56c6" prot="private" virt="non-virtual"><scope>ParseGen::Parser::ParserGeneratorFactory</scope><name>ParserGeneratorFactory</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1abe6ea07883a3aae197c83a310dbdac6c" prot="public" virt="non-virtual"><scope>ParseGen::Parser::ParserGeneratorFactory</scope><name>Register</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a9074b757423d82d9c6725264ae2704ef" prot="public" virt="non-virtual"><scope>ParseGen::Parser::ParserGeneratorFactory</scope><name>Size</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1a67f85470bbda2662ff0fcf03e3cd83b1" prot="public" virt="non-virtual"><scope>ParseGen::Parser::ParserGeneratorFactory</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

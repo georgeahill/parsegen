@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator" kind="class" language="C++" prot="public">
+    <compoundname>ParseGen::Parser::Yacc::LexYaccGenerator</compoundname>
+    <basecompoundref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator" prot="public" virt="non-virtual">ParseGen::Parser::IParserGenerator</basecompoundref>
+    <includes refid="lexyacc_2parsergenerator_8h" local="no">parsergenerator.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator_1a712acc82b93851959ff0f7c0a02bb15e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_parseable_input" kindref="compound">Util::ParseableInput</ref> *</type>
+        <definition>Util::ParseableInput* ParseGen::Parser::Yacc::LexYaccGenerator::rules</definition>
+        <argsstring></argsstring>
+        <name>rules</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/lexyacc/parsergenerator.h" line="28" column="30" bodyfile="/root/fyp/project/src/parsergenerator/lexyacc/parsergenerator.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator_1a8bb897ab08b43fa7972a5272b58d3ea6" compoundref="lexyacc_2parsergenerator_8h" startline="20" endline="26">LexYaccGenerator</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator_1a076cf99ef4d6ad6c01ab28996ab5f356" compoundref="lexyacc_2parsergenerator_8h" startline="60" endline="178">codeToString</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator_1a8bb897ab08b43fa7972a5272b58d3ea6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ParseGen::Parser::Yacc::LexYaccGenerator::LexYaccGenerator</definition>
+        <argsstring>(std::string language, std::string bnf)</argsstring>
+        <name>LexYaccGenerator</name>
+        <param>
+          <type>std::string</type>
+          <declname>language</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>bnf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/lexyacc/parsergenerator.h" line="20" column="9" bodyfile="/root/fyp/project/src/parsergenerator/lexyacc/parsergenerator.h" bodystart="20" bodyend="26"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1af62c9506f49ed5c8205082fb5d5bae98" compoundref="iparsergenerator_8h" startline="19">ParseGen::Parser::IParserGenerator::bnf</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1ab877ffe8a0b1428740320e470b9e0d79" compoundref="iparsergenerator_8h" startline="15">ParseGen::Parser::IParserGenerator::language</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator_1a712acc82b93851959ff0f7c0a02bb15e" compoundref="lexyacc_2parsergenerator_8h" startline="26">rules</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1a59c1b456db3c6f2e2bb169a7123191c7" compoundref="iparsergenerator_8h" startline="16">ParseGen::Parser::IParserGenerator::templateSubDir</references>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator_1a87ef78dd0104f5c0ff6feaedaaf22d1c" compoundref="lexyacc_2parsergenerator_8h" startline="180" endline="183">Create</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator_1a17738df96f9cc019d9e9907affdfa54b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ParseGen::Parser::Yacc::LexYaccGenerator::escaped_name</definition>
+        <argsstring>(std::string name)</argsstring>
+        <name>escaped_name</name>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/lexyacc/parsergenerator.h" line="30" column="21" bodyfile="/root/fyp/project/src/parsergenerator/lexyacc/parsergenerator.h" bodystart="30" bodyend="51"/>
+        <references refid="lexyacc_2parsergenerator_8h_1a8a739928258a12c3d109bb3dceaf6d5b" compoundref="lexyacc_2parsergenerator_8h" startline="12">GET_UCN</references>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator_1a076cf99ef4d6ad6c01ab28996ab5f356" compoundref="lexyacc_2parsergenerator_8h" startline="60" endline="178">codeToString</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator_1a2737801a94c4d8cab6a6f59c88c7f849" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree" kindref="compound">Util::ParseTree</ref> *</type>
+        <definition>Util::ParseTree* ParseGen::Parser::Yacc::LexYaccGenerator::parse</definition>
+        <argsstring>(std::string input)</argsstring>
+        <name>parse</name>
+        <reimplements refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1ae29f6b1213c0fc23bfe5fe049be4ddbc">parse</reimplements>
+        <param>
+          <type>std::string</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/lexyacc/parsergenerator.h" line="54" column="25" bodyfile="/root/fyp/project/src/parsergenerator/lexyacc/parsergenerator.h" bodystart="54" bodyend="58"/>
+        <references refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7afc1563cab35f3813cead3ebd55f40ea8" compoundref="symbol_8h" startline="12">ParseGen::Parser::Util::END</references>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator_1a076cf99ef4d6ad6c01ab28996ab5f356" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string ParseGen::Parser::Yacc::LexYaccGenerator::codeToString</definition>
+        <argsstring>()</argsstring>
+        <name>codeToString</name>
+        <reimplements refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1abb8807a107ad5b49c2d07aceab14273e">codeToString</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/lexyacc/parsergenerator.h" line="60" column="21" bodyfile="/root/fyp/project/src/parsergenerator/lexyacc/parsergenerator.h" bodystart="60" bodyend="178"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator_1a17738df96f9cc019d9e9907affdfa54b" compoundref="lexyacc_2parsergenerator_8h" startline="30" endline="51">escaped_name</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a270a19c234614738ed31233b109e3d97" compoundref="symbol_8h" startline="19">ParseGen::Parser::Util::Symbol::name</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_parseable_input_1a8a63d5b8300f4b66e1071ac73296d72b" compoundref="parseableinput_8h" startline="107">ParseGen::Parser::Util::ParseableInput::productions</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator_1a712acc82b93851959ff0f7c0a02bb15e" compoundref="lexyacc_2parsergenerator_8h" startline="26">rules</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_parseable_input_1ab24ba7af8c255ed10b05e7ca0d16ff92" compoundref="parseableinput_8h" startline="118">ParseGen::Parser::Util::ParseableInput::start</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator_1a87ef78dd0104f5c0ff6feaedaaf22d1c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_parse_gen_1_1_parser_1_1_i_parser_generator" kindref="compound">IParserGenerator</ref> *</type>
+        <definition>static IParserGenerator* ParseGen::Parser::Yacc::LexYaccGenerator::Create</definition>
+        <argsstring>(std::string language, std::string bnf)</argsstring>
+        <name>Create</name>
+        <param>
+          <type>std::string</type>
+          <declname>language</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>bnf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/lexyacc/parsergenerator.h" line="180" column="33" bodyfile="/root/fyp/project/src/parsergenerator/lexyacc/parsergenerator.h" bodystart="180" bodyend="183"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1af62c9506f49ed5c8205082fb5d5bae98" compoundref="iparsergenerator_8h" startline="19">ParseGen::Parser::IParserGenerator::bnf</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1ab877ffe8a0b1428740320e470b9e0d79" compoundref="iparsergenerator_8h" startline="15">ParseGen::Parser::IParserGenerator::language</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator_1a8bb897ab08b43fa7972a5272b58d3ea6" compoundref="lexyacc_2parsergenerator_8h" startline="20" endline="26">LexYaccGenerator</references>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_parser_generator_factory_1ac66b02ca8b2861ed3c53907114a856e2" compoundref="factory_8h" startline="18" endline="23">ParseGen::Parser::ParserGeneratorFactory::ParserGeneratorFactory</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ParseGen::Parser::IParserGenerator</label>
+        <link refid="class_parse_gen_1_1_parser_1_1_i_parser_generator"/>
+      </node>
+      <node id="1">
+        <label>ParseGen::Parser::Yacc::LexYaccGenerator</label>
+        <link refid="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ParseGen::Parser::IParserGenerator</label>
+        <link refid="class_parse_gen_1_1_parser_1_1_i_parser_generator"/>
+      </node>
+      <node id="3">
+        <label>ParseGen::Parser::Util::ParseableInput</label>
+        <link refid="class_parse_gen_1_1_parser_1_1_util_1_1_parseable_input"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+start</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ParseGen::Parser::Yacc::LexYaccGenerator</label>
+        <link refid="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-rules</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ParseGen::Parser::Util::Symbol</label>
+        <link refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol"/>
+      </node>
+    </collaborationgraph>
+    <location file="/root/fyp/project/src/parsergenerator/lexyacc/parsergenerator.h" line="18" column="1" bodyfile="/root/fyp/project/src/parsergenerator/lexyacc/parsergenerator.h" bodystart="17" bodyend="184"/>
+    <listofallmembers>
+      <member refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1af62c9506f49ed5c8205082fb5d5bae98" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Yacc::LexYaccGenerator</scope><name>bnf</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1acc41ef8afafb3c17ec86292fecfaeb8d" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Yacc::LexYaccGenerator</scope><name>codeToFile</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator_1a076cf99ef4d6ad6c01ab28996ab5f356" prot="public" virt="virtual"><scope>ParseGen::Parser::Yacc::LexYaccGenerator</scope><name>codeToString</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator_1a87ef78dd0104f5c0ff6feaedaaf22d1c" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Yacc::LexYaccGenerator</scope><name>Create</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator_1a17738df96f9cc019d9e9907affdfa54b" prot="private" virt="non-virtual"><scope>ParseGen::Parser::Yacc::LexYaccGenerator</scope><name>escaped_name</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1ab877ffe8a0b1428740320e470b9e0d79" prot="protected" virt="non-virtual"><scope>ParseGen::Parser::Yacc::LexYaccGenerator</scope><name>language</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator_1a8bb897ab08b43fa7972a5272b58d3ea6" prot="private" virt="non-virtual"><scope>ParseGen::Parser::Yacc::LexYaccGenerator</scope><name>LexYaccGenerator</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator_1a2737801a94c4d8cab6a6f59c88c7f849" prot="public" virt="virtual"><scope>ParseGen::Parser::Yacc::LexYaccGenerator</scope><name>parse</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_yacc_1_1_lex_yacc_generator_1a712acc82b93851959ff0f7c0a02bb15e" prot="private" virt="non-virtual"><scope>ParseGen::Parser::Yacc::LexYaccGenerator</scope><name>rules</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_i_parser_generator_1a59c1b456db3c6f2e2bb169a7123191c7" prot="protected" virt="non-virtual"><scope>ParseGen::Parser::Yacc::LexYaccGenerator</scope><name>templateSubDir</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

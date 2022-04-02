@@ -1,0 +1,36 @@
+namespace Util
+{
+    bool operator<(const Symbol &first, const Symbol &second)
+    {
+        if (first.type == SymbolType::EMPTY && second.type == SymbolType::EMPTY)
+        {
+            return false;
+        }
+        else if (first.type == SymbolType::END && second.type == SymbolType::END)
+        {
+            return false;
+        }
+        else if (first.type == second.type)
+        {
+            return first.name < second.name;
+        }
+        else if (first.type < second.type)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    };
+
+    bool operator==(const Symbol &a, const Symbol &b)
+    {
+        return !(a < b || b < a);
+    }
+
+    bool operator!=(const Symbol &a, const Symbol &b)
+    {
+        return !(a == b);
+    }
+}

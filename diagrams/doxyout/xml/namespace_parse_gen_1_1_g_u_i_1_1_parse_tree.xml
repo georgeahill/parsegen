@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespace_parse_gen_1_1_g_u_i_1_1_parse_tree" kind="namespace" language="C++">
+    <compoundname>ParseGen::GUI::ParseTree</compoundname>
+    <innerclass refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer" prot="public">ParseGen::GUI::ParseTree::Renderer</innerclass>
+    <innerclass refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge" prot="public">ParseGen::GUI::ParseTree::TreeEdge</innerclass>
+    <innerclass refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect" prot="public">ParseGen::GUI::ParseTree::TreeRect</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/fyp/project/src/parsetreerenderer.cpp" line="8" column="1"/>
+  </compounddef>
+</doxygen>

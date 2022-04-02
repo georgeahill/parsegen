@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir">
+    <compoundname>/root/fyp/project/src</compoundname>
+    <innerdir refid="dir_4bd971899320f0c20ae3402336e72c25">/root/fyp/project/src/parsergenerator</innerdir>
+    <innerfile refid="drawing_8cpp">drawing.cpp</innerfile>
+    <innerfile refid="drawing_8h">drawing.h</innerfile>
+    <innerfile refid="main_8cpp">main.cpp</innerfile>
+    <innerfile refid="maingui_8cpp">maingui.cpp</innerfile>
+    <innerfile refid="maingui_8h">maingui.h</innerfile>
+    <innerfile refid="node_8cpp">node.cpp</innerfile>
+    <innerfile refid="node_8h">node.h</innerfile>
+    <innerfile refid="nodelink_8h">nodelink.h</innerfile>
+    <innerfile refid="nonterminal_8h">nonterminal.h</innerfile>
+    <innerfile refid="nonterminalnode_8h">nonterminalnode.h</innerfile>
+    <innerfile refid="parsetreerenderer_8cpp">parsetreerenderer.cpp</innerfile>
+    <innerfile refid="parsetreerenderer_8h">parsetreerenderer.h</innerfile>
+    <innerfile refid="rule_8cpp">rule.cpp</innerfile>
+    <innerfile refid="rule_8h">rule.h</innerfile>
+    <innerfile refid="specialnode_8h">specialnode.h</innerfile>
+    <innerfile refid="terminalnode_8h">terminalnode.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/fyp/project/src/"/>
+  </compounddef>
+</doxygen>

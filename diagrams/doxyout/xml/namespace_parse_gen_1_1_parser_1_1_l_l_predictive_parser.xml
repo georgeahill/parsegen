@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespace_parse_gen_1_1_parser_1_1_l_l_predictive_parser" kind="namespace" language="C++">
+    <compoundname>ParseGen::Parser::LLPredictiveParser</compoundname>
+    <innerclass refid="class_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_lexer" prot="public">ParseGen::Parser::LLPredictiveParser::Lexer</innerclass>
+    <innerclass refid="class_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_l_l_predictive_parser_generator" prot="public">ParseGen::Parser::LLPredictiveParser::LLPredictiveParserGenerator</innerclass>
+    <innerclass refid="class_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_parser_table" prot="public">ParseGen::Parser::LLPredictiveParser::ParserTable</innerclass>
+    <innerclass refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token" prot="public">ParseGen::Parser::LLPredictiveParser::Token</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1ac070452fab067d9fb8b9f00286ca8b78" prot="public" static="no" strong="no">
+        <type></type>
+        <name>TokenType</name>
+        <enumvalue id="namespace_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1ac070452fab067d9fb8b9f00286ca8b78a421274d594ecb620a3bcbe5a18f7d7ae" prot="public">
+          <name>TOKEN_TOKEN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/llpred/token.h" line="8" column="5" bodyfile="/root/fyp/project/src/parsergenerator/llpred/token.h" bodystart="7" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/fyp/project/src/parsergenerator/llpred/lexer.h" line="6" column="1"/>
+  </compounddef>
+</doxygen>

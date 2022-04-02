@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_8ccc5721401bc7f4a5e0f20f77f85310" kind="dir">
+    <compoundname>parsergenerator</compoundname>
+    <innerdir refid="dir_3579f5627308e4c7b94b63e9d2a399b6">parsergenerator/bnf</innerdir>
+    <innerdir refid="dir_c15a486fddfba65b679cee9076aaf82d">parsergenerator/lexyacc</innerdir>
+    <innerdir refid="dir_467d5160498f835f0d6ed892256c36cd">parsergenerator/llpred</innerdir>
+    <innerdir refid="dir_ed64e8d843078fdf392e1ea1a01016be">parsergenerator/util</innerdir>
+    <innerfile refid="factory_8h">factory.h</innerfile>
+    <innerfile refid="iparsergenerator_8h">iparsergenerator.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="parsergenerator/"/>
+  </compounddef>
+</doxygen>

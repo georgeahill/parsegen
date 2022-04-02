@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_6b9cd8dc11d275a2b05fbcf62cc6fa8f" kind="dir">
+    <compoundname>/root/fyp/project/src/parsergenerator/util</compoundname>
+    <innerfile refid="parseableinput_8h">parseableinput.h</innerfile>
+    <innerfile refid="parsetree_8h">parsetree.h</innerfile>
+    <innerfile refid="symbol_8cpp">symbol.cpp</innerfile>
+    <innerfile refid="symbol_8h">symbol.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/fyp/project/src/parsergenerator/util/"/>
+  </compounddef>
+</doxygen>

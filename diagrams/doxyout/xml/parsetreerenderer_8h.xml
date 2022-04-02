@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="parsetreerenderer_8h" kind="file" language="C++">
+    <compoundname>parsetreerenderer.h</compoundname>
+    <includes local="no">vector</includes>
+    <includes local="no">string</includes>
+    <includes local="no">imgui.h</includes>
+    <includes refid="parsetree_8h" local="yes">parsergenerator/util/parsetree.h</includes>
+    <includedby refid="maingui_8cpp" local="yes">/root/fyp/project/src/maingui.cpp</includedby>
+    <includedby refid="parsetreerenderer_8cpp" local="yes">/root/fyp/project/src/parsetreerenderer.cpp</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>string</label>
+      </node>
+      <node id="5">
+        <label>parsergenerator/util/parsetree.h</label>
+        <link refid="parsetree_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/root/fyp/project/src/parsetreerenderer.h</label>
+        <link refid="parsetreerenderer_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>vector</label>
+      </node>
+      <node id="4">
+        <label>imgui.h</label>
+      </node>
+      <node id="7">
+        <label>iostream</label>
+      </node>
+      <node id="8">
+        <label>symbol.h</label>
+        <link refid="symbol_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>initializer_list</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/root/fyp/project/src/parsetreerenderer.cpp</label>
+        <link refid="parsetreerenderer_8cpp"/>
+      </node>
+      <node id="1">
+        <label>/root/fyp/project/src/parsetreerenderer.h</label>
+        <link refid="parsetreerenderer_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/root/fyp/project/src/maingui.cpp</label>
+        <link refid="maingui_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect" prot="public">ParseGen::GUI::ParseTree::TreeRect</innerclass>
+    <innerclass refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge" prot="public">ParseGen::GUI::ParseTree::TreeEdge</innerclass>
+    <innerclass refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer" prot="public">ParseGen::GUI::ParseTree::Renderer</innerclass>
+    <innernamespace refid="namespace_parse_gen">ParseGen</innernamespace>
+    <innernamespace refid="namespace_parse_gen_1_1_g_u_i">ParseGen::GUI</innernamespace>
+    <innernamespace refid="namespace_parse_gen_1_1_g_u_i_1_1_parse_tree">ParseGen::GUI::ParseTree</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;imgui.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="parsetree_8h" kindref="compound">parsergenerator/util/parsetree.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_parse_gen_1_1_g_u_i_1_1_parse_tree" kindref="compound">ParseGen::GUI::ParseTree</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11" refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect" kindref="compound">TreeRect</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13" refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect_1aa5517b5c6a077bdfe1a487ffaa72269d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImVec2<sp/><ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect_1aa5517b5c6a077bdfe1a487ffaa72269d" kindref="member">min</ref>;</highlight></codeline>
+<codeline lineno="14" refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect_1a3c4ed948eee138124bd029a5326bd246" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImVec2<sp/><ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect_1a3c4ed948eee138124bd029a5326bd246" kindref="member">max</ref>;</highlight></codeline>
+<codeline lineno="15" refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect_1a94a89e21dbdcdfa59ca2719fbd1a21c8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect_1a94a89e21dbdcdfa59ca2719fbd1a21c8" kindref="member">text</ref>;</highlight></codeline>
+<codeline lineno="16" refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect_1a9478d19e9bb11f4c530445bf43e9b4db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect_1a9478d19e9bb11f4c530445bf43e9b4db" kindref="member">isTerminal</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect_1a65bfe1ccee68a33bfaa960e4fb37a95b" kindref="member">draw</ref>(ImDrawList<sp/>*drawList,<sp/>ImVec2<sp/>origin);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge" kindref="compound">TreeEdge</ref></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23" refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge_1abaf62ff5a1bb7c3f0e72a72c5778d237" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImVec2<sp/><ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge_1abaf62ff5a1bb7c3f0e72a72c5778d237" kindref="member">min</ref>;</highlight></codeline>
+<codeline lineno="24" refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge_1aad11941ccd2bd8e590ddd466caa21fac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImVec2<sp/><ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge_1aad11941ccd2bd8e590ddd466caa21fac" kindref="member">max</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_edge_1a425c3e883d6e4bb56abdfbf376291794" kindref="member">draw</ref>(ImDrawList<sp/>*drawList,<sp/>ImVec2<sp/>origin);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer" kindref="compound">Renderer</ref></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer" kindref="compound">Renderer</ref><sp/>*<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1ac6962ed86384110616e7dad0f548ba84" kindref="member">Get</ref>();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a43ca960ae888ca639273b8ac3b2e58ef" kindref="member">render</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree" kindref="compound">Parser::Util::ParseTree</ref><sp/>*<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a5d49c35b904172997acff53f40edd05e" kindref="member">parseTree</ref>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_tree_rect" kindref="compound">TreeRect</ref><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1adc385d0528bcc7b3cbb44c005136d238" kindref="member">createGeometry</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a5d49c35b904172997acff53f40edd05e" kindref="member">parseTree</ref>);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1ad78db935f4cf7c17e347cc1e26b469c3" kindref="member">buchheim</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a5d49c35b904172997acff53f40edd05e" kindref="member">parseTree</ref>);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a46550a469f1074425bd471df5810bdfa" kindref="member">firstWalk</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*v,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distance);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a1ec1420e7fd1ee44109571b9ffe9dfd2" kindref="member">apportion</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*v,<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*defaultAncestor,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distance);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1ae4290efcf6d563e34bed71e13794008d" kindref="member">executeShifts</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*v);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1ab05b5f4e1d932c0d1f40e58b1356a356" kindref="member">ancestor</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*vil,<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*v,<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*defaultAncestor);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a6ab1ab51e304147a0e9caf27b469ca47" kindref="member">secondWalk</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*v,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>m,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>depth,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>min);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a035117435d0ca469a41974801c15b624" kindref="member">thirdWalk</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*tree,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>n);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a423a8b985db786b9b1be9fbfaeeb1a85" kindref="member">moveSubtree</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*wl,<sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*wr,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>shift);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a3468346e6eaa23ebc18482e508118f8f" kindref="member">simpleDraw</ref>(<ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Parser::Util::Node</ref><sp/>*<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a5d49c35b904172997acff53f40edd05e" kindref="member">parseTree</ref>);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="49" refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a5d49c35b904172997acff53f40edd05e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree" kindref="compound">Parser::Util::ParseTree</ref><sp/>*<ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a5d49c35b904172997acff53f40edd05e" kindref="member">parseTree</ref>;</highlight></codeline>
+<codeline lineno="50" refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a69a8ea2126d08dd2d3420282eea3489d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;TreeRect&gt;<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a69a8ea2126d08dd2d3420282eea3489d" kindref="member">nodes</ref>;</highlight></codeline>
+<codeline lineno="51" refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a93ea45b7be197b184b88a640299b63a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;TreeEdge&gt;<sp/><ref refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a93ea45b7be197b184b88a640299b63a4" kindref="member">edges</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/root/fyp/project/src/parsetreerenderer.h"/>
+  </compounddef>
+</doxygen>

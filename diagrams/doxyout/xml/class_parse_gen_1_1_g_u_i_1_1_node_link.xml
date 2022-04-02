@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_parse_gen_1_1_g_u_i_1_1_node_link" kind="class" language="C++" prot="public">
+    <compoundname>ParseGen::GUI::NodeLink</compoundname>
+    <includes refid="nodelink_8h" local="no">nodelink.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_node_link_1ad3e22c9156687c251081895e46f8aad3" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint ParseGen::GUI::NodeLink::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/nodelink.h" line="15" column="14" bodyfile="/root/fyp/project/src/nodelink.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_node_link_1a2abc75fc42748255c3de4f62a9aabf18" prot="public" static="no" mutable="no">
+        <type>ed::LinkId</type>
+        <definition>ed::LinkId ParseGen::GUI::NodeLink::linkId</definition>
+        <argsstring></argsstring>
+        <name>linkId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/nodelink.h" line="16" column="20" bodyfile="/root/fyp/project/src/nodelink.h" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_node_link_1abf501b6a05a85f9b046aef6e1e403e37" compoundref="nodelink_8h" startline="23" endline="27">NodeLink</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_node_link_1a00e632c4c8b0d40c633c5461381c80cb" prot="public" static="no" mutable="no">
+        <type><ref refid="class_parse_gen_1_1_g_u_i_1_1_node" kindref="compound">Node</ref> *</type>
+        <definition>Node* ParseGen::GUI::NodeLink::startNode</definition>
+        <argsstring></argsstring>
+        <name>startNode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/nodelink.h" line="18" column="14" bodyfile="/root/fyp/project/src/nodelink.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_node_link_1a847797055e0160f76c075c9bd56da750" prot="public" static="no" mutable="no">
+        <type><ref refid="class_parse_gen_1_1_g_u_i_1_1_node" kindref="compound">Node</ref> *</type>
+        <definition>Node* ParseGen::GUI::NodeLink::endNode</definition>
+        <argsstring></argsstring>
+        <name>endNode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/nodelink.h" line="19" column="14" bodyfile="/root/fyp/project/src/nodelink.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_parse_gen_1_1_g_u_i_1_1_node_link_1add8346e6d54d7f76024bf6779a95506e" prot="public" static="yes" mutable="no">
+        <type>uint</type>
+        <definition>uint ParseGen::GUI::NodeLink::current_id</definition>
+        <argsstring></argsstring>
+        <name>current_id</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/nodelink.h" line="21" column="28" bodyfile="/root/fyp/project/src/nodelink.h" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_node_link_1abf501b6a05a85f9b046aef6e1e403e37" compoundref="nodelink_8h" startline="23" endline="27">NodeLink</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_parse_gen_1_1_g_u_i_1_1_node_link_1abf501b6a05a85f9b046aef6e1e403e37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ParseGen::GUI::NodeLink::NodeLink</definition>
+        <argsstring>(Node *endNode, Node *startNode)</argsstring>
+        <name>NodeLink</name>
+        <param>
+          <type><ref refid="class_parse_gen_1_1_g_u_i_1_1_node" kindref="compound">Node</ref> *</type>
+          <declname>endNode</declname>
+        </param>
+        <param>
+          <type><ref refid="class_parse_gen_1_1_g_u_i_1_1_node" kindref="compound">Node</ref> *</type>
+          <declname>startNode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/nodelink.h" line="23" column="9" bodyfile="/root/fyp/project/src/nodelink.h" bodystart="23" bodyend="27"/>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_link_1add8346e6d54d7f76024bf6779a95506e" compoundref="nodelink_8h" startline="21">current_id</references>
+        <references refid="class_parse_gen_1_1_g_u_i_1_1_node_link_1a2abc75fc42748255c3de4f62a9aabf18" compoundref="nodelink_8h" startline="16">linkId</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ParseGen::GUI::NodeLink</label>
+        <link refid="class_parse_gen_1_1_g_u_i_1_1_node_link"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+startNode</edgelabel>
+          <edgelabel>+endNode</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ParseGen::GUI::Node</label>
+        <link refid="class_parse_gen_1_1_g_u_i_1_1_node"/>
+      </node>
+    </collaborationgraph>
+    <location file="/root/fyp/project/src/nodelink.h" line="13" column="1" bodyfile="/root/fyp/project/src/nodelink.h" bodystart="12" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_link_1add8346e6d54d7f76024bf6779a95506e" prot="public" virt="non-virtual"><scope>ParseGen::GUI::NodeLink</scope><name>current_id</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_link_1a847797055e0160f76c075c9bd56da750" prot="public" virt="non-virtual"><scope>ParseGen::GUI::NodeLink</scope><name>endNode</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_link_1ad3e22c9156687c251081895e46f8aad3" prot="public" virt="non-virtual"><scope>ParseGen::GUI::NodeLink</scope><name>id</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_link_1a2abc75fc42748255c3de4f62a9aabf18" prot="public" virt="non-virtual"><scope>ParseGen::GUI::NodeLink</scope><name>linkId</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_link_1abf501b6a05a85f9b046aef6e1e403e37" prot="public" virt="non-virtual"><scope>ParseGen::GUI::NodeLink</scope><name>NodeLink</name></member>
+      <member refid="class_parse_gen_1_1_g_u_i_1_1_node_link_1a00e632c4c8b0d40c633c5461381c80cb" prot="public" virt="non-virtual"><scope>ParseGen::GUI::NodeLink</scope><name>startNode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,512 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_parse_gen_1_1_parser_1_1_util_1_1_node" kind="class" language="C++" prot="public">
+    <compoundname>ParseGen::Parser::Util::Node</compoundname>
+    <derivedcompoundref refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree" prot="public" virt="non-virtual">ParseGen::Parser::Util::ParseTree</derivedcompoundref>
+    <includes refid="parsetree_8h" local="no">parsetree.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a5b3234e2a250dfb80bb9bb4a2dd54ffd" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParseGen::Parser::Util::Node::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="200" column="15" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="200" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a46550a469f1074425bd471df5810bdfa" compoundref="parsetreerenderer_8cpp" startline="9" endline="51">ParseGen::GUI::ParseTree::Renderer::firstWalk</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a423a8b985db786b9b1be9fbfaeeb1a85" compoundref="parsetreerenderer_8cpp" startline="106" endline="114">ParseGen::GUI::ParseTree::Renderer::moveSubtree</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a6ab1ab51e304147a0e9caf27b469ca47" compoundref="parsetreerenderer_8cpp" startline="145" endline="161">ParseGen::GUI::ParseTree::Renderer::secondWalk</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a035117435d0ca469a41974801c15b624" compoundref="parsetreerenderer_8cpp" startline="164" endline="170">ParseGen::GUI::ParseTree::Renderer::thirdWalk</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1adc385d0528bcc7b3cbb44c005136d238" compoundref="parsetreerenderer_8cpp" startline="196" endline="219">ParseGen::GUI::ParseTree::Renderer::createGeometry</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f3c4baa0368d4969478428a78b35638" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParseGen::Parser::Util::Node::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="201" column="15" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="201" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a1a3c8212b87ec8be202a8baee2edc523" compoundref="parsetree_8h" startline="17" endline="21">Node</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a6ab1ab51e304147a0e9caf27b469ca47" compoundref="parsetreerenderer_8cpp" startline="145" endline="161">ParseGen::GUI::ParseTree::Renderer::secondWalk</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1adc385d0528bcc7b3cbb44c005136d238" compoundref="parsetreerenderer_8cpp" startline="196" endline="219">ParseGen::GUI::ParseTree::Renderer::createGeometry</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a7932c83770b9b58a11ea0490db6b1d90" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParseGen::Parser::Util::Node::mod</definition>
+        <argsstring></argsstring>
+        <name>mod</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="202" column="15" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="202" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a46550a469f1074425bd471df5810bdfa" compoundref="parsetreerenderer_8cpp" startline="9" endline="51">ParseGen::GUI::ParseTree::Renderer::firstWalk</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a1ec1420e7fd1ee44109571b9ffe9dfd2" compoundref="parsetreerenderer_8cpp" startline="53" endline="104">ParseGen::GUI::ParseTree::Renderer::apportion</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a423a8b985db786b9b1be9fbfaeeb1a85" compoundref="parsetreerenderer_8cpp" startline="106" endline="114">ParseGen::GUI::ParseTree::Renderer::moveSubtree</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a6ab1ab51e304147a0e9caf27b469ca47" compoundref="parsetreerenderer_8cpp" startline="145" endline="161">ParseGen::GUI::ParseTree::Renderer::secondWalk</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ae189682bef0e03336d49235ed679c6c0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParseGen::Parser::Util::Node::shift</definition>
+        <argsstring></argsstring>
+        <name>shift</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="203" column="15" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="203" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a423a8b985db786b9b1be9fbfaeeb1a85" compoundref="parsetreerenderer_8cpp" startline="106" endline="114">ParseGen::GUI::ParseTree::Renderer::moveSubtree</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0ec0bfdd911a02f73b4d2a06cdc5fce5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParseGen::Parser::Util::Node::change</definition>
+        <argsstring></argsstring>
+        <name>change</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="204" column="15" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="204" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a423a8b985db786b9b1be9fbfaeeb1a85" compoundref="parsetreerenderer_8cpp" startline="106" endline="114">ParseGen::GUI::ParseTree::Renderer::moveSubtree</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a1683edb57c8bfafdd6ef06b97fde6eff" prot="public" static="no" mutable="no">
+        <type><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref> *</type>
+        <definition>Node* ParseGen::Parser::Util::Node::thread</definition>
+        <argsstring></argsstring>
+        <name>thread</name>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="205" column="14" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="205" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a8b93e18b531df5422c8150ede8d5f7e4" compoundref="parsetree_8h" startline="183" endline="189">left</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a3f67e0f6869b4c7932ab1230173a0f13" compoundref="parsetree_8h" startline="191" endline="197">right</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ab5fbb9f4625738938e12eb2f213e56e8" prot="public" static="no" mutable="no">
+        <type><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref> *</type>
+        <definition>Node* ParseGen::Parser::Util::Node::ancestor</definition>
+        <argsstring></argsstring>
+        <name>ancestor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="206" column="14" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="206" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a1a3c8212b87ec8be202a8baee2edc523" compoundref="parsetree_8h" startline="17" endline="21">Node</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1ab05b5f4e1d932c0d1f40e58b1356a356" compoundref="parsetreerenderer_8cpp" startline="131" endline="142">ParseGen::GUI::ParseTree::Renderer::ancestor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ad5bf7d12effae629dca19cc7893d4891" prot="public" static="no" mutable="no">
+        <type><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref> *</type>
+        <definition>Node* ParseGen::Parser::Util::Node::parent</definition>
+        <argsstring></argsstring>
+        <name>parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="208" column="14" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="208" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afbbbd132c124231845cb87dce14734d2" compoundref="parsetree_8h" startline="141" endline="156">leftBrother</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ae7d9ec153e19801696a5b748983e2bb9" compoundref="parsetree_8h" startline="158" endline="165">leftmostSibling</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1af01131ce359e0751d7c449a163fd9336" compoundref="parsetree_8h" startline="167" endline="181">number</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1ab05b5f4e1d932c0d1f40e58b1356a356" compoundref="parsetreerenderer_8cpp" startline="131" endline="142">ParseGen::GUI::ParseTree::Renderer::ancestor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0649b8bff8b5f5efafde371107b77d60" prot="public" static="no" mutable="no">
+        <type><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kindref="compound">Symbol</ref></type>
+        <definition>Symbol ParseGen::Parser::Util::Node::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="209" column="16" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="209" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ada15558e544321b35ee981c7574d8cfe" compoundref="parsetree_8h" startline="48" endline="56">print</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a63c51c9fe2086a37af7fa0685d91a0fd" compoundref="parsetree_8h" startline="63" endline="129">json</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree_1ace551eaad1025e132c23024992ed5bcf" compoundref="parsetree_8h" startline="221" endline="224">ParseGen::Parser::Util::ParseTree::isStub</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree_1a35244364a4a6e54429dded0f88f2419f" compoundref="parsetree_8h" startline="226" endline="234">ParseGen::Parser::Util::ParseTree::print</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1adc385d0528bcc7b3cbb44c005136d238" compoundref="parsetreerenderer_8cpp" startline="196" endline="219">ParseGen::GUI::ParseTree::Renderer::createGeometry</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref> * &gt;</type>
+        <definition>std::vector&lt;Node *&gt; ParseGen::Parser::Util::Node::children</definition>
+        <argsstring></argsstring>
+        <name>children</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="212" column="21" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="212" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a13b947f91d2eef13f6584d39d14f4d4f" compoundref="parsetree_8h" startline="32" endline="38">addChildren</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ada15558e544321b35ee981c7574d8cfe" compoundref="parsetree_8h" startline="48" endline="56">print</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a63c51c9fe2086a37af7fa0685d91a0fd" compoundref="parsetree_8h" startline="63" endline="129">json</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f6a4d36f302d5a99e02919f8e57b1b7" compoundref="parsetree_8h" startline="131" endline="134">getChildren</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a01741e0c2ffacf157d126a9a75fddce7" compoundref="parsetree_8h" startline="136" endline="139">isLeaf</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a8b93e18b531df5422c8150ede8d5f7e4" compoundref="parsetree_8h" startline="183" endline="189">left</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a3f67e0f6869b4c7932ab1230173a0f13" compoundref="parsetree_8h" startline="191" endline="197">right</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a1a3c8212b87ec8be202a8baee2edc523" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ParseGen::Parser::Util::Node::Node</definition>
+        <argsstring>(Symbol val)</argsstring>
+        <name>Node</name>
+        <param>
+          <type><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kindref="compound">Symbol</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="17" column="9" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="17" bodyend="21"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ab5fbb9f4625738938e12eb2f213e56e8" compoundref="parsetree_8h" startline="206">ancestor</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f3c4baa0368d4969478428a78b35638" compoundref="parsetree_8h" startline="201">y</references>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a13b947f91d2eef13f6584d39d14f4d4f" compoundref="parsetree_8h" startline="32" endline="38">addChildren</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_util_1_1_node_1aa69a9996d7dc068a9061339170ea247d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ParseGen::Parser::Util::Node::Node</definition>
+        <argsstring>(Symbol val, Node *parent)</argsstring>
+        <name>Node</name>
+        <param>
+          <type><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kindref="compound">Symbol</ref></type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="22" column="9" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="22" bodyend="30"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ab5fbb9f4625738938e12eb2f213e56e8" compoundref="parsetree_8h" startline="206">ancestor</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f3c4baa0368d4969478428a78b35638" compoundref="parsetree_8h" startline="201">y</references>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a13b947f91d2eef13f6584d39d14f4d4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ParseGen::Parser::Util::Node::addChildren</definition>
+        <argsstring>(std::initializer_list&lt; Symbol &gt; children)</argsstring>
+        <name>addChildren</name>
+        <param>
+          <type>std::initializer_list&lt; <ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kindref="compound">Symbol</ref> &gt;</type>
+          <declname>children</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="32" column="14" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="32" bodyend="38"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" compoundref="parsetree_8h" startline="212">children</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a1a3c8212b87ec8be202a8baee2edc523" compoundref="parsetree_8h" startline="17" endline="21">Node</references>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_l_l_predictive_parser_generator_1a42a21842cb2e37411d86980058cb6633" compoundref="llpred_2parsergenerator_8h" startline="88" endline="236">ParseGen::Parser::LLPredictiveParser::LLPredictiveParserGenerator::parse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a74fa7e68fce93a87cabab7a507c5442d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ParseGen::Parser::Util::Node::addChildren</definition>
+        <argsstring>(std::vector&lt; Symbol &gt; children)</argsstring>
+        <name>addChildren</name>
+        <param>
+          <type>std::vector&lt; <ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol" kindref="compound">Symbol</ref> &gt;</type>
+          <declname>children</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="40" column="14" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="40" bodyend="46"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" compoundref="parsetree_8h" startline="212">children</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a1a3c8212b87ec8be202a8baee2edc523" compoundref="parsetree_8h" startline="17" endline="21">Node</references>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ada15558e544321b35ee981c7574d8cfe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ParseGen::Parser::Util::Node::print</definition>
+        <argsstring>(std::string prefix=&quot;&quot;)</argsstring>
+        <name>print</name>
+        <param>
+          <type>std::string</type>
+          <declname>prefix</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="48" column="14" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="48" bodyend="56"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" compoundref="parsetree_8h" startline="212">children</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a270a19c234614738ed31233b109e3d97" compoundref="symbol_8h" startline="19">ParseGen::Parser::Util::Symbol::name</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0649b8bff8b5f5efafde371107b77d60" compoundref="parsetree_8h" startline="209">value</references>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a63c51c9fe2086a37af7fa0685d91a0fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ParseGen::Parser::Util::Node::json</definition>
+        <argsstring>()</argsstring>
+        <name>json</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="63" column="21" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="63" bodyend="129"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" compoundref="parsetree_8h" startline="212">children</references>
+        <references refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7ad3a1a39cf25ba7d28375aae4352c6cf6" compoundref="symbol_8h" startline="11">ParseGen::Parser::Util::EMPTY</references>
+        <references refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7afc1563cab35f3813cead3ebd55f40ea8" compoundref="symbol_8h" startline="12">ParseGen::Parser::Util::END</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a06360919e7f99bb129e361991c9db77a" compoundref="symbol_8h" startline="43" endline="46">ParseGen::Parser::Util::Symbol::getType</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol_1a270a19c234614738ed31233b109e3d97" compoundref="symbol_8h" startline="19">ParseGen::Parser::Util::Symbol::name</references>
+        <references refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7a647d9601fc5b75ce9136189fc43c0ef9" compoundref="symbol_8h" startline="10">ParseGen::Parser::Util::NON_TERMINAL</references>
+        <references refid="namespace_parse_gen_1_1_parser_1_1_util_1a5282ed283137daf55acb5c82ed2ecbe7a6ddd69c18850e3262d706184f67dd466" compoundref="symbol_8h" startline="9">ParseGen::Parser::Util::TERMINAL</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0649b8bff8b5f5efafde371107b77d60" compoundref="parsetree_8h" startline="209">value</references>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f6a4d36f302d5a99e02919f8e57b1b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref> * &gt;</type>
+        <definition>std::vector&lt;Node *&gt; ParseGen::Parser::Util::Node::getChildren</definition>
+        <argsstring>()</argsstring>
+        <name>getChildren</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="131" column="21" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="131" bodyend="134"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" compoundref="parsetree_8h" startline="212">children</references>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1ab05b5f4e1d932c0d1f40e58b1356a356" compoundref="parsetreerenderer_8cpp" startline="131" endline="142">ParseGen::GUI::ParseTree::Renderer::ancestor</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1adc385d0528bcc7b3cbb44c005136d238" compoundref="parsetreerenderer_8cpp" startline="196" endline="219">ParseGen::GUI::ParseTree::Renderer::createGeometry</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1ae4290efcf6d563e34bed71e13794008d" compoundref="parsetreerenderer_8cpp" startline="116" endline="129">ParseGen::GUI::ParseTree::Renderer::executeShifts</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a46550a469f1074425bd471df5810bdfa" compoundref="parsetreerenderer_8cpp" startline="9" endline="51">ParseGen::GUI::ParseTree::Renderer::firstWalk</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afbbbd132c124231845cb87dce14734d2" compoundref="parsetree_8h" startline="141" endline="156">leftBrother</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ae7d9ec153e19801696a5b748983e2bb9" compoundref="parsetree_8h" startline="158" endline="165">leftmostSibling</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1af01131ce359e0751d7c449a163fd9336" compoundref="parsetree_8h" startline="167" endline="181">number</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_l_l_predictive_parser_generator_1a42a21842cb2e37411d86980058cb6633" compoundref="llpred_2parsergenerator_8h" startline="88" endline="236">ParseGen::Parser::LLPredictiveParser::LLPredictiveParserGenerator::parse</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a6ab1ab51e304147a0e9caf27b469ca47" compoundref="parsetreerenderer_8cpp" startline="145" endline="161">ParseGen::GUI::ParseTree::Renderer::secondWalk</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a3468346e6eaa23ebc18482e508118f8f" compoundref="parsetreerenderer_8cpp" startline="182" endline="188">ParseGen::GUI::ParseTree::Renderer::simpleDraw</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a035117435d0ca469a41974801c15b624" compoundref="parsetreerenderer_8cpp" startline="164" endline="170">ParseGen::GUI::ParseTree::Renderer::thirdWalk</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a01741e0c2ffacf157d126a9a75fddce7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ParseGen::Parser::Util::Node::isLeaf</definition>
+        <argsstring>()</argsstring>
+        <name>isLeaf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="136" column="14" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="136" bodyend="139"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" compoundref="parsetree_8h" startline="212">children</references>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a46550a469f1074425bd471df5810bdfa" compoundref="parsetreerenderer_8cpp" startline="9" endline="51">ParseGen::GUI::ParseTree::Renderer::firstWalk</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afbbbd132c124231845cb87dce14734d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref> *</type>
+        <definition>Node* ParseGen::Parser::Util::Node::leftBrother</definition>
+        <argsstring>()</argsstring>
+        <name>leftBrother</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="141" column="14" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="141" bodyend="156"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f6a4d36f302d5a99e02919f8e57b1b7" compoundref="parsetree_8h" startline="131" endline="134">getChildren</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ad5bf7d12effae629dca19cc7893d4891" compoundref="parsetree_8h" startline="208">parent</references>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a1ec1420e7fd1ee44109571b9ffe9dfd2" compoundref="parsetreerenderer_8cpp" startline="53" endline="104">ParseGen::GUI::ParseTree::Renderer::apportion</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a46550a469f1074425bd471df5810bdfa" compoundref="parsetreerenderer_8cpp" startline="9" endline="51">ParseGen::GUI::ParseTree::Renderer::firstWalk</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ae7d9ec153e19801696a5b748983e2bb9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref> *</type>
+        <definition>Node* ParseGen::Parser::Util::Node::leftmostSibling</definition>
+        <argsstring>()</argsstring>
+        <name>leftmostSibling</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="158" column="14" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="158" bodyend="165"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f6a4d36f302d5a99e02919f8e57b1b7" compoundref="parsetree_8h" startline="131" endline="134">getChildren</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ad5bf7d12effae629dca19cc7893d4891" compoundref="parsetree_8h" startline="208">parent</references>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a1ec1420e7fd1ee44109571b9ffe9dfd2" compoundref="parsetreerenderer_8cpp" startline="53" endline="104">ParseGen::GUI::ParseTree::Renderer::apportion</referencedby>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a46550a469f1074425bd471df5810bdfa" compoundref="parsetreerenderer_8cpp" startline="9" endline="51">ParseGen::GUI::ParseTree::Renderer::firstWalk</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_util_1_1_node_1af01131ce359e0751d7c449a163fd9336" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ParseGen::Parser::Util::Node::number</definition>
+        <argsstring>()</argsstring>
+        <name>number</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="167" column="13" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="167" bodyend="181"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f6a4d36f302d5a99e02919f8e57b1b7" compoundref="parsetree_8h" startline="131" endline="134">getChildren</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ad5bf7d12effae629dca19cc7893d4891" compoundref="parsetree_8h" startline="208">parent</references>
+        <referencedby refid="class_parse_gen_1_1_g_u_i_1_1_parse_tree_1_1_renderer_1a423a8b985db786b9b1be9fbfaeeb1a85" compoundref="parsetreerenderer_8cpp" startline="106" endline="114">ParseGen::GUI::ParseTree::Renderer::moveSubtree</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a8b93e18b531df5422c8150ede8d5f7e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref> *</type>
+        <definition>Node* ParseGen::Parser::Util::Node::left</definition>
+        <argsstring>()</argsstring>
+        <name>left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="183" column="14" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="183" bodyend="189"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" compoundref="parsetree_8h" startline="212">children</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a1683edb57c8bfafdd6ef06b97fde6eff" compoundref="parsetree_8h" startline="205">thread</references>
+      </memberdef>
+      <memberdef kind="function" id="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a3f67e0f6869b4c7932ab1230173a0f13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref> *</type>
+        <definition>Node* ParseGen::Parser::Util::Node::right</definition>
+        <argsstring>()</argsstring>
+        <name>right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="191" column="14" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="191" bodyend="197"/>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" compoundref="parsetree_8h" startline="212">children</references>
+        <references refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a1683edb57c8bfafdd6ef06b97fde6eff" compoundref="parsetree_8h" startline="205">thread</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_parse_gen_1_1_parser_1_1_util_1_1_node_1af1fdece4c65a27e6f76412bf741d5c24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>friend std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;stream, const Node &amp;w)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>stream</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_parse_gen_1_1_parser_1_1_util_1_1_node" kindref="compound">Node</ref> &amp;</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="58" column="16" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="58" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ParseGen::Parser::Util::Node</label>
+        <link refid="class_parse_gen_1_1_parser_1_1_util_1_1_node"/>
+      </node>
+      <node id="2">
+        <label>ParseGen::Parser::Util::ParseTree</label>
+        <link refid="class_parse_gen_1_1_parser_1_1_util_1_1_parse_tree"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ParseGen::Parser::Util::Node</label>
+        <link refid="class_parse_gen_1_1_parser_1_1_util_1_1_node"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>+parent</edgelabel>
+          <edgelabel>+thread</edgelabel>
+          <edgelabel>+ancestor</edgelabel>
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+value</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ParseGen::Parser::Util::Symbol</label>
+        <link refid="class_parse_gen_1_1_parser_1_1_util_1_1_symbol"/>
+      </node>
+    </collaborationgraph>
+    <location file="/root/fyp/project/src/parsergenerator/util/parsetree.h" line="15" column="1" bodyfile="/root/fyp/project/src/parsergenerator/util/parsetree.h" bodystart="14" bodyend="213"/>
+    <listofallmembers>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a13b947f91d2eef13f6584d39d14f4d4f" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Node</scope><name>addChildren</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a74fa7e68fce93a87cabab7a507c5442d" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Node</scope><name>addChildren</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ab5fbb9f4625738938e12eb2f213e56e8" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Node</scope><name>ancestor</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0ec0bfdd911a02f73b4d2a06cdc5fce5" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Node</scope><name>change</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afb986b63e87079b69d17344114f1f780" prot="protected" virt="non-virtual"><scope>ParseGen::Parser::Util::Node</scope><name>children</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f6a4d36f302d5a99e02919f8e57b1b7" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Node</scope><name>getChildren</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a01741e0c2ffacf157d126a9a75fddce7" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Node</scope><name>isLeaf</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a63c51c9fe2086a37af7fa0685d91a0fd" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Node</scope><name>json</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a8b93e18b531df5422c8150ede8d5f7e4" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Node</scope><name>left</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1afbbbd132c124231845cb87dce14734d2" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Node</scope><name>leftBrother</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ae7d9ec153e19801696a5b748983e2bb9" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Node</scope><name>leftmostSibling</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a7932c83770b9b58a11ea0490db6b1d90" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Node</scope><name>mod</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a1a3c8212b87ec8be202a8baee2edc523" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Node</scope><name>Node</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1aa69a9996d7dc068a9061339170ea247d" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Node</scope><name>Node</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1af01131ce359e0751d7c449a163fd9336" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Node</scope><name>number</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1af1fdece4c65a27e6f76412bf741d5c24" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Node</scope><name>operator&lt;&lt;</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ad5bf7d12effae629dca19cc7893d4891" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Node</scope><name>parent</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ada15558e544321b35ee981c7574d8cfe" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Node</scope><name>print</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a3f67e0f6869b4c7932ab1230173a0f13" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Node</scope><name>right</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1ae189682bef0e03336d49235ed679c6c0" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Node</scope><name>shift</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a1683edb57c8bfafdd6ef06b97fde6eff" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Node</scope><name>thread</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a0649b8bff8b5f5efafde371107b77d60" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Node</scope><name>value</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a5b3234e2a250dfb80bb9bb4a2dd54ffd" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Node</scope><name>x</name></member>
+      <member refid="class_parse_gen_1_1_parser_1_1_util_1_1_node_1a9f3c4baa0368d4969478428a78b35638" prot="public" virt="non-virtual"><scope>ParseGen::Parser::Util::Node</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token" kind="struct" language="C++" prot="public">
+    <compoundname>ParseGen::Parser::LLPredictiveParser::Token</compoundname>
+    <includes refid="token_8h" local="no">token.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1a8b78a99a57e1b7f8b2891c5749ee2b12" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1ac070452fab067d9fb8b9f00286ca8b78" kindref="member">TokenType</ref></type>
+        <definition>TokenType ParseGen::Parser::LLPredictiveParser::Token::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/llpred/token.h" line="16" column="19" bodyfile="/root/fyp/project/src/parsergenerator/llpred/token.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1adcd1e21d11f0d91af7cb8e0c29bf8fc2" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ParseGen::Parser::LLPredictiveParser::Token::lexeme</definition>
+        <argsstring></argsstring>
+        <name>lexeme</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/llpred/token.h" line="17" column="21" bodyfile="/root/fyp/project/src/parsergenerator/llpred/token.h" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_l_l_predictive_parser_generator_1a42a21842cb2e37411d86980058cb6633" compoundref="llpred_2parsergenerator_8h" startline="88" endline="236">ParseGen::Parser::LLPredictiveParser::LLPredictiveParserGenerator::parse</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_lexer_1a22780c189fd7c14a176c461723f1bcc0" compoundref="lexer_8h" startline="12" endline="28">ParseGen::Parser::LLPredictiveParser::Lexer::peek</referencedby>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_lexer_1a5767230d1804ecd619979535f5ba65e8" compoundref="lexer_8h" startline="34" endline="71">ParseGen::Parser::LLPredictiveParser::Lexer::next</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1a9b75f12faf3d3a5dd77468e341c1bcb5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ParseGen::Parser::LLPredictiveParser::Token::posX</definition>
+        <argsstring></argsstring>
+        <name>posX</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/llpred/token.h" line="18" column="13" bodyfile="/root/fyp/project/src/parsergenerator/llpred/token.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_lexer_1a5767230d1804ecd619979535f5ba65e8" compoundref="lexer_8h" startline="34" endline="71">ParseGen::Parser::LLPredictiveParser::Lexer::next</referencedby>
+        <referencedby refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1a2b97d8670030028c8250ee87fa5919df" compoundref="token_8h" startline="21" endline="28">posStr</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1a93f1b59d3e22871ee6e7e4042e1620aa" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ParseGen::Parser::LLPredictiveParser::Token::posY</definition>
+        <argsstring></argsstring>
+        <name>posY</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/llpred/token.h" line="19" column="13" bodyfile="/root/fyp/project/src/parsergenerator/llpred/token.h" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_lexer_1a5767230d1804ecd619979535f5ba65e8" compoundref="lexer_8h" startline="34" endline="71">ParseGen::Parser::LLPredictiveParser::Lexer::next</referencedby>
+        <referencedby refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1a2b97d8670030028c8250ee87fa5919df" compoundref="token_8h" startline="21" endline="28">posStr</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1add5d367521200e0f1d6ce2e0a6b3ce68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ParseGen::Parser::LLPredictiveParser::Token::Token</definition>
+        <argsstring>(std::string lexeme)</argsstring>
+        <name>Token</name>
+        <param>
+          <type>std::string</type>
+          <declname>lexeme</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/llpred/token.h" line="14" column="9" bodyfile="/root/fyp/project/src/parsergenerator/llpred/token.h" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1a90b9b20f7aa9b487389c10736ed59eef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ParseGen::Parser::LLPredictiveParser::Token::Token</definition>
+        <argsstring>()</argsstring>
+        <name>Token</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/llpred/token.h" line="15" column="9" bodyfile="/root/fyp/project/src/parsergenerator/llpred/token.h" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1a2b97d8670030028c8250ee87fa5919df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ParseGen::Parser::LLPredictiveParser::Token::posStr</definition>
+        <argsstring>()</argsstring>
+        <name>posStr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/fyp/project/src/parsergenerator/llpred/token.h" line="21" column="21" bodyfile="/root/fyp/project/src/parsergenerator/llpred/token.h" bodystart="21" bodyend="28"/>
+        <references refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1a9b75f12faf3d3a5dd77468e341c1bcb5" compoundref="token_8h" startline="18">posX</references>
+        <references refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1a93f1b59d3e22871ee6e7e4042e1620aa" compoundref="token_8h" startline="19">posY</references>
+        <referencedby refid="class_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_l_l_predictive_parser_generator_1a42a21842cb2e37411d86980058cb6633" compoundref="llpred_2parsergenerator_8h" startline="88" endline="236">ParseGen::Parser::LLPredictiveParser::LLPredictiveParserGenerator::parse</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ParseGen::Parser::LLPredictiveParser::Token</label>
+        <link refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token"/>
+      </node>
+    </collaborationgraph>
+    <location file="/root/fyp/project/src/parsergenerator/llpred/token.h" line="13" column="1" bodyfile="/root/fyp/project/src/parsergenerator/llpred/token.h" bodystart="12" bodyend="29"/>
+    <listofallmembers>
+      <member refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1adcd1e21d11f0d91af7cb8e0c29bf8fc2" prot="public" virt="non-virtual"><scope>ParseGen::Parser::LLPredictiveParser::Token</scope><name>lexeme</name></member>
+      <member refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1a2b97d8670030028c8250ee87fa5919df" prot="public" virt="non-virtual"><scope>ParseGen::Parser::LLPredictiveParser::Token</scope><name>posStr</name></member>
+      <member refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1a9b75f12faf3d3a5dd77468e341c1bcb5" prot="public" virt="non-virtual"><scope>ParseGen::Parser::LLPredictiveParser::Token</scope><name>posX</name></member>
+      <member refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1a93f1b59d3e22871ee6e7e4042e1620aa" prot="public" virt="non-virtual"><scope>ParseGen::Parser::LLPredictiveParser::Token</scope><name>posY</name></member>
+      <member refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1add5d367521200e0f1d6ce2e0a6b3ce68" prot="public" virt="non-virtual"><scope>ParseGen::Parser::LLPredictiveParser::Token</scope><name>Token</name></member>
+      <member refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1a90b9b20f7aa9b487389c10736ed59eef" prot="public" virt="non-virtual"><scope>ParseGen::Parser::LLPredictiveParser::Token</scope><name>Token</name></member>
+      <member refid="struct_parse_gen_1_1_parser_1_1_l_l_predictive_parser_1_1_token_1a8b78a99a57e1b7f8b2891c5749ee2b12" prot="public" virt="non-virtual"><scope>ParseGen::Parser::LLPredictiveParser::Token</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

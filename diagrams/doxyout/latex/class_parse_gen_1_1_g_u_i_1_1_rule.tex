@@ -1,0 +1,168 @@
+\hypertarget{class_parse_gen_1_1_g_u_i_1_1_rule}{}\doxysection{Parse\+Gen\+::G\+UI\+::Rule Class Reference}
+\label{class_parse_gen_1_1_g_u_i_1_1_rule}\index{ParseGen::GUI::Rule@{ParseGen::GUI::Rule}}
+
+
+{\ttfamily \#include $<$rule.\+h$>$}
+
+
+
+Collaboration diagram for Parse\+Gen\+::G\+UI\+::Rule\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_parse_gen_1_1_g_u_i_1_1_rule__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_rule_a91f37f2b0bca35841d77b5c0bd6d7218}{Rule}} (\mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_non_terminal}{Non\+Terminal}} $\ast$\mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_rule_a43bd35c37bf696a00b96ec74fb8ed907}{symbol}})
+\item 
+std\+::string \mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_rule_ad39d96bb373c18ddf512bb0b69fb18bf}{get\+Name}} ()
+\item 
+uint \mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_rule_a3df368635e918a51cb65c05a326a910d}{get\+Non\+Term\+Id}} ()
+\item 
+std\+::string \mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_rule_af48aa5797c8078f171e7aff5056f8105}{Render\+Frame}} ()
+\item 
+std\+::string \mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_rule_a3eb6bd014f8c05a01c062c490ab5375a}{B\+NF}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_non_terminal}{Non\+Terminal}} $\ast$ \mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_rule_a43bd35c37bf696a00b96ec74fb8ed907}{symbol}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_node_link}{Node\+Link}} $\ast$ $>$ \mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_rule_a4a3739d72c4fc5815f71961c87575e0b}{m\+\_\+\+Links}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_node}{Node}} $\ast$ $>$ \mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_rule_abeae266bd31c5413122f0fb01181df2f}{m\+\_\+\+Nodes}}
+\item 
+std\+::map$<$ std\+::string, int $>$ \mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_rule_af7a4a8c6278f16f16ac4e3f919e12c79}{m\+\_\+\+Terminals}}
+\item 
+\mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_special_node}{Special\+Node}} $\ast$ \mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_rule_a17a86feb26d9a93b553a82fafd8610b7}{m\+\_\+\+Start\+Node}}
+\item 
+\mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_special_node}{Special\+Node}} $\ast$ \mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_rule_a2251addf4a1694e2547b1d894c785e73}{m\+\_\+\+End\+Node}}
+\item 
+uint \mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_rule_a9ece98fe668e35b9bef66b4cfd7f381f}{id}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static uint \mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_rule_aca41c6ff2c4fd6c81be977ebe51e14a3}{current\+Id}} = 1
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_parse_gen_1_1_g_u_i_1_1_rule_a91f37f2b0bca35841d77b5c0bd6d7218}\label{class_parse_gen_1_1_g_u_i_1_1_rule_a91f37f2b0bca35841d77b5c0bd6d7218}} 
+\index{ParseGen::GUI::Rule@{ParseGen::GUI::Rule}!Rule@{Rule}}
+\index{Rule@{Rule}!ParseGen::GUI::Rule@{ParseGen::GUI::Rule}}
+\doxysubsubsection{\texorpdfstring{Rule()}{Rule()}}
+{\footnotesize\ttfamily Parse\+Gen\+::\+G\+U\+I\+::\+Rule\+::\+Rule (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_non_terminal}{Non\+Terminal}} $\ast$}]{symbol }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_parse_gen_1_1_g_u_i_1_1_rule_a3eb6bd014f8c05a01c062c490ab5375a}\label{class_parse_gen_1_1_g_u_i_1_1_rule_a3eb6bd014f8c05a01c062c490ab5375a}} 
+\index{ParseGen::GUI::Rule@{ParseGen::GUI::Rule}!BNF@{BNF}}
+\index{BNF@{BNF}!ParseGen::GUI::Rule@{ParseGen::GUI::Rule}}
+\doxysubsubsection{\texorpdfstring{BNF()}{BNF()}}
+{\footnotesize\ttfamily std\+::string Parse\+Gen\+::\+G\+U\+I\+::\+Rule\+::\+B\+NF (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_parse_gen_1_1_g_u_i_1_1_rule_a3eb6bd014f8c05a01c062c490ab5375a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_parse_gen_1_1_g_u_i_1_1_rule_ad39d96bb373c18ddf512bb0b69fb18bf}\label{class_parse_gen_1_1_g_u_i_1_1_rule_ad39d96bb373c18ddf512bb0b69fb18bf}} 
+\index{ParseGen::GUI::Rule@{ParseGen::GUI::Rule}!getName@{getName}}
+\index{getName@{getName}!ParseGen::GUI::Rule@{ParseGen::GUI::Rule}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily std\+::string Parse\+Gen\+::\+G\+U\+I\+::\+Rule\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_parse_gen_1_1_g_u_i_1_1_rule_ad39d96bb373c18ddf512bb0b69fb18bf_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_parse_gen_1_1_g_u_i_1_1_rule_a3df368635e918a51cb65c05a326a910d}\label{class_parse_gen_1_1_g_u_i_1_1_rule_a3df368635e918a51cb65c05a326a910d}} 
+\index{ParseGen::GUI::Rule@{ParseGen::GUI::Rule}!getNonTermId@{getNonTermId}}
+\index{getNonTermId@{getNonTermId}!ParseGen::GUI::Rule@{ParseGen::GUI::Rule}}
+\doxysubsubsection{\texorpdfstring{getNonTermId()}{getNonTermId()}}
+{\footnotesize\ttfamily uint Parse\+Gen\+::\+G\+U\+I\+::\+Rule\+::get\+Non\+Term\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_parse_gen_1_1_g_u_i_1_1_rule_af48aa5797c8078f171e7aff5056f8105}\label{class_parse_gen_1_1_g_u_i_1_1_rule_af48aa5797c8078f171e7aff5056f8105}} 
+\index{ParseGen::GUI::Rule@{ParseGen::GUI::Rule}!RenderFrame@{RenderFrame}}
+\index{RenderFrame@{RenderFrame}!ParseGen::GUI::Rule@{ParseGen::GUI::Rule}}
+\doxysubsubsection{\texorpdfstring{RenderFrame()}{RenderFrame()}}
+{\footnotesize\ttfamily std\+::string Parse\+Gen\+::\+G\+U\+I\+::\+Rule\+::\+Render\+Frame (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_parse_gen_1_1_g_u_i_1_1_rule_af48aa5797c8078f171e7aff5056f8105_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_parse_gen_1_1_g_u_i_1_1_rule_aca41c6ff2c4fd6c81be977ebe51e14a3}\label{class_parse_gen_1_1_g_u_i_1_1_rule_aca41c6ff2c4fd6c81be977ebe51e14a3}} 
+\index{ParseGen::GUI::Rule@{ParseGen::GUI::Rule}!currentId@{currentId}}
+\index{currentId@{currentId}!ParseGen::GUI::Rule@{ParseGen::GUI::Rule}}
+\doxysubsubsection{\texorpdfstring{currentId}{currentId}}
+{\footnotesize\ttfamily uint Parse\+Gen\+::\+G\+U\+I\+::\+Rule\+::current\+Id = 1\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_parse_gen_1_1_g_u_i_1_1_rule_a9ece98fe668e35b9bef66b4cfd7f381f}\label{class_parse_gen_1_1_g_u_i_1_1_rule_a9ece98fe668e35b9bef66b4cfd7f381f}} 
+\index{ParseGen::GUI::Rule@{ParseGen::GUI::Rule}!id@{id}}
+\index{id@{id}!ParseGen::GUI::Rule@{ParseGen::GUI::Rule}}
+\doxysubsubsection{\texorpdfstring{id}{id}}
+{\footnotesize\ttfamily uint Parse\+Gen\+::\+G\+U\+I\+::\+Rule\+::id}
+
+\mbox{\Hypertarget{class_parse_gen_1_1_g_u_i_1_1_rule_a2251addf4a1694e2547b1d894c785e73}\label{class_parse_gen_1_1_g_u_i_1_1_rule_a2251addf4a1694e2547b1d894c785e73}} 
+\index{ParseGen::GUI::Rule@{ParseGen::GUI::Rule}!m\_EndNode@{m\_EndNode}}
+\index{m\_EndNode@{m\_EndNode}!ParseGen::GUI::Rule@{ParseGen::GUI::Rule}}
+\doxysubsubsection{\texorpdfstring{m\_EndNode}{m\_EndNode}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_special_node}{Special\+Node}} $\ast$ Parse\+Gen\+::\+G\+U\+I\+::\+Rule\+::m\+\_\+\+End\+Node}
+
+\mbox{\Hypertarget{class_parse_gen_1_1_g_u_i_1_1_rule_a4a3739d72c4fc5815f71961c87575e0b}\label{class_parse_gen_1_1_g_u_i_1_1_rule_a4a3739d72c4fc5815f71961c87575e0b}} 
+\index{ParseGen::GUI::Rule@{ParseGen::GUI::Rule}!m\_Links@{m\_Links}}
+\index{m\_Links@{m\_Links}!ParseGen::GUI::Rule@{ParseGen::GUI::Rule}}
+\doxysubsubsection{\texorpdfstring{m\_Links}{m\_Links}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_node_link}{Node\+Link}} $\ast$$>$ Parse\+Gen\+::\+G\+U\+I\+::\+Rule\+::m\+\_\+\+Links}
+
+\mbox{\Hypertarget{class_parse_gen_1_1_g_u_i_1_1_rule_abeae266bd31c5413122f0fb01181df2f}\label{class_parse_gen_1_1_g_u_i_1_1_rule_abeae266bd31c5413122f0fb01181df2f}} 
+\index{ParseGen::GUI::Rule@{ParseGen::GUI::Rule}!m\_Nodes@{m\_Nodes}}
+\index{m\_Nodes@{m\_Nodes}!ParseGen::GUI::Rule@{ParseGen::GUI::Rule}}
+\doxysubsubsection{\texorpdfstring{m\_Nodes}{m\_Nodes}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_node}{Node}} $\ast$$>$ Parse\+Gen\+::\+G\+U\+I\+::\+Rule\+::m\+\_\+\+Nodes}
+
+\mbox{\Hypertarget{class_parse_gen_1_1_g_u_i_1_1_rule_a17a86feb26d9a93b553a82fafd8610b7}\label{class_parse_gen_1_1_g_u_i_1_1_rule_a17a86feb26d9a93b553a82fafd8610b7}} 
+\index{ParseGen::GUI::Rule@{ParseGen::GUI::Rule}!m\_StartNode@{m\_StartNode}}
+\index{m\_StartNode@{m\_StartNode}!ParseGen::GUI::Rule@{ParseGen::GUI::Rule}}
+\doxysubsubsection{\texorpdfstring{m\_StartNode}{m\_StartNode}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_special_node}{Special\+Node}}$\ast$ Parse\+Gen\+::\+G\+U\+I\+::\+Rule\+::m\+\_\+\+Start\+Node}
+
+\mbox{\Hypertarget{class_parse_gen_1_1_g_u_i_1_1_rule_af7a4a8c6278f16f16ac4e3f919e12c79}\label{class_parse_gen_1_1_g_u_i_1_1_rule_af7a4a8c6278f16f16ac4e3f919e12c79}} 
+\index{ParseGen::GUI::Rule@{ParseGen::GUI::Rule}!m\_Terminals@{m\_Terminals}}
+\index{m\_Terminals@{m\_Terminals}!ParseGen::GUI::Rule@{ParseGen::GUI::Rule}}
+\doxysubsubsection{\texorpdfstring{m\_Terminals}{m\_Terminals}}
+{\footnotesize\ttfamily std\+::map$<$std\+::string, int$>$ Parse\+Gen\+::\+G\+U\+I\+::\+Rule\+::m\+\_\+\+Terminals}
+
+\mbox{\Hypertarget{class_parse_gen_1_1_g_u_i_1_1_rule_a43bd35c37bf696a00b96ec74fb8ed907}\label{class_parse_gen_1_1_g_u_i_1_1_rule_a43bd35c37bf696a00b96ec74fb8ed907}} 
+\index{ParseGen::GUI::Rule@{ParseGen::GUI::Rule}!symbol@{symbol}}
+\index{symbol@{symbol}!ParseGen::GUI::Rule@{ParseGen::GUI::Rule}}
+\doxysubsubsection{\texorpdfstring{symbol}{symbol}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_parse_gen_1_1_g_u_i_1_1_non_terminal}{Non\+Terminal}}$\ast$ Parse\+Gen\+::\+G\+U\+I\+::\+Rule\+::symbol}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{rule_8h}{rule.\+h}}\item 
+\mbox{\hyperlink{rule_8cpp}{rule.\+cpp}}\end{DoxyCompactItemize}
